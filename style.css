@@ -1,9 +1,16 @@
 header{
-    background-color: #333;
-    color: white;
-    padding: 1em;
-    text-align: center;
-    font-size: 1.6em;
+  background-color: #333;
+  color: white;
+  padding: 1em;
+  text-align: center;
+  font-size: 1.6em;
+}
+
+body{
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  width: 100%;
 }
 
 main{
@@ -16,4 +23,22 @@ main{
   width: 50%;
   margin: 0 auto;
   font-size: 1.2em;
+}
+
+textarea{
+  width: 50%;
+  height: 10em;
+}
+
+
+@media screen and (max-width: 650px){
+
+  .description{
+    width: 90%;
+  }
+
+  textarea{
+    width: 90%;
+  }
+  
 }
