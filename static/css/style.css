@@ -30,6 +30,15 @@ textarea{
   height: 10em;
 }
 
+.rule{
+  text-align: center;
+  padding: 1em;
+  background-color: #979595;
+  width: 60%;
+  margin: 0 auto;
+  border-radius: 1em;
+}
+
 
 @media screen and (max-width: 650px){
 

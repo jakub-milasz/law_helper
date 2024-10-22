@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+{% block title %}Rules{% endblock %}
+{% block content %}
+<div class="rule">
+  {% for item in law_rules %}
+    <h2>{{ item.id }}</h2>
+    <p>{{ item.article }}</p>
+  {% endfor %}
+</div>
+{% endblock %}

@@ -1,12 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css' )}}">
-  <title>Prawniczy pomocnik</title>
-</head>
-<body>
+{% extends "base.html" %}
+{% block title %}Prawniczy pomocnik{% endblock %}
+{% block content %}
   <header>
     <h1>Prawniczy<br>pomocnik</h1>
   </header>
@@ -15,12 +9,11 @@
       <p>Witaj w aplikacji Prawniczy pomocnik. Pomaga ona w lepszym zrozumieniu przepisów prawnych i ma na celu podniesienie świadomości obywateli w tym temacie</p>
     </div>
     <div class="formular">
-      <form method="post" action="process_workout">
+      <form method="post" action="/">
         <label for="input_workout">Tutaj możesz wpisać wykroczenie:</label><br>
         <textarea name="input_workout", placeholder="Wpisz wykroczenie..."></textarea><br><br>
         <input type="submit" value="Zapisz">
       </form>
     </div>
   </main>
-</body>
-</html>
+{% endblock %}
