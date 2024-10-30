@@ -35,10 +35,21 @@ textarea{
   padding: 1em;
   background-color: #979595;
   width: 60%;
-  margin: 0 auto;
+  margin: 2em auto 0;
   border-radius: 1em;
 }
 
+.return{
+  text-decoration: none;
+}
+
+.return p{
+  text-align: center;
+  margin-top: 1em;
+  text-decoration: none;
+  font-size: 1.8em;
+  color: black;
+}
 
 @media screen and (max-width: 650px){
 
