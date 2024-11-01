@@ -1,39 +1,73 @@
-"article_id","crime","penalty"
-1,"Wszczynanie lub prowadzenie wojny napastniczej","od 12 lat do dożywotniego pozbawienia wolności"
-2,"Publiczne nawoływanie do wszczęcia wojny napastniczej lub publiczne pochwalanie wszczęcia lub prowadzenia","od 3 miesięcy do 5 lat"
-3,"Wyniszczanie w całości albo w części grupy narodowej, etnicznej, rasowej, politycznej, wyznaniowej lub grupy o określonym
-światopoglądzie, zabójstwo lub ciężki uszczerbek na zdrowiu.","od 12 lat do dożywotniego pozbawienia wolności"
-4,"Stwarzanie osobom należącym do grupy narodowej, etnicznej, rasowej, politycznej, wyznaniowej lub grupy o określonym
-światopoglądzie warunków grożących ich biologicznym wyniszczeniem","od 5 lat do 25 lat"
-5,"Zamach skierowany przeciw grupie ludności, zabójstwo, ciężki uszczerbek na zdrowiu, stwarzanie warunków grożących ich biologicznej egzystencji","od 12 lat do dożywotniego pozbawienia wolności"
-6,"Utrzymywanie lub oddanie osoby w stan niewolnictwa, pozbawienie wolności na czas powyżej 7 dni z udręczeniem, tortury, naruszenie wolności seksualnej, pozbawienie wolności","od 5 lat do 25 lat"
-7,"Zamach skierowany przeciwko grupie ludności w celu wykonania lub wsparcia polityki państwa, zmuszanie do zmiany miejsca zamieszkania, poważne prześladowania grupy ludności z powodów uznanych
+"article_id","crime","penalty","article_number"
+1,"§ 1. Kto wszczyna lub prowadzi wojnę napastniczą,
+podlega karze pozbawienia wolności na czas nie krótszy od lat 12 albo karze
+dożywotniego pozbawienia wolności.","od 12 lat do dożywotniego pozbawienia wolności","117 KK"
+2,"§ 3. Kto publicznie nawołuje do wszczęcia wojny napastniczej lub publicznie
+pochwala wszczęcie lub prowadzenie takiej wojny","od 3 miesięcy do 5 lat","117 KK"
+3,"§ 1. Kto, w celu wyniszczenia w całości albo w części grupy
+narodowej, etnicznej, rasowej, politycznej, wyznaniowej lub grupy o określonym
+światopoglądzie, dopuszcza się zabójstwa albo powoduje ciężki uszczerbek na
+zdrowiu osoby należącej do takiej grupy","od 12 lat do dożywotniego pozbawienia wolności","118 KK"
+4,"§ 2. Kto, w celu wyniszczenia w całości albo w części grupy
+narodowej, etnicznej, rasowej, politycznej, wyznaniowej lub grupy o określonym
+światopoglądzie, stwarza dla osób należących do takiej grupy
+warunki życia grożące jej biologicznym wyniszczeniem, stosuje środki mające służyć
+do wstrzymania urodzeń w obrębie grupy lub przymusowo odbiera dzieci osobom do
+niej należącym","od 5 lat do 25 lat","118 KK"
+5,"§ 1. Kto, biorąc udział w masowym zamachu lub choćby w jednym
+z powtarzających się zamachów skierowanych przeciwko grupie ludności podjętych
+w celu wykonania lub wsparcia polityki państwa lub organizacji:
+1) dopuszcza się zabójstwa,
+2) powoduje ciężki uszczerbek na zdrowiu człowieka,
+3) stwarza dla osób należących do grupy ludności warunki życia grożące ich
+biologicznej egzystencji, w szczególności przez pozbawienie dostępu do
+żywności lub opieki medycznej, które są obliczone na ich wyniszczenie","od 12 lat do dożywotniego pozbawienia wolności","118a KK"
+6,"§ 2. Kto, biorąc udział w masowym zamachu lub choćby w jednym
+z powtarzających się zamachów skierowanych przeciwko grupie ludności podjętych
+w celu wykonania lub wsparcia polityki państwa lub organizacji:
+1) powoduje oddanie osoby w stan niewolnictwa lub utrzymuje ją w tym stanie,
+2) pozbawia osobę wolności na czas przekraczający 7 dni lub ze szczególnym
+udręczeniem,
+3) stosuje tortury lub poddaje osobę okrutnemu lub nieludzkiemu traktowaniu,
+4) dopuszcza się zgwałcenia albo stosując przemoc, groźbę bezprawną lub podstęp
+w inny sposób narusza wolność seksualną osoby,
+5) stosując przemoc lub groźbę bezprawną powoduje zajście przez kobietę w ciążę
+w zamiarze wpłynięcia na skład etniczny grupy ludności lub dokonania innych
+poważnych naruszeń prawa międzynarodowego,
+6) pozbawia osobę wolności i odmawia udzielenia informacji dotyczących tej
+osoby lub miejsca jej pobytu lub przekazuje nieprawdziwe informacje dotyczące
+tej osoby lub miejsca jej pobytu, w zamiarze pozbawienia takiej osoby ochrony
+prawnej przez dłuższy okres","od 5 lat do 25 lat","118a KK"
+7,"§ 3. Kto, biorąc udział w masowym zamachu lub choćby w jednym
+z powtarzających się zamachów skierowanych przeciwko grupie ludności podjętych
+w celu wykonania lub wsparcia polityki państwa lub organizacji:
+1) naruszając prawo międzynarodowe zmusza osoby do zmiany ich zgodnego
+z prawem miejsca zamieszkania,
+2) dopuszcza się poważnego prześladowania grupy ludności z powodów uznanych
 za niedopuszczalne na podstawie prawa międzynarodowego, w szczególności
 politycznych, rasowych, narodowych, etnicznych, kulturowych, wyznaniowych
 lub z powodu bezwyznaniowości, światopoglądu lub płci, powodując
-pozbawienie praw podstawowych","od 3 lat do 20 lat"
-8,"Kto stosuje przemoc lub groźbę bezprawną wobec grupy osób lub
+pozbawienie praw podstawowych","od 3 lat do 20 lat","118a KK"
+8,"§ 1. Kto stosuje przemoc lub groźbę bezprawną wobec grupy osób lub
 poszczególnej osoby z powodu jej przynależności narodowej, etnicznej, rasowej,
-politycznej, wyznaniowej lub z powodu jej bezwyznaniowości","od 3 miesięcy do 5 lat"
+politycznej, wyznaniowej lub z powodu jej bezwyznaniowości","od 3 miesięcy do 5 lat","119 KK"
 9,"Kto stosuje środek masowej zagłady zakazany przez prawo
-międzynarodowe","od 10 lat do dożywotniego pozbawienia wolności"
+międzynarodowe","od 10 lat do dożywotniego pozbawienia wolności","120 KK"
 10,"Kto, wbrew zakazom prawa międzynarodowego lub przepisom
-ustawy, dopuszcza, wytwarza, gromadzi, nabywa, zbywa, przechowuje, przewozi lub przesyła
-środki masowej zagłady lub środki walki bądź prowadzi badania mające na celu
-wytwarzanie lub stosowanie takich środków","od 1 roku do 10 lat"
-11,"Kto w czasie działań zbrojnych atakuje miejscowość lub obiekt
+ustawy, dopuszcza do, wytwarza, gromadzi, nabywa, zbywa, przechowuje, przewozi lub przesyła środki masowej zagłady lub środki walki bądź prowadzi badania mające na celu
+wytwarzanie lub stosowanie takich środków","od 1 roku do 10 lat","121 KK"
+11,"§ 1. Kto w czasie działań zbrojnych atakuje miejscowość lub obiekt
 niebroniony, strefę sanitarną, zdemilitaryzowaną lub zneutralizowaną albo stosuje
-inny sposób walki zakazany przez prawo międzynarodowe. Tej samej karze podlega, kto w czasie działań zbrojnych stosuje środek walki
-zakazany przez prawo międzynarodowe.","od 5 lat do 25 lat"
-12,"Kto, naruszając prawo międzynarodowe, dopuszcza się zabójstwa
+inny sposób walki zakazany przez prawo międzynarodowe","od 5 lat do 25 lat","122 KK"
+12,"§ 1. Kto, naruszając prawo międzynarodowe, dopuszcza się zabójstwa
 wobec:
 1) osób, które składając broń lub nie dysponując środkami obrony poddały się,
 2) rannych, chorych, rozbitków, personelu medycznego lub osób duchownych,
 3) jeńców wojennych,
 4) ludności cywilnej obszaru okupowanego, zajętego lub na którym toczą się
 działania zbrojne, albo innych osób korzystających w czasie działań zbrojnych
-z ochrony międzynarodowej","od 12 lat do dożywotniego pozbawienia wolności"
-13,"Kto, naruszając prawo międzynarodowe, powoduje u osób:
+z ochrony międzynarodowej","od 12 lat do dożywotniego pozbawienia wolności","123 KK"
+13,"§ 2. Kto, naruszając prawo międzynarodowe, powoduje u osób:
 1) które składając broń lub nie dysponując środkami obrony poddały się,
 2) rannych, chorych, rozbitków, personelu medycznego lub osób duchownych,
 3) jeńców wojennych,
@@ -43,4 +77,34 @@ z ochrony międzynarodowej, ciężki uszczerbek na zdrowiu, poddaje te osoby tor
 nieludzkiemu traktowaniu, dokonuje na nich, nawet za ich zgodą, eksperymentów
 poznawczych, używa ich do ochraniania swoją obecnością określonego terenu lub
 obiektu przed działaniami zbrojnymi albo własnych oddziałów lub zatrzymuje jako
-zakładników","od 5 lat do 25 lat"
+zakładników","od 5 lat do 25 lat","123 KK"
+14,"§ 1. Kto, naruszając prawo międzynarodowe, zmusza osoby: 1) osób, które składając broń lub nie dysponując środkami obrony poddały się,
+2) rannych, chorych, rozbitków, personelu medycznego lub osób duchownych,
+3) jeńców wojennych,
+4) ludności cywilnej obszaru okupowanego, zajętego lub na którym toczą się
+działania zbrojne, albo innych osób korzystających w czasie działań zbrojnych
+z ochrony międzynarodowej, do służby w nieprzyjacielskich siłach zbrojnych lub do
+uczestnictwa w działaniach zbrojnych skierowanych przeciwko własnemu krajowi,
+stosuje kary cielesne, przemocą, groźbą bezprawną lub podstępem doprowadza te osoby do obcowania płciowego, poddania się innej czynności seksualnej albo do
+wykonania takiej czynności, dopuszcza się zamachu na godność osobistą, w
+szczególności poniżającego i upokarzającego traktowania, pozbawia wolności,
+pozbawia prawa do niezawisłego i bezstronnego sądu albo ogranicza prawo tych osób
+do obrony w postępowaniu karnym, ogłasza prawa lub roszczenia obywateli strony
+przeciwnej za wygasłe, zawieszone lub niedopuszczalne do dochodzenia przed sądem"," od lat 3 do 20 lat","124 KK"
+15,"§ 2. Kto, naruszając prawo międzynarodowe, opóźnia
+repatriację jeńców wojennych lub osób cywilnych, dokonuje przemieszczenia,
+przesiedlenia lub deportacji ludności cywilnej, wciela, werbuje do sił zbrojnych osoby
+poniżej 18 roku życia lub faktycznie używa takich osób w działaniach zbrojnych","od lat 3 do 20 lat","124 KK"
+16,"§ 1. Kto, na obszarze okupowanym, zajętym lub na którym toczą się
+działania zbrojne, naruszając prawo międzynarodowe, niszczy, uszkadza, zabiera lub
+przywłaszcza mienie albo dobro kultury","od 1 roku do 10 lat","125 KK"
+17,"§ 2. Kto, na obszarze okupowanym, zajętym lub na którym toczą się
+działania zbrojne, naruszając prawo międzynarodowe, niszczy, uszkadza, zabiera lub
+przywłaszcza mienie albo dobro kultury znacznej wartości","od 3 lat do 20 lat","125 KK"
+18,"§ 1. Kto w czasie działań zbrojnych używa niezgodnie z prawem
+międzynarodowym znaku Czerwonego Krzyża lub Czerwonego Półksiężyca","do 3 lat","126 KK"
+19,"§ 2. Kto w czasie działań zbrojnych używa niezgodnie
+z prawem międzynarodowym znaku ochronnego dla dóbr kultury lub innego znaku
+chronionego przez prawo międzynarodowe albo posługuje się flagą państwową lub
+odznaką wojskową nieprzyjaciela, państwa neutralnego albo organizacji lub komisji
+międzynarodowej.","do 3 lat","126 KK"

@@ -16,7 +16,7 @@ def fit_crime(my_crime):
   crime_vector = tfidf_vectorizer.transform([my_crime])
   similarity = cosine_similarity(crime_vector, tfidf_matrix)
   best_match_index = similarity.argsort()[0][-1]
-  return dataset.iloc[best_match_index]['crime'], dataset.iloc[best_match_index]['penalty']
+  return dataset.iloc[best_match_index]['article_number'], dataset.iloc[best_match_index]['crime'], dataset.iloc[best_match_index]['penalty']
 
 
 
@@ -34,7 +34,7 @@ def rules():
     description = session['description']
     found_article = fit_crime(description)
     if found_article:
-      return render_template('rules.html', crime=found_article[0], penalty=found_article[1], description=description)
+      return render_template('rules.html', number=found_article[0],crime=found_article[1], penalty=found_article[2], description=description)
     else:
       return render_template('rules.html', rules="Nie znaleziono artykułu")
 
