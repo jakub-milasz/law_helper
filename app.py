@@ -13,6 +13,7 @@ dataset = pd.read_csv('criminal.csv')
 transformed = pd.read_csv('transformed.csv')
 
 def transform_text(text):
+  text = text.lower()
   text = text.split()
   ss = StempelStemmer.default()
   text = [ss.stem(word) for word in text]
@@ -26,6 +27,7 @@ def fit_crime(my_crime, data):
   crime_vector = tfidf_vectorizer.transform([my_crime])
   similarity = cosine_similarity(crime_vector, tfidf_matrix)
   best_match_index = similarity.argsort()[0][-1]
+  print(transformed.iloc[best_match_index]['crime'])
   return dataset.iloc[best_match_index]['article_number'], dataset.iloc[best_match_index]['crime'], dataset.iloc[best_match_index]['penalty']
 
 
@@ -50,15 +52,4 @@ def rules():
 
 if __name__ == '__main__':
   app.run(debug=True)
-
-
-# app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://postgres:pgadmin123@localhost/Codex'
-# app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
-# db = SQLAlchemy(app)
-
-# class Criminal(db.Model):
-#     __tablename__ = 'criminal'
-#     id = db.Column("article_id", db.Integer, primary_key=True)
-#     crime = db.Column("crime", db.String(400))
-#     penalty = db.Column("penalty", db.String(400))
   
