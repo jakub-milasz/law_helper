@@ -16,13 +16,15 @@ In this project I used HTML/CSS, Python with Flask and I test my TF-IDF Model in
 ## How It Works
 1. Input Description: Users enter a description of the offense in a text field.
 
-   ![Zrzut ekranu 2024-11-06 130318](https://github.com/user-attachments/assets/eff61b84-1ed7-434e-a330-b92a263a83cb)
+![Zrzut ekranu 2024-11-06 230223](https://github.com/user-attachments/assets/9ff73ce1-a587-4bf1-bf65-5c1fa5d4e122)
+
 
 2. Data Processing: The TF-IDF model analyzes the input text for word frequency in relation to defined offenses.
 
 
-3. Output: The application returns a list of the most relevant penal code article based on the input description and the penalty.
+3. Output: The application returns the most relevant penal code article based on the input description and the penalty.
 
-  ![Zrzut ekranu 2024-11-06 130336](https://github.com/user-attachments/assets/9717991d-65d4-45e8-b619-64c5a9fa2450)
+![Zrzut ekranu 2024-11-06 230240](https://github.com/user-attachments/assets/3199ec85-1b8a-471e-bfad-3331d1670973)
+
 
    
