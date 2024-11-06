@@ -1,6 +1,7 @@
 header{
-  background-color: #333;
-  color: white;
+  background: radial-gradient(circle, rgb(255, 255, 255) 0%, rgb(176, 174, 174) 100%);
+  /* #333 */
+  color: #530e0e;
   padding: 1em;
   text-align: center;
   font-size: 1.6em;
@@ -11,6 +12,8 @@ body{
   margin: 0;
   padding: 0;
   width: 100%;
+  background-color: #530e0e;
+  color: white;
 }
 
 main{
@@ -33,9 +36,11 @@ textarea{
 .rule{
   text-align: center;
   padding: 1em;
-  background-color: #979595;
+  color: #530e0e;
+  background: radial-gradient(circle, rgb(255, 255, 255) 0%, rgb(176, 174, 174) 100%);
+  box-shadow: 4px 4px 1px #464646;
   width: 60%;
-  margin: 2em auto 0;
+  margin: 3em auto 0;
   border-radius: 1em;
 }
 
@@ -48,7 +53,7 @@ textarea{
   margin-top: 1em;
   text-decoration: none;
   font-size: 1.8em;
-  color: black;
+  color: white;
 }
 
 @media screen and (max-width: 650px){

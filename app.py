@@ -3,16 +3,26 @@ from flask import Flask, render_template, request, redirect, url_for, request,se
 import pandas as pd
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
+from stempel import StempelStemmer
 
 
 app = Flask(__name__)
 app.secret_key = "hello"
 
 dataset = pd.read_csv('criminal.csv')
+transformed = pd.read_csv('transformed.csv')
 
-def fit_crime(my_crime):
+def transform_text(text):
+  text = text.split()
+  ss = StempelStemmer.default()
+  text = [ss.stem(word) for word in text]
+  text = ' '.join(text)
+  return text
+
+def fit_crime(my_crime, data):
+  my_crime = transform_text(my_crime)
   tfidf_vectorizer = TfidfVectorizer()
-  tfidf_matrix = tfidf_vectorizer.fit_transform(dataset['crime'])
+  tfidf_matrix = tfidf_vectorizer.fit_transform(data)
   crime_vector = tfidf_vectorizer.transform([my_crime])
   similarity = cosine_similarity(crime_vector, tfidf_matrix)
   best_match_index = similarity.argsort()[0][-1]
@@ -32,7 +42,7 @@ def index():
 def rules():
   if "description" in session:
     description = session['description']
-    found_article = fit_crime(description)
+    found_article = fit_crime(description, transformed['crime'])
     if found_article:
       return render_template('rules.html', number=found_article[0],crime=found_article[1], penalty=found_article[2], description=description)
     else:
