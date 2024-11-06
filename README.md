@@ -1,7 +1,7 @@
 # Law helper
 Law Helper is a web application designed to assist users in identifying the most relevant criminal offenses
 from the penal code based on the description provided by the user. The application employs a TF-IDF (Term Frequency-Inverse Document Frequency)
-model to analyze text and match the most suitable legal articles.
+model to analyze text and match the most suitable legal articles. This is now demo app. It is still developed by adding new articles and improving the TF-IDF Model performance.
 
 ## Stack
 In this project I used HTML/CSS, Python with Flask and I test my TF-IDF Model in Jupyter Lab.
