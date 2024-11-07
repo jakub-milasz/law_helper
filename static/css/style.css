@@ -51,13 +51,11 @@ input[type=submit]{
 
 .return{
   text-decoration: none;
-}
-
-.return p{
+  display: block;
   text-align: center;
-  margin-top: 1em;
-  text-decoration: none;
-  font-size: 1.8em;
+  width: fit-content;
+  margin: 1em auto 0;
+  font-size: 1.5em;
   color: white;
 }
 
