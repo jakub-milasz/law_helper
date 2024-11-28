@@ -10,7 +10,7 @@ app = Flask(__name__)
 app.secret_key = "hello"
 
 dataset = pd.read_csv('criminal.csv')
-transformed = pd.read_csv('transformed.csv')
+transformed = pd.read_csv('transformed.csv', sep=';')
 
 def transform_text(text):
   text = text.lower()
