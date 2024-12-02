@@ -8,10 +8,10 @@
 {% else %}
 <div class="rule">
   <h2>Artykuł pasujący do twojego przestępstwa</h2>
-  <h3>Art. {{ rules[0] }}</h3>
-  <p>{{ rules[1] }}</p>
+  <h3>Art. </h3>
+  <p>{{ rules[0] }}</p>
   <h2>Kara</h2>
-  <p>Za "{{ description }}" grozi ci {{ rules[2] }}</p>
+  <p>Za "{{ description }}" podlegasz {{ rules[1] }}</p>
 </div>
 {% endif %}
 <a class="return" href="{{ url_for('index') }}">Back to homepage</a>

@@ -1,293 +1,468 @@
-"article_id","crime","penalty","article_number"
-1,"§ 1. Kto wszczyna lub prowadzi wojnę napastniczą","od 12 lat do dożywotniego pozbawienia wolności","117 KK"
-2,"§ 3. Kto publicznie nawołuje do wszczęcia wojny napastniczej lub publicznie
-pochwala wszczęcie lub prowadzenie takiej wojny","od 3 miesięcy do 5 lat","117 KK"
-3,"§ 1. Kto, w celu wyniszczenia w całości albo w części grupy
-narodowej, etnicznej, rasowej, politycznej, wyznaniowej lub grupy o określonym
-światopoglądzie, dopuszcza się zabójstwa albo powoduje ciężki uszczerbek na
-zdrowiu osoby należącej do takiej grupy","od 12 lat do dożywotniego pozbawienia wolności","118 KK"
-4,"§ 2. Kto, w celu wyniszczenia w całości albo w części grupy
-narodowej, etnicznej, rasowej, politycznej, wyznaniowej lub grupy o określonym
-światopoglądzie, stwarza dla osób należących do takiej grupy
-warunki życia grożące jej biologicznym wyniszczeniem, stosuje środki mające służyć
-do wstrzymania urodzeń w obrębie grupy lub przymusowo odbiera dzieci osobom do
-niej należącym","od 5 lat do 25 lat","118 KK"
-5,"§ 1. Kto, biorąc udział w masowym zamachu lub choćby w jednym
-z powtarzających się zamachów skierowanych przeciwko grupie ludności podjętych
-w celu wykonania lub wsparcia polityki państwa lub organizacji:
+﻿;crime;penalty
+0;§ 1. Kto wszczyna lub prowadzi wojnę napastniczą;karze pozbawienia wolności na czas nie krótszy od lat 12 albo karze dożywotniego pozbawienia wolności.
+1; 3. Kto publicznie nawołuje do wszczęcia wojny napastniczej lub publicznie pochwala wszczęcie lub prowadzenie takiej wojny;karze pozbawienia wolności od 3 miesięcy do lat 5.
+2;§ 1. Kto, w celu wyniszczenia w całości albo w części grupy narodowej, etnicznej, rasowej, politycznej, wyznaniowej lub grupy o określonym światopoglądzie, dopuszcza się zabójstwa albo powoduje ciężki uszczerbek na zdrowiu osoby należącej do takiej grupy;karze pozbawienia wolności na czas nie krótszy od lat 12 albo karze dożywotniego pozbawienia wolności.
+3; 2. Kto, w celu określonym w § 1, stwarza dla osób należących do takiej grupy warunki życia grożące jej biologicznym wyniszczeniem, stosuje środki mające służyć do wstrzymania urodzeń w obrębie grupy lub przymusowo odbiera dzieci osobom do niej należącym;karze pozbawienia wolności od lat 5 do 25.
+4;"§ 1. Kto, biorąc udział w masowym zamachu lub choćby w jednym z powtarzających się zamachów skierowanych przeciwko grupie ludności podjętych w celu wykonania lub wsparcia polityki państwa lub organizacji:
 1) dopuszcza się zabójstwa,
 2) powoduje ciężki uszczerbek na zdrowiu człowieka,
-3) stwarza dla osób należących do grupy ludności warunki życia grożące ich
-biologicznej egzystencji, w szczególności przez pozbawienie dostępu do
-żywności lub opieki medycznej, które są obliczone na ich wyniszczenie","od 12 lat do dożywotniego pozbawienia wolności","118a KK"
-6,"§ 2. Kto, biorąc udział w masowym zamachu lub choćby w jednym
-z powtarzających się zamachów skierowanych przeciwko grupie ludności podjętych
-w celu wykonania lub wsparcia polityki państwa lub organizacji:
+3) stwarza dla osób należących do grupy ludności warunki życia grożące ich biologicznej egzystencji, w szczególności przez pozbawienie dostępu do żywności lub opieki medycznej, które są obliczone na ich wyniszczenie,";karze pozbawienia wolności na czas nie krótszy od lat 12 albo karze dożywotniego pozbawienia wolności.
+5;" 2. Kto, biorąc udział w masowym zamachu lub choćby w jednym z powtarzających się zamachów skierowanych przeciwko grupie ludności podjętych w celu wykonania lub wsparcia polityki państwa lub organizacji:
 1) powoduje oddanie osoby w stan niewolnictwa lub utrzymuje ją w tym stanie,
-2) pozbawia osobę wolności na czas przekraczający 7 dni lub ze szczególnym
-udręczeniem,
+2) pozbawia osobę wolności na czas przekraczający 7 dni lub ze szczególnym udręczeniem,
 3) stosuje tortury lub poddaje osobę okrutnemu lub nieludzkiemu traktowaniu,
-4) dopuszcza się zgwałcenia albo stosując przemoc, groźbę bezprawną lub podstęp
-w inny sposób narusza wolność seksualną osoby,
-5) stosując przemoc lub groźbę bezprawną powoduje zajście przez kobietę w ciążę
-w zamiarze wpłynięcia na skład etniczny grupy ludności lub dokonania innych
-poważnych naruszeń prawa międzynarodowego,
-6) pozbawia osobę wolności i odmawia udzielenia informacji dotyczących tej
-osoby lub miejsca jej pobytu lub przekazuje nieprawdziwe informacje dotyczące
-tej osoby lub miejsca jej pobytu, w zamiarze pozbawienia takiej osoby ochrony
-prawnej przez dłuższy okres","od 5 lat do 25 lat","118a KK"
-7,"§ 3. Kto, biorąc udział w masowym zamachu lub choćby w jednym
-z powtarzających się zamachów skierowanych przeciwko grupie ludności podjętych
-w celu wykonania lub wsparcia polityki państwa lub organizacji:
-1) naruszając prawo międzynarodowe zmusza osoby do zmiany ich zgodnego
-z prawem miejsca zamieszkania,
-2) dopuszcza się poważnego prześladowania grupy ludności z powodów uznanych
-za niedopuszczalne na podstawie prawa międzynarodowego, w szczególności
-politycznych, rasowych, narodowych, etnicznych, kulturowych, wyznaniowych
-lub z powodu bezwyznaniowości, światopoglądu lub płci, powodując
-pozbawienie praw podstawowych","od 3 lat do 20 lat","118a KK"
-8,"§ 1. Kto stosuje przemoc lub groźbę bezprawną wobec grupy osób lub
-poszczególnej osoby z powodu jej przynależności narodowej, etnicznej, rasowej,
-politycznej, wyznaniowej lub z powodu jej bezwyznaniowości","od 3 miesięcy do 5 lat","119 KK"
-9,"Kto stosuje środek masowej zagłady zakazany przez prawo
-międzynarodowe","od 10 lat do dożywotniego pozbawienia wolności","120 KK"
-10,"Kto, wbrew zakazom prawa międzynarodowego lub przepisom
-ustawy, dopuszcza do, wytwarza, gromadzi, nabywa, zbywa, przechowuje, przewozi lub przesyła środki masowej zagłady lub środki walki bądź prowadzi badania mające na celu
-wytwarzanie lub stosowanie takich środków","od 1 roku do 10 lat","121 KK"
-11,"§ 1. Kto w czasie działań zbrojnych atakuje miejscowość lub obiekt
-niebroniony, strefę sanitarną, zdemilitaryzowaną lub zneutralizowaną albo stosuje
-inny sposób walki zakazany przez prawo międzynarodowe","od 5 lat do 25 lat","122 KK"
-12,"§ 1. Kto, naruszając prawo międzynarodowe, dopuszcza się zabójstwa
-wobec:
+4) dopuszcza się zgwałcenia albo stosując przemoc, groźbę bezprawną lub podstęp w inny sposób narusza wolność seksualną osoby,
+5) stosując przemoc lub groźbę bezprawną powoduje zajście przez kobietę w ciążę w zamiarze wpłynięcia na skład etniczny grupy ludności lub dokonania innych poważnych naruszeń prawa międzynarodowego,
+6) pozbawia osobę wolności i odmawia udzielenia informacji dotyczących tej osoby lub miejsca jej pobytu lub przekazuje nieprawdziwe informacje dotyczące tej osoby lub miejsca jej pobytu, w zamiarze pozbawienia takiej osoby ochrony prawnej przez dłuższy okres,";karze pozbawienia wolności od lat 5 do 25.
+6;" 3. Kto, biorąc udział w masowym zamachu lub choćby w jednym z powtarzających się zamachów skierowanych przeciwko grupie ludności podjętych w celu wykonania lub wsparcia polityki państwa lub organizacji:
+1) naruszając prawo międzynarodowe zmusza osoby do zmiany ich zgodnego z prawem miejsca zamieszkania,
+2) dopuszcza się poważnego prześladowania grupy ludności z powodów uznanych za niedopuszczalne na podstawie prawa międzynarodowego, w szczególności politycznych, rasowych, narodowych, etnicznych, kulturowych, wyznaniowych lub z powodu bezwyznaniowości, światopoglądu lub płci, powodując pozbawienie praw podstawowych,";karze pozbawienia wolności od lat 3 do 20.
+7;§ 1. Kto stosuje przemoc lub groźbę bezprawną wobec grupy osób lub poszczególnej osoby z powodu jej przynależności narodowej, etnicznej, rasowej, politycznej, wyznaniowej lub z powodu jej bezwyznaniowości,;karze pozbawienia wolności od 3 miesięcy do lat 5.
+8;Kto stosuje środek masowej zagłady zakazany przez prawo międzynarodowe,;karze pozbawienia wolności na czas nie krótszy od lat 10 albo karze dożywotniego pozbawienia wolności.
+9;§ 1. Kto, wbrew zakazom prawa międzynarodowego lub przepisom ustawy, wytwarza, gromadzi, nabywa, zbywa, przechowuje, przewozi lub przesyła środki masowej zagłady lub środki walki bądź prowadzi badania mające na celu wytwarzanie lub stosowanie takich środków;karze pozbawienia wolności od roku do lat 10.
+10;§ 1. Kto w czasie działań zbrojnych atakuje miejscowość lub obiekt niebroniony, strefę sanitarną, zdemilitaryzowaną lub zneutralizowaną albo stosuje inny sposób walki zakazany przez prawo międzynarodowe,;karze pozbawienia wolności od lat 5 do 25.
+11;"§ 1. Kto, naruszając prawo międzynarodowe, dopuszcza się zabójstwa wobec:
 1) osób, które składając broń lub nie dysponując środkami obrony poddały się,
 2) rannych, chorych, rozbitków, personelu medycznego lub osób duchownych,
 3) jeńców wojennych,
-4) ludności cywilnej obszaru okupowanego, zajętego lub na którym toczą się
-działania zbrojne, albo innych osób korzystających w czasie działań zbrojnych
-z ochrony międzynarodowej","od 12 lat do dożywotniego pozbawienia wolności","123 KK"
-13,"§ 2. Kto, naruszając prawo międzynarodowe, powoduje u osób:
-1) które składając broń lub nie dysponując środkami obrony poddały się,
-2) rannych, chorych, rozbitków, personelu medycznego lub osób duchownych,
-3) jeńców wojennych,
-4) ludności cywilnej obszaru okupowanego, zajętego lub na którym toczą się
-działania zbrojne, albo innych osób korzystających w czasie działań zbrojnych
-z ochrony międzynarodowej, ciężki uszczerbek na zdrowiu, poddaje te osoby torturom, okrutnemu lub
-nieludzkiemu traktowaniu, dokonuje na nich, nawet za ich zgodą, eksperymentów
-poznawczych, używa ich do ochraniania swoją obecnością określonego terenu lub
-obiektu przed działaniami zbrojnymi albo własnych oddziałów lub zatrzymuje jako
-zakładników","od 5 lat do 25 lat","123 KK"
-14,"§ 1. Kto, naruszając prawo międzynarodowe, zmusza osoby: 1) osób, które składając broń lub nie dysponując środkami obrony poddały się,
-2) rannych, chorych, rozbitków, personelu medycznego lub osób duchownych,
-3) jeńców wojennych,
-4) ludności cywilnej obszaru okupowanego, zajętego lub na którym toczą się
-działania zbrojne, albo innych osób korzystających w czasie działań zbrojnych
-z ochrony międzynarodowej, do służby w nieprzyjacielskich siłach zbrojnych lub do
-uczestnictwa w działaniach zbrojnych skierowanych przeciwko własnemu krajowi,
-stosuje kary cielesne, przemocą, groźbą bezprawną lub podstępem doprowadza te osoby do obcowania płciowego, poddania się innej czynności seksualnej albo do
-wykonania takiej czynności, dopuszcza się zamachu na godność osobistą, w
-szczególności poniżającego i upokarzającego traktowania, pozbawia wolności,
-pozbawia prawa do niezawisłego i bezstronnego sądu albo ogranicza prawo tych osób
-do obrony w postępowaniu karnym, ogłasza prawa lub roszczenia obywateli strony
-przeciwnej za wygasłe, zawieszone lub niedopuszczalne do dochodzenia przed sądem"," od lat 3 do 20 lat","124 KK"
-15,"§ 2. Kto, naruszając prawo międzynarodowe, opóźnia
-repatriację jeńców wojennych lub osób cywilnych, dokonuje przemieszczenia,
-przesiedlenia lub deportacji ludności cywilnej, wciela, werbuje do sił zbrojnych osoby
-poniżej 18 roku życia lub faktycznie używa takich osób w działaniach zbrojnych","od lat 3 do 20 lat","124 KK"
-16,"§ 1. Kto, na obszarze okupowanym, zajętym lub na którym toczą się
-działania zbrojne, naruszając prawo międzynarodowe, niszczy, uszkadza, zabiera lub
-przywłaszcza mienie albo dobro kultury","od 1 roku do 10 lat","125 KK"
-17,"§ 2. Kto, na obszarze okupowanym, zajętym lub na którym toczą się
-działania zbrojne, naruszając prawo międzynarodowe, niszczy, uszkadza, zabiera lub
-przywłaszcza mienie albo dobro kultury znacznej wartości","od 3 lat do 20 lat","125 KK"
-18,"§ 1. Kto w czasie działań zbrojnych używa niezgodnie z prawem
-międzynarodowym znaku Czerwonego Krzyża lub Czerwonego Półksiężyca","do 3 lat","126 KK"
-19,"§ 2. Kto w czasie działań zbrojnych używa niezgodnie
-z prawem międzynarodowym znaku ochronnego dla dóbr kultury lub innego znaku
-chronionego przez prawo międzynarodowe albo posługuje się flagą państwową lub
-odznaką wojskową nieprzyjaciela, państwa neutralnego albo organizacji lub komisji
-międzynarodowej.","do 3 lat","126 KK"
-20,"§ 1. Kto, mając na celu pozbawienie niepodległości, oderwanie części
-obszaru lub zmianę przemocą konstytucyjnego ustroju Rzeczypospolitej Polskiej,
-podejmuje w porozumieniu z innymi osobami działalność zmierzającą bezpośrednio
-do urzeczywistnienia tego celu","od 10 lat do dożywotniego pozbawienia wolności","127 KK"
-21,"§ 2. Kto czyni przygotowania do popełnienia przestępstwa:  mając na celu pozbawienie niepodległości, oderwanie części
-obszaru lub zmianę przemocą konstytucyjnego ustroju Rzeczypospolitej Polskiej,
-podejmuje w porozumieniu z innymi osobami działalność zmierzającą bezpośrednio
-do urzeczywistnienia tego celu","od lat 3 do 20 lat","127 KK"
-22,"§ 1. Kto, w celu usunięcia przemocą konstytucyjnego organu
-Rzeczypospolitej Polskiej, podejmuje działalność zmierzającą bezpośrednio do
-urzeczywistnienia tego celu","od lat 3 do 20 lat","128 KK"
-23,"§ 2. Kto czyni przygotowania do popełnienia przestępstwa: kto w celu usunięcia przemocą konstytucyjnego organu
-Rzeczypospolitej Polskiej, podejmuje działalność zmierzającą bezpośrednio do
-urzeczywistnienia tego celu"," od 3 miesięcy do 5 lat","128 KK"
-24,"§ 3. Kto przemocą lub groźbą bezprawną wywiera wpływ na czynności
-urzędowe konstytucyjnego organu Rzeczypospolitej Polskiej","od 1 roku do 10 lat","128 KK"
-25,"Kto, będąc upoważniony do występowania w imieniu
-Rzeczypospolitej Polskiej w stosunkach z rządem obcego państwa lub zagraniczną
-organizacją, działa na szkodę Rzeczypospolitej Polskiej","od 1 roku do 10 lat","129 KK"
-26,"§ 1. Kto bierze udział w działalności obcego wywiadu albo działa na
-jego rzecz, przeciwko Rzeczypospolitej Polskiej","od 5 lat","130 KK"
-27,"§ 2. Kto, biorąc udział w działalności obcego wywiadu albo działając na jego
-rzecz, udziela temu wywiadowi wiadomości, której przekazanie może wyrządzić
-szkodę Rzeczypospolitej Polskiej","od 8 lat do dożywotniego pozbawienia wolności","130 KK"
-28,"§ 3. Kto zgłasza gotowość działania na rzecz obcego wywiadu przeciwko
-Rzeczypospolitej Polskiej albo w celu udzielenia obcemu wywiadowi wiadomości,
-których przekazanie może wyrządzić szkodę Rzeczypospolitej Polskiej, gromadzi je
-lub przechowuje lub wchodzi do systemu informatycznego w celu ich uzyskania","od 6 miesięcy do 8 lat","130 KK"
-29,"§ 4. Kto działalność obcego wywiadu, o której mowa w § 1, organizuje lub nią
-kieruje","od 10 lat do dożywotniego pozbawienia wolności","130 KK"
-30,"§ 5. Funkcjonariusz publiczny i osoba pełniąca dyspozycyjnie terytorialną
-służbę wojskową, dopuszczający się czynu: o bierze udział w działalności obcego wywiadu albo działa na
-jego rzecz, przeciwko Rzeczypospolitej Polskiej","od 8 lat do dożywotniego pozbawienia wolności","130 KK"
-31,"§ 6. Kto bierze udział w działalności obcego wywiadu nieskierowanej przeciwko
-Rzeczypospolitej Polskiej prowadzonej na jej terytorium bez zgody właściwego
-organu udzielonej na podstawie odrębnych przepisów","od 6 miesięcy do 8 lat","130 KK"
-32,"§ 7. Kto, biorąc udział w działalności obcego wywiadu albo działając na jego
-rzecz, dokonuje dywersji, sabotażu lub dopuszcza się przestępstwa o charakterze
-terrorystycznym","od 10 lat do dożywotniego pozbawienia wolności","130 KK"
-33,"§ 8. Kto czyni przygotowania do przestępstwa: biorąc udział w działalności obcego wywiadu albo działając na jego
-rzecz, dokonuje dywersji, sabotażu lub dopuszcza się przestępstwa o charakterze
-terrorystycznym","od 6 miesięcy do 8 lat","130 KK"
-34,"§ 9. Kto, biorąc udział w działalności obcego wywiadu albo działając na jego
-rzecz, prowadzi dezinformację, polegającą na rozpowszechnianiu nieprawdziwych lub
-wprowadzających w błąd informacji, mając na celu wywołanie poważnych zakłóceń
-w ustroju lub gospodarce Rzeczypospolitej Polskiej, państwa sojuszniczego lub
-organizacji międzynarodowej, której członkiem jest Rzeczpospolita Polska albo
-skłonienie organu władzy publicznej Rzeczypospolitej Polskiej, państwa
-sojuszniczego lub organizacji międzynarodowej, której członkiem jest Rzeczpospolita
-Polska, do podjęcia lub zaniechania określonych czynności","od 8 lat","130 KK"
-35,"Kto, oddając usługi wywiadowcze Rzeczypospolitej Polskiej,
-wprowadza w błąd polski organ państwowy przez dostarczanie podrobionych lub
-przerobionych dokumentów lub innych przedmiotów albo przez ukrywanie
-prawdziwych lub udzielanie fałszywych wiadomości mających istotne znaczenie dla
-Rzeczypospolitej Polskiej","od 1 roku do 10 lat","132 KK"
-36,"Kto publicznie znieważa Naród lub Rzeczpospolitą Polską","do 3 lat","133 KK"
-37,"Kto dopuszcza się zamachu na życie Prezydenta Rzeczypospolitej
-Polskiej","od 12 lat do dożywotniego pozbawienia wolności","134 KK"
-38,"§ 1. Kto dopuszcza się czynnej napaści na Prezydenta
-Rzeczypospolitej Polskiej","od 3 miesięcy do 5 lat","135 KK"
-39,"§ 2. Kto publicznie znieważa Prezydenta Rzeczypospolitej Polskiej","do 3 lat","135 KK"
-40,"§ 1. Kto na terytorium Rzeczypospolitej Polskiej dopuszcza się
-czynnej napaści na głowę obcego państwa lub akredytowanego szefa
-przedstawicielstwa dyplomatycznego takiego państwa albo osobę korzystającą
-z podobnej ochrony na mocy ustaw, umów lub powszechnie uznanych zwyczajów
-międzynarodowych","od 3 miesięcy do 5 lat","136 KK"
-41,"§ 2. Kto na terytorium Rzeczypospolitej Polskiej dopuszcza się czynnej napaści
-na osobę należącą do personelu dyplomatycznego przedstawicielstwa obcego państwa
-albo urzędnika konsularnego obcego państwa, w związku z pełnieniem przez nich
-obowiązków służbowych","do 3 lat","136 KK"
-42,"§ 3. Kto na terytorium Rzeczypospolitej Polskiej
-publicznie znieważa głowę obcego państwa lub akredytowanego szefa
-przedstawicielstwa dyplomatycznego takiego państwa albo osobę korzystającą
-z podobnej ochrony na mocy ustaw, umów lub powszechnie uznanych zwyczajów
-międzynarodowych","do 3 lat","136 KK"
-43,"§ 4. Kto na terytorium Rzeczypospolitej Polskiej publicznie znieważa osobę należącą do personelu dyplomatycznego przedstawicielstwa obcego państwa
-albo urzędnika konsularnego obcego państwa, w związku z pełnieniem przez nich
-obowiązków służbowych","grzywna, kara ograniczenia wolności albo pozbawienia wolności do
-roku","136 KK"
-44,"§ 1. Kto publicznie znieważa, niszczy, uszkadza lub usuwa godło,
-sztandar, chorągiew, banderę, flagę lub inny znak państwowy","grzywna, kara ograniczenia wolności albo pozbawienia wolności do
-roku","137 KK"
-45,"§ 2. Tej samej karze podlega, kto na terytorium Rzeczypospolitej Polskiej
-znieważa, niszczy, uszkadza lub usuwa godło, sztandar, chorągiew, banderę, flagę lub
-inny znak państwa obcego, wystawione publicznie przez przedstawicielstwo tego
-państwa lub na zarządzenie polskiego organu władzy","grzywna, kara ograniczenia wolności albo pozbawienia wolności do
-roku","137 KK"
-46,"§ 1. Kto, w celu osłabienia mocy obronnej Rzeczypospolitej Polskiej,
-dopuszcza się gwałtownego zamachu na jednostkę Sił Zbrojnych Rzeczypospolitej
-Polskiej, niszczy lub uszkadza obiekt albo urządzenie o znaczeniu obronnym","od roku do 10 lat","140 KK"
-47,"§ 2. Jeżeli następstwem czynu: dopuszcza się gwałtownego zamachu na jednostkę Sił Zbrojnych Rzeczypospolitej
-Polskiej, niszczy lub uszkadza obiekt albo urządzenie o znaczeniu obronnym, jest śmierć człowieka lub ciężki uszczerbek na
-zdrowiu wielu osób","od 2 lat do 15 lat","140 KK"
-48,"§ 3. Kto czyni przygotowania do przestępstwa: kto, w celu osłabienia mocy obronnej Rzeczypospolitej Polskiej,
-dopuszcza się gwałtownego zamachu na jednostkę Sił Zbrojnych Rzeczypospolitej
-Polskiej, niszczy lub uszkadza obiekt albo urządzenie o znaczeniu obronnym","do 3 lat","140 KK"
-49,"§ 1. Kto, będąc obywatelem polskim, przyjmuje bez zgody właściwego
-organu obowiązki wojskowe w obcym wojsku lub w obcej organizacji wojskowej","od 3 miesięcy do 5 lat","141 KK"
-50,"§ 2. Kto przyjmuje obowiązki w zakazanej przez prawo międzynarodowe
-wojskowej służbie najemnej","od 6 miesięcy do 8 lat","141 KK"
-51,"§ 1. Kto, wbrew przepisom ustawy, prowadzi zaciąg obywateli
-polskich lub przebywających w Rzeczypospolitej Polskiej cudzoziemców do służby
-wojskowej w obcym wojsku lub w obcej organizacji wojskowej","od 3 miesięcy do 5 lat","142 KK"
-52,"§ 2. Kto prowadzi zaciąg obywateli polskich lub przebywających
-w Rzeczypospolitej Polskiej cudzoziemców do służby w zakazanej przez prawo
-międzynarodowe wojskowej służbie najemnej albo taką służbę najemną opłaca,
-organizuje, szkoli lub wykorzystuje","od 6 miesięcy do 8 lat","142 KK"
-53,"§ 1. Kto, będąc powołanym do pełnienia czynnej służby wojskowej,
-nie zgłasza się do odbywania tej służby w określonym terminie i miejscu","do 3 lat","144 KK"
-54,"§ 3. Kto nie zgłasza się do odbywania służby zastępującej służbę wojskową w określonym terminie i miejscu","grzywna albo kara ograniczenia wolności","144 KK"
-55,"§ 1. Kto zabija człowieka","od 10 lat do dożywotniego pozbawienia wolności","148 KK"
-56,"§ 2. Kto zabija człowieka:
+4) ludności cywilnej obszaru okupowanego, zajętego lub na którym toczą się działania zbrojne, albo innych osób korzystających w czasie działań zbrojnych z ochrony międzynarodowej,";karze pozbawienia wolności na czas nie krótszy od lat 12 albo karze dożywotniego pozbawienia wolności.
+12; 2. Kto, naruszając prawo międzynarodowe, powoduje u osób wymienionych w § 1 ciężki uszczerbek na zdrowiu, poddaje te osoby torturom, okrutnemu lub nieludzkiemu traktowaniu, dokonuje na nich, nawet za ich zgodą, eksperymentów poznawczych, używa ich do ochraniania swoją obecnością określonego terenu lub obiektu przed działaniami zbrojnymi albo własnych oddziałów lub zatrzymuje jako zakładników,;karze pozbawienia wolności od lat 5 do 25.
+13;§ 1. Kto, naruszając prawo międzynarodowe, zmusza osoby wymienione w art. 123 zamach na życie lub zdrowie jeńców wojennych albo ludności cywilnej § 1 do służby w nieprzyjacielskich siłach zbrojnych lub do uczestnictwa w działaniach zbrojnych skierowanych przeciwko własnemu krajowi, stosuje kary cielesne, przemocą, groźbą bezprawną lub podstępem doprowadza te osoby do obcowania płciowego, poddania się innej czynności seksualnej albo do wykonania takiej czynności, dopuszcza się zamachu na godność osobistą, w szczególności poniżającego i upokarzającego traktowania, pozbawia wolności, pozbawia prawa do niezawisłego i bezstronnego sądu albo ogranicza prawo tych osób do obrony w postępowaniu karnym, ogłasza prawa lub roszczenia obywateli strony przeciwnej za wygasłe, zawieszone lub niedopuszczalne do dochodzenia przed sądem,;karze pozbawienia wolności od lat 3 do 20.
+14;"§ 1. Kto, na obszarze okupowanym, zajętym lub na którym toczą się
+działania zbrojne, naruszając prawo międzynarodowe, niszczy, uszkadza, zabiera lub przywłaszcza mienie albo dobro kultury";karze pozbawienia wolności od roku do lat 10.
+15;§ 1. Kto w czasie działań zbrojnych używa niezgodnie z prawem międzynarodowym znaku Czerwonego Krzyża lub Czerwonego Półksiężyca,;karze pozbawienia wolności do lat 3.
+16;Kto publicznie nawołuje do popełnienia czynu określonego w art. 118 ludobójstwo, art. 118a udział w masowym zamachu, art. 119 dyskryminacja § 1, art 120–125 lub publicznie pochwala popełnienie czynu określonego w tych przepisach,;karze pozbawienia wolności od 3 miesięcy do lat 5.
+17;§ 1. Kto, nie dopełniając obowiązku należytej kontroli, dopuszcza do popełnienia czynu określonego w art. 117 wojna napastnicza § 3, art. 118 ludobójstwo, art. 118a udział w masowym zamachu, art. 119 dyskryminacja § 1, art 120–126a przez osobę pozostającą pod jego faktyczną władzą lub kontrolą,;karze określonej w tych przepisach.
+18; 2. Jeżeli sprawca działa nieumyślnie,;karze pozbawienia wolności od 3 miesięcy do lat 5.
+19;§ 1. Kto czyni przygotowania do przestępstwa określonego w art. 117 wojna napastnicza, art. 118 ludobójstwo lub art. 120 stosowanie środków masowej zagłady,;karze pozbawienia wolności od lat 3 do 20.
+20; 2. Kto czyni przygotowania do przestępstwa określonego w art. 118a udział w masowym zamachu § 1 lub § 2, art. 122 niedopuszczalne sposoby lub środki walki lub art. 123 zamach na życie lub zdrowie jeńców wojennych albo ludności cywilnej,;karze pozbawienia wolności od roku do lat 10.
+21; 3. Kto czyni przygotowania do przestępstwa określonego w art. 124 inne naruszenia przepisów prawa międzynarodowego § 1 lub art. 125 niszczenie, uszkadzanie, zabieranie lub przywłaszczanie mienia lub dobra kultury,;karze pozbawienia wolności do lat 3.
+22;§ 1. Kto, mając na celu pozbawienie niepodległości, oderwanie części obszaru lub zmianę przemocą konstytucyjnego ustroju Rzeczypospolitej Polskiej, podejmuje w porozumieniu z innymi osobami działalność zmierzającą bezpośrednio do urzeczywistnienia tego celu,;karze pozbawienia wolności na czas nie krótszy od lat 10 albo karze dożywotniego pozbawienia wolności.
+23; 2. Kto czyni przygotowania do popełnienia przestępstwa określonego w § 1,;karze pozbawienia wolności od lat 3 do 20.
+24;§ 1. Kto, w celu usunięcia przemocą konstytucyjnego organu Rzeczypospolitej Polskiej, podejmuje działalność zmierzającą bezpośrednio do urzeczywistnienia tego celu,;karze pozbawienia wolności od lat 3 do 20.
+25; 2. Kto czyni przygotowania do popełnienia przestępstwa określonego w § 1,;karze pozbawienia wolności od 3 miesięcy do lat 5.
+26; 3. Kto przemocą lub groźbą bezprawną wywiera wpływ na czynności urzędowe konstytucyjnego organu Rzeczypospolitej Polskiej,;karze pozbawienia wolności od roku do lat 10.
+27;Kto, będąc upoważniony do występowania w imieniu Rzeczypospolitej Polskiej w stosunkach z rządem obcego państwa lub zagraniczną organizacją, działa na szkodę Rzeczypospolitej Polskiej,;karze pozbawienia wolności od roku do lat 10.
+28;§ 1. Kto bierze udział w działalności obcego wywiadu albo działa na jego rzecz, przeciwko Rzeczypospolitej Polskiej,;karze pozbawienia wolności na czas nie krótszy od lat 5.
+29; 2. Kto, biorąc udział w działalności obcego wywiadu albo działając na jego rzecz, udziela temu wywiadowi wiadomości, której przekazanie może wyrządzić szkodę Rzeczypospolitej Polskiej,;karze pozbawienia wolności na czas nie krótszy od lat 8 albo karze dożywotniego pozbawienia wolności.
+30; 3. Kto zgłasza gotowość działania na rzecz obcego wywiadu przeciwko Rzeczypospolitej Polskiej albo w celu udzielenia obcemu wywiadowi wiadomości, których przekazanie może wyrządzić szkodę Rzeczypospolitej Polskiej, gromadzi je lub przechowuje lub wchodzi do systemu informatycznego w celu ich uzyskania,;karze pozbawienia wolności od 6 miesięcy do lat 8.
+31; 4. Kto działalność obcego wywiadu, o której mowa w § 1, organizuje lub nią kieruje,;karze pozbawienia wolności na czas nie krótszy od lat 10 albo karze dożywotniego pozbawienia wolności.
+32; 5. Funkcjonariusz publiczny oraz osoba pełniąca dyspozycyjnie terytorialną służbę wojskową, dopuszczający się czynu, o którym mowa w § 1,;karze pozbawienia wolności na czas nie krótszy od lat 8 albo karze dożywotniego pozbawienia wolności.
+33; 6. Kto bierze udział w działalności obcego wywiadu nieskierowanej przeciwko Rzeczypospolitej Polskiej prowadzonej na jej terytorium bez zgody właściwego organu udzielonej na podstawie odrębnych przepisów,;karze pozbawienia wolności od 6 miesięcy do lat 8.
+34; 7. Kto, biorąc udział w działalności obcego wywiadu albo działając na jego rzecz, dokonuje dywersji, sabotażu lub dopuszcza się przestępstwa o charakterze terrorystycznym,;karze pozbawienia wolności na czas nie krótszy od lat 10 albo karze dożywotniego pozbawienia wolności.
+35; 8. Kto czyni przygotowania do przestępstwa określonego w § 7,;karze pozbawienia wolności od 6 miesięcy do lat 8.
+36; 9. Kto, biorąc udział w działalności obcego wywiadu albo działając na jego rzecz, prowadzi dezinformację, polegającą na rozpowszechnianiu nieprawdziwych lub wprowadzających w błąd informacji, mając na celu wywołanie poważnych zakłóceń w ustroju lub gospodarce Rzeczypospolitej Polskiej, państwa sojuszniczego lub organizacji międzynarodowej, której członkiem jest Rzeczpospolita Polska albo skłonienie organu władzy publicznej Rzeczypospolitej Polskiej, państwa sojuszniczego lub organizacji międzynarodowej, której członkiem jest Rzeczpospolita Polska, do podjęcia lub zaniechania określonych czynności,;karze pozbawienia wolności na czas nie krótszy od lat 8.
+37;Kto, oddając usługi wywiadowcze Rzeczypospolitej Polskiej, wprowadza w błąd polski organ państwowy przez dostarczanie podrobionych lub przerobionych dokumentów lub innych przedmiotów albo przez ukrywanie prawdziwych lub udzielanie fałszywych wiadomości mających istotne znaczenie dla Rzeczypospolitej Polskiej,;karze pozbawienia wolności od roku do lat 10.
+38;;karze pozbawienia wolności do lat 3.
+39;Kto publicznie znieważa Naród lub Rzeczpospolitą Polską,;karze pozbawienia wolności na czas nie krótszy od lat 12 albo karze dożywotniego pozbawienia wolności.
+40;Kto dopuszcza się zamachu na życie Prezydenta Rzeczypospolitej Polskiej,;karze pozbawienia wolności od 3 miesięcy do lat 5.
+41;§ 1. Kto dopuszcza się czynnej napaści na Prezydenta Rzeczypospolitej Polskiej,;karze pozbawienia wolności do lat 3.
+42; 2. Kto publicznie znieważa Prezydenta Rzeczypospolitej Polskiej,;karze pozbawienia wolności od 3 miesięcy do lat 5.
+43;§ 1. Kto na terytorium Rzeczypospolitej Polskiej dopuszcza się czynnej napaści na głowę obcego państwa lub akredytowanego szefa przedstawicielstwa dyplomatycznego takiego państwa albo osobę korzystającą z podobnej ochrony na mocy ustaw, umów lub powszechnie uznanych zwyczajów międzynarodowych,;karze pozbawienia wolności do lat 3.
+44; 2. Kto na terytorium Rzeczypospolitej Polskiej dopuszcza się czynnej napaści na osobę należącą do personelu dyplomatycznego przedstawicielstwa obcego państwa albo urzędnika konsularnego obcego państwa, w związku z pełnieniem przez nich obowiązków służbowych,;grzywnie, karze ograniczenia wolności albo pozbawienia wolności do roku.
+45; 4. Kto na terytorium Rzeczypospolitej Polskiej publicznie znieważa osobę określoną w § 2,;grzywnie, karze ograniczenia wolności albo pozbawienia wolności do roku.
+46;§ 1. Kto publicznie znieważa, niszczy, uszkadza lub usuwa godło, sztandar, chorągiew, banderę, flagę lub inny znak państwowy,;karze pozbawienia wolności od roku do lat 10.
+47;§ 1. Kto, w celu osłabienia mocy obronnej Rzeczypospolitej Polskiej, dopuszcza się gwałtownego zamachu na jednostkę Sił Zbrojnych Rzeczypospolitej Polskiej, niszczy lub uszkadza obiekt albo urządzenie o znaczeniu obronnym,;karze pozbawienia wolności od lat 2 do 15.
+48; 2. Jeżeli następstwem czynu jest śmierć człowieka lub ciężki uszczerbek na zdrowiu wielu osób, sprawca;karze pozbawienia wolności do lat 3.
+49; 3. Kto czyni przygotowania do przestępstwa określonego w § 1,;karze pozbawienia wolności od 3 miesięcy do lat 5.
+50;§ 1. Kto, będąc obywatelem polskim, przyjmuje bez zgody właściwego organu obowiązki wojskowe w obcym wojsku lub w obcej organizacji wojskowej,;karze pozbawienia wolności od 6 miesięcy do lat 8.
+51; 2. Kto przyjmuje obowiązki w zakazanej przez prawo międzynarodowe wojskowej służbie najemnej,;karze pozbawienia wolności od 3 miesięcy do lat 5.
+52;§ 1. Kto, wbrew przepisom ustawy, prowadzi zaciąg obywateli polskich lub przebywających w Rzeczypospolitej Polskiej cudzoziemców do służby wojskowej w obcym wojsku lub w obcej organizacji wojskowej,;karze pozbawienia wolności od 6 miesięcy do lat 8.
+53; 2. Kto prowadzi zaciąg obywateli polskich lub przebywających w Rzeczypospolitej Polskiej cudzoziemców do służby w zakazanej przez prawo międzynarodowe wojskowej służbie najemnej albo taką służbę najemną opłaca, organizuje, szkoli lub wykorzystuje,;karze pozbawienia wolności do lat 3.
+54;§ 1. Kto, w celu uzyskania zwolnienia od obowiązku służby wojskowej albo odroczenia tej służby, powoduje u siebie lub dopuszcza, by kto inny spowodował u niego skutek określony w art. 156 spowodowanie ciężkiego uszczerbku na zdrowiu § 1 lub art. 157 spowodowanie średniego i lekkiego uszczerbku na zdrowiu § 1 albo w tym celu używa podstępu dla wprowadzenia w błąd właściwego organu,;grzywnie, karze ograniczenia wolności albo pozbawienia wolności do lat 2.
+55; 3. Kto dopuszcza się czynu zabronionego określonego w § 1 lub 2, jeżeli obowiązek dotyczy służby zastępującej służbę wojskową,;karze pozbawienia wolności do lat 3.
+56;§ 1. Kto, będąc powołanym do pełnienia czynnej służby wojskowej, nie zgłasza się do odbywania tej służby w określonym terminie i miejscu,;grzywnie, karze ograniczenia wolności albo pozbawienia wolności do roku.
+57; 2. W wypadku mniejszej wagi, sprawca;grzywnie albo karze ograniczenia wolności.
+58; 3. Kto nie zgłasza się do odbywania służby zastępującej służbę wojskową w warunkach określonych w § 1,;grzywnie, karze ograniczenia wolności albo pozbawienia wolności do lat 2.
+59;"§ 1. Kto, odbywając służbę zastępującą służbę wojskową:
+1) odmawia pełnienia tej służby, złośliwie lub uporczywie odmawia wykonania obowiązku wynikającego z tej służby albo polecenia w sprawach
+służbowych,
+2) w celu częściowego lub zupełnego uchylenia się od tej służby albo wykonania obowiązku wynikającego z tej służby:
+a) powoduje u siebie lub dopuszcza, by kto inny spowodował u niego skutek określony w art. 156 spowodowanie ciężkiego uszczerbku na zdrowiu § 1 lub art. 157 spowodowanie średniego i lekkiego uszczerbku na zdrowiu § 1,
+b) używa podstępu dla wprowadzenia w błąd przełożonego,";karze pozbawienia wolności do lat 3.
+60; 3. Jeżeli sprawca czynu zabronionego określonego w § 2 opuszcza, w celu trwałego uchylenia się od tej służby, wyznaczone miejsce wykonywania obowiązków służbowych albo w takim celu poza nimi pozostaje,;karze pozbawienia wolności na czas nie krótszy od lat 10 albo karze dożywotniego pozbawienia wolności.
+61;§ 1. Kto zabija człowieka;karze pozbawienia wolności na czas nie krótszy od lat 15 albo karze dożywotniego pozbawienia wolności.
+62;" 2. Kto zabija człowieka:
 1) ze szczególnym okrucieństwem,
 2) w związku z wzięciem zakładnika, zgwałceniem albo rozbojem,
 3) w wyniku motywacji zasługującej na szczególne potępienie,
-4) z użyciem materiałów wybuchowych","od 15 lat do dożywotniego pozbawienia wolności","148 KK"
-57,"§ 3. Karze określonej w § 2 podlega, kto jednym czynem zabija więcej niż jedną
-osobę lub był wcześniej prawomocnie skazany za zabójstwo i sprawca zabójstwa
-funkcjonariusza publicznego popełnionego podczas lub w związku z pełnieniem przez
-niego obowiązków służbowych związanych z ochroną bezpieczeństwa ludzi lub
-ochroną bezpieczeństwa lub porządku publicznego","od 15 lat do dożywotniego pozbawienia wolności","148 KK"
-58,"§ 4. Kto zabija człowieka pod wpływem silnego wzburzenia usprawiedliwionego
-okolicznościami","od roku do 10 lat","148 KK"
-59,"§ 5. Kto czyni przygotowania do: zabicia człowieka, zabicia człowieka: 1) ze szczególnym okrucieństwem,
-2) w związku z wzięciem zakładnika, zgwałceniem albo rozbojem,
-3) w wyniku motywacji zasługującej na szczególne potępienie,
-4) z użyciem materiałów wybuchowych,
-kto jednym czynem zabija więcej niż jedną
-osobę lub był wcześniej prawomocnie skazany za zabójstwo i sprawca zabójstwa
-funkcjonariusza publicznego popełnionego podczas lub w związku z pełnieniem przez
-niego obowiązków służbowych związanych z ochroną bezpieczeństwa ludzi lub
-ochroną bezpieczeństwa lub porządku publicznego","od 2 lat do 15 lat","148 KK"
-60,"§ 1. Kto przyjmuje zlecenie zabójstwa człowieka w zamian za
-udzieloną lub obiecaną korzyść majątkową lub osobistą","od 2 lat do 15 lat","148a KK"
-61,"Matka, która zabija dziecko w okresie porodu pod wpływem jego
-przebiegu","od 3 miesięcy do 5 lat","149 KK"
-62,"§ 1. Kto zabija człowieka na jego żądanie i pod wpływem współczucia
-dla niego","Od 3 miesięcy do 5 lat. W wyjątkowych wypadkach sąd może zastosować nadzwyczajne
-złagodzenie kary, a nawet odstąpić od jej wymierzenia","150 KK"
-63,"Kto namową lub przez udzielenie pomocy doprowadza człowieka do
-targnięcia się na własne życie","Od 3 miesięcy do 5 lat.","151 KK"
-64,"§ 1. Kto za zgodą kobiety przerywa jej ciążę z naruszeniem przepisów
-ustawy","do 3 lat","152 KK"
-65,"§ 2. Tej samej karze podlega, kto udziela kobiecie ciężarnej pomocy
-w przerwaniu ciąży z naruszeniem przepisów ustawy lub ją do tego nakłania","do 3 lat","152 KK"
-66,"§ 3. Kto dopuszcza się czynów: kto za zgodą kobiety przerywa jej ciążę z naruszeniem przepisów
-ustawy lub kto udziela kobiecie ciężarnej pomocy
-w przerwaniu ciąży z naruszeniem przepisów ustawy lub ją do tego nakłania, gdy dziecko poczęte
-osiągnęło zdolność do samodzielnego życia poza organizmem kobiety ciężarnej","od 6 miesięcy do 8 lat","152 KK"
-67,"§ 1. Kto stosując przemoc wobec kobiety ciężarnej lub w inny sposób
-bez jej zgody przerywa ciążę albo przemocą, groźbą bezprawną lub podstępem
-doprowadza kobietę ciężarną do przerwania ciąży","od 6 miesięcy do 8 lat","153 KK"
-68,"§ 2. Kto dopuszcza się czynu: kto stosując przemoc wobec kobiety ciężarnej lub w inny sposób
-bez jej zgody przerywa ciążę albo przemocą, groźbą bezprawną lub podstępem
-doprowadza kobietę ciężarną do przerwania ciąży, gdy dziecko poczęte osiągnęło
-zdolność do samodzielnego życia poza organizmem kobiety ciężarnej","od roku do 10 lat","153 KK"
-69,"§ 1. Jeżeli następstwem czynu: Kto za zgodą kobiety przerywa jej ciążę z naruszeniem przepisów
-ustawy lub kto udziela kobiecie ciężarnej pomocy
-w przerwaniu ciąży z naruszeniem przepisów ustawy lub ją do tego nakłania, jest
-śmierć kobiety ciężarnej","od roku do 10 lat","154 KK"
-70,"Kto nieumyślnie powoduje śmierć człowieka","od 3 miesięcy do 5 lat","155 KK"
-71,"§ 1. Kto powoduje ciężki uszczerbek na zdrowiu w postaci:
+4) z użyciem materiałów wybuchowych,";karze pozbawienia wolności od roku do lat 10.
+63; 4. Kto zabija człowieka pod wpływem silnego wzburzenia usprawiedliwionego okolicznościami,;karze pozbawienia wolności od lat 2 do 15.
+64; 5. Kto czyni przygotowania do przestępstwa określonego w § 1, 2 lub 3,;karze pozbawienia wolności od lat 2 do 15.
+65;§ 1. Kto przyjmuje zlecenie zabójstwa człowieka w zamian za udzieloną lub obiecaną korzyść majątkową lub osobistą,;karze pozbawienia wolności od 3 miesięcy do lat 5.
+66;Matka, która zabija dziecko w okresie porodu pod wpływem jego przebiegu,;karze pozbawienia wolności od 3 miesięcy do lat 5.
+67;§ 1. Kto zabija człowieka na jego żądanie i pod wpływem współczucia dla niego,;karze pozbawienia wolności od 3 miesięcy do lat 5.
+68;Kto namową lub przez udzielenie pomocy doprowadza człowieka do targnięcia się na własne życie,;karze pozbawienia wolności do lat 3.
+69;§ 1. Kto za zgodą kobiety przerywa jej ciążę z naruszeniem przepisów ustawy,;karze pozbawienia wolności od 6 miesięcy do lat 8.
+70; 3. Kto dopuszcza się czynu określonego w § 1 lub 2, gdy dziecko poczęte osiągnęło zdolność do samodzielnego życia poza organizmem kobiety ciężarnej,;karze pozbawienia wolności od 6 miesięcy do lat 8.
+71;§ 1. Kto stosując przemoc wobec kobiety ciężarnej lub w inny sposób bez jej zgody przerywa ciążę albo przemocą, groźbą bezprawną lub podstępem doprowadza kobietę ciężarną do przerwania ciąży,;karze pozbawienia wolności od roku do lat 10.
+72; 2. Kto dopuszcza się czynu określonego w § 1, gdy dziecko poczęte osiągnęło zdolność do samodzielnego życia poza organizmem kobiety ciężarnej,;karze pozbawienia wolności od roku do lat 10.
+73;§ 1. Jeżeli następstwem czynu określonego w art. 152 przerwanie ciąży za zgodą kobiety § 1 lub 2 jest śmierć kobiety ciężarnej, sprawca;karze pozbawienia wolności od lat 2 do 15.
+74; 2. Jeżeli następstwem czynu określonego w art. 152 przerwanie ciąży za zgodą kobiety § 3 lub w art. 153 wymuszone przerwanie ciąży jest śmierć kobiety ciężarnej, sprawca;karze pozbawienia wolności od 3 miesięcy do lat 5.
+75;Kto nieumyślnie powoduje śmierć człowieka,;karze pozbawienia wolności od lat 3 do 20.
+76;"§ 1. Kto powoduje ciężki uszczerbek na zdrowiu w postaci:
 1) pozbawienia człowieka wzroku, słuchu, mowy, zdolności płodzenia,
-2) innego ciężkiego kalectwa, ciężkiej choroby nieuleczalnej lub długotrwałej,
-choroby realnie zagrażającej życiu, trwałej choroby psychicznej, całkowitej albo
-znacznej trwałej niezdolności do pracy w zawodzie lub trwałego, istotnego
-zeszpecenia lub zniekształcenia ciała,
-3) wycięcia, infibulacji lub innego trwałego i istotnego okaleczenia żeńskiego
-narządu płciowego","od 3 lat do 20 lat. Jeżeli następstwem jest śmierć człowieka, to od 5 lat do dożywotniego pozbawienia wolności. Jeśli sprawca działa nieumyślnie, podlega karze pozbawienia wolności do lat 3.","156 KK"
-72,"§ 1. Kto nakłania inną osobę do spowodowania u niej ciężkiego
-uszczerbku na zdrowiu:
-3) wycięcia, infibulacji lub innego trwałego i istotnego okaleczenia żeńskiego
-narządu płciowego","do 3 lat","156a KK"
-73,"§ 2. Kto przemocą lub groźbą bezprawną zmusza inną osobę do spowodowania
-u niej ciężkiego uszczerbku na zdrowiu: 3) wycięcia, infibulacji lub innego trwałego i istotnego okaleczenia żeńskiego
-narządu płciowego","od 3 miesięcy do 5 lat","156a KK"
-74,"§ 1. Kto powoduje naruszenie czynności narządu ciała lub rozstrój
-zdrowia, inny niż: 1) pozbawienia człowieka wzroku, słuchu, mowy, zdolności płodzenia,
-2) innego ciężkiego kalectwa, ciężkiej choroby nieuleczalnej lub długotrwałej,
-choroby realnie zagrażającej życiu, trwałej choroby psychicznej, całkowitej albo
-znacznej trwałej niezdolności do pracy w zawodzie lub trwałego, istotnego
-zeszpecenia lub zniekształcenia ciała,
-3) wycięcia, infibulacji lub innego trwałego i istotnego okaleczenia żeńskiego
-narządu płciowego
-","od 3 miesięcy do 5 lat","157 KK"
+2) innego ciężkiego kalectwa, ciężkiej choroby nieuleczalnej lub długotrwałej, choroby realnie zagrażającej życiu, trwałej choroby psychicznej, całkowitej albo znacznej trwałej niezdolności do pracy w zawodzie lub trwałego, istotnego zeszpecenia lub zniekształcenia ciała,
+3) wycięcia, infibulacji lub innego trwałego i istotnego okaleczenia żeńskiego narządu płciowego,";karze pozbawienia wolności do lat 3.
+77; 2. Jeżeli sprawca działa nieumyślnie,;karze pozbawienia wolności na czas nie krótszy od lat 5 albo karze dożywotniego pozbawienia wolności.
+78; 3. Jeżeli następstwem czynu określonego w § 1 jest śmierć człowieka, sprawca;karze pozbawienia wolności do lat 3.
+79;§ 1. Kto nakłania inną osobę do spowodowania u niej ciężkiego uszczerbku na zdrowiu, o którym mowa w art. 156 spowodowanie ciężkiego uszczerbku na zdrowiu § 1 pkt 3,;karze pozbawienia wolności od 3 miesięcy do 5 lat.
+80; 2. Kto przemocą lub groźbą bezprawną zmusza inną osobę do spowodowania u niej ciężkiego uszczerbku na zdrowiu, o którym mowa w art. 156 spowodowanie ciężkiego uszczerbku na zdrowiu § 1 pkt 3,;karze pozbawienia wolności od 3 miesięcy do lat 5.
+81;§ 1. Kto powoduje naruszenie czynności narządu ciała lub rozstrój zdrowia, inny niż określony w art. 156 spowodowanie ciężkiego uszczerbku na zdrowiu § 1,;grzywnie, karze ograniczenia wolności albo pozbawienia wolności do lat 2.
+82; 2. Kto powoduje naruszenie czynności narządu ciała lub rozstrój zdrowia trwający nie dłużej niż 7 dni,;grzywnie, karze ograniczenia wolności albo pozbawienia wolności do roku.
+83; 3. Jeżeli sprawca czynu określonego w § 1 lub 2 działa nieumyślnie,;grzywnie, karze ograniczenia wolności albo pozbawienia wolności do lat 2.
+84;§ 1. Kto powoduje uszkodzenie ciała dziecka poczętego lub rozstrój zdrowia zagrażający jego życiu,;karze pozbawienia wolności od 3 miesięcy do lat 5.
+85;§ 1. Kto bierze udział w bójce lub pobiciu, w którym naraża się człowieka na bezpośrednie niebezpieczeństwo utraty życia albo nastąpienie skutku określonego w art. 156 spowodowanie ciężkiego uszczerbku na zdrowiu § 1 lub w art. 157 spowodowanie średniego i lekkiego uszczerbku na zdrowiu § 1,;karze pozbawienia wolności od roku do lat 10.
+86; 2. Jeżeli następstwem bójki lub pobicia jest ciężki uszczerbek na zdrowiu człowieka, sprawca;karze pozbawienia wolności od lat 2 do 15.
+87; 3. Jeżeli następstwem bójki lub pobicia jest śmierć człowieka, sprawca;karze pozbawienia wolności od 6 miesięcy do lat 8.
+88;Kto, biorąc udział w bójce lub pobiciu człowieka, używa broni palnej, noża lub innego podobnie niebezpiecznego przedmiotu,;karze pozbawienia wolności do lat 3.
+89;§ 1. Kto naraża człowieka na bezpośrednie niebezpieczeństwo utraty życia albo ciężkiego uszczerbku na zdrowiu,;karze pozbawienia wolności od 3 miesięcy do lat 5.
+90; 2. Jeżeli na sprawcy ciąży obowiązek opieki nad osobą narażoną na niebezpieczeństwo,;grzywnie, karze ograniczenia wolności albo pozbawienia wolności do roku.
+91; 3. Jeżeli sprawca czynu określonego w § 1 lub 2 działa nieumyślnie,;karze pozbawienia wolności od 3 miesięcy do lat 5.
+92;§ 1. Kto, wiedząc, że jest zarażony wirusem HIV lub dotknięty chorobą weneryczną lub zakaźną, ciężką chorobą nieuleczalną lub realnie zagrażającą życiu, naraża bezpośrednio inną osobę na zarażenie tym wirusem lub taką chorobą,;karze pozbawienia wolności od roku do lat 10.
+93; 3. Jeżeli sprawca czynu określonego w § 1 naraża na zarażenie wiele osób,;karze pozbawienia wolności do lat 3.
+94;§ 1. Kto człowiekowi znajdującemu się w położeniu grożącym bezpośrednim niebezpieczeństwem utraty życia albo ciężkiego uszczerbku na zdrowiu nie udziela pomocy, mogąc jej udzielić bez narażenia siebie lub innej osoby na niebezpieczeństwo utraty życia albo ciężkiego uszczerbku na zdrowiu,;karze pozbawienia wolności od roku do lat 10.
+95;"§ 1. Kto sprowadza zdarzenie, które zagraża życiu lub zdrowiu wielu osób albo mieniu w wielkich rozmiarach, mające postać:
+1) pożaru,
+2) zawalenia się budowli, zalewu albo obsunięcia się ziemi, skał lub śniegu,
+3) eksplozji materiałów wybuchowych lub łatwopalnych albo innego gwałtownego wyzwolenia energii, rozprzestrzeniania się substancji trujących, duszących lub parzących,
+4) gwałtownego wyzwolenia energii jądrowej lub wyzwolenia promieniowania jonizującego,";karze pozbawienia wolności od 3 miesięcy do lat 5.
+96; 2. Jeżeli sprawca działa nieumyślnie,;karze pozbawienia wolności od lat 2 do 15.
+97; 3. Jeżeli następstwem czynu określonego w § 1 jest śmierć człowieka lub ciężki uszczerbek na zdrowiu wielu osób, sprawca;karze pozbawienia wolności od 6 miesięcy do lat 8.
+98; 4. Jeżeli następstwem czynu określonego w § 2 jest śmierć człowieka lub ciężki uszczerbek na zdrowiu wielu osób, sprawca;karze pozbawienia wolności od 6 miesięcy do lat 8.
+99;§ 1. Kto sprowadza bezpośrednie niebezpieczeństwo zdarzenia określonego w art. 163 sprowadzenie zdarzenia niebezpiecznego § 1,;karze pozbawienia wolności do lat 3.
+100; 2. Jeżeli sprawca działa nieumyślnie,;karze pozbawienia wolności od 6 miesięcy do lat 8.
+101;"§ 1. Kto sprowadza niebezpieczeństwo dla życia lub zdrowia wielu osób albo dla mienia w wielkich rozmiarach:
+1) powodując zagrożenie epidemiologiczne lub szerzenie się choroby zakaźnej albo zarazy zwierzęcej lub roślinnej,
+2) wyrabiając lub wprowadzając do obrotu szkodliwe dla zdrowia substancje, środki spożywcze lub inne artykuły powszechnego użytku lub też środki farmaceutyczne nie odpowiadające obowiązującym warunkom jakości,
+3) powodując uszkodzenie lub unieruchomienie urządzenia użyteczności publicznej, w szczególności urządzenia dostarczającego wodę, światło, ciepło, gaz, energię albo urządzenia zabezpieczającego przed nastąpieniem niebezpieczeństwa powszechnego lub służącego do jego uchylenia,
+4) zakłócając, uniemożliwiając lub w inny sposób wpływając na automatyczne przetwarzanie, gromadzenie lub przekazywanie danych informatycznych,
+5) działając w inny sposób w okolicznościach szczególnie niebezpiecznych,";karze pozbawienia wolności do lat 3.
+102; 2. Jeżeli sprawca działa nieumyślnie,;karze pozbawienia wolności od lat 2 do 15.
+103; 3. Jeżeli następstwem czynu określonego w § 1 jest śmierć człowieka lub ciężki uszczerbek na zdrowiu wielu osób, sprawca;karze pozbawienia wolności od 6 miesięcy do lat 8.
+104; 4. Jeżeli następstwem czynu określonego w § 2 jest śmierć człowieka lub ciężki uszczerbek na zdrowiu wielu osób, sprawca;karze pozbawienia wolności od lat 2 do 15.
+105;§ 1. Kto gromadzi, przekazuje lub oferuje środki płatnicze, instrumenty finansowe, papiery wartościowe, wartości dewizowe, prawa majątkowe lub inne mienie ruchome lub nieruchomości w zamiarze sfinansowania przestępstwa o charakterze terrorystycznym lub przestępstwa, o którym mowa w art. 120 stosowanie środków masowej zagłady, art. 121 wytwarzanie, gromadzenie i obrót środkami zakazanymi, art. 136 czynna napaść lub znieważenie przedstawiciela obcego państwa, art. 166 przejęcie kontroli nad statkiem wodnym lub powietrznym albo publicznym środkiem transportu lądowego, art. 167 umieszczenie na statku lub w publicznym środku transportu lądowego niebezpiecznego urządzenia lub substancji, art. 171 wytwarzanie lub obrót substancjami, materiałami i urządzeniami niebezpiecznymi, art. 252 wzięcie lub przetrzymywanie zakładnika, art. 255a rozpowszechnianie treści ułatwiających popełnienie przestępstwa o charakterze terrorystycznym lub art. 259a przekroczenie granicy RP w celu popełnienia przestępstwa o charakterze terrorystycznym,;karze pozbawienia wolności do lat 3.
+106; 3. Kto, nie będąc do tego obowiązany na mocy ustawy, pokrywa koszty związane z zaspokojeniem potrzeb lub wykonaniem zobowiązań finansowych grupy, związku lub osoby, o których mowa w § 2,;karze pozbawienia wolności od lat 2 do 15.
+107;§ 1. Kto, stosując podstęp albo gwałt na osobie lub groźbę bezpośredniego użycia takiego gwałtu, przejmuje kontrolę nad statkiem wodnym lub powietrznym albo nad publicznym środkiem transportu lądowego,;karze pozbawienia wolności od lat 3 do 20.
+108; 2. Kto, działając w sposób określony w § 1, sprowadza bezpośrednie niebezpieczeństwo dla życia lub zdrowia wielu osób,;karze pozbawienia wolności od lat 5 do 25.
+109; 3. Jeżeli następstwem czynu określonego w § 2 jest śmierć człowieka lub ciężki uszczerbek na zdrowiu wielu osób, sprawca;karze pozbawienia wolności od 3 miesięcy do lat 5.
+110;§ 1. Kto umieszcza na statku wodnym lub powietrznym albo w publicznym środku transportu lądowego urządzenie lub substancję zagrażającą bezpieczeństwu osób lub mieniu znacznej wartości,;karze pozbawienia wolności do lat 3.
+111;Kto czyni przygotowania do przestępstwa określonego w art. 163 sprowadzenie zdarzenia niebezpiecznego § 1, art. 165 sprowadzenie niebezpieczeństwa powszechnego § 1, art. 166 przejęcie kontroli nad statkiem wodnym lub powietrznym albo publicznym środkiem transportu lądowego § 1 lub w art. 167 umieszczenie na statku lub w publicznym środku transportu lądowego niebezpiecznego urządzenia lub substancji § 1,;karze pozbawienia wolności od roku do lat 10.
+112;Kto uzbraja lub przysposabia statek morski przeznaczony do dokonania na morzu rabunku lub na takim statku przyjmuje służbę,;karze pozbawienia wolności od 6 miesięcy do lat 8.
+113;§ 1. Kto, bez wymaganego zezwolenia lub wbrew jego warunkom, wyrabia, przetwarza, gromadzi, posiada, posługuje się lub handluje substancją lub przyrządem wybuchowym, materiałem radioaktywnym, urządzeniem emitującym promienie jonizujące lub innym przedmiotem lub substancją, która może sprowadzić niebezpieczeństwo dla życia lub zdrowia wielu osób albo mienia w wielkich rozmiarach,;karze pozbawienia wolności od 3 miesięcy do lat 5.
+114;Kto przeszkadza działaniu mającemu na celu zapobieżenie niebezpieczeństwu dla życia lub zdrowia wielu osób albo mienia w wielkich rozmiarach,;karze pozbawienia wolności od roku do lat 10.
+115;§ 1. Kto sprowadza katastrofę w ruchu lądowym, wodnym lub powietrznym zagrażającą życiu lub zdrowiu wielu osób albo mieniu w wielkich rozmiarach,;karze pozbawienia wolności od 3 miesięcy do lat 5.
+116; 2. Jeżeli sprawca działa nieumyślnie,;karze pozbawienia wolności od lat 2 do 15.
+117; 3. Jeżeli następstwem czynu określonego w § 1 jest śmierć człowieka lub ciężki uszczerbek na zdrowiu wielu osób, sprawca;karze pozbawienia wolności od 6 miesięcy do lat 8.
+118; 4. Jeżeli następstwem czynu określonego w § 2 jest śmierć człowieka lub ciężki uszczerbek na zdrowiu wielu osób, sprawca;karze pozbawienia wolności od 6 miesięcy do lat 8.
+119;§ 1. Kto sprowadza bezpośrednie niebezpieczeństwo katastrofy w ruchu lądowym, wodnym lub powietrznym,;karze pozbawienia wolności do lat 3.
+120; 2. Jeżeli sprawca działa nieumyślnie,;karze pozbawienia wolności do lat 3.
+121;Kto czyni przygotowania do przestępstwa określonego w art. 173 sprowadzenie katastrofy komunikacyjnej § 1,;karze pozbawienia wolności do lat 3.
+122;§ 1. Kto, naruszając, chociażby nieumyślnie, zasady bezpieczeństwa w ruchu lądowym, wodnym lub powietrznym, powoduje nieumyślnie wypadek, w którym inna osoba odniosła obrażenia ciała określone w art. 157 spowodowanie średniego i lekkiego uszczerbku na zdrowiu § 1,;karze pozbawienia wolności od 6 miesięcy do lat 8.
+123; 2. Jeżeli następstwem wypadku jest śmierć innej osoby albo ciężki uszczerbek na jej zdrowiu, sprawca;karze pozbawienia wolności do lat 3.
+124;§ 1. Kto, znajdując się w stanie nietrzeźwości lub pod wpływem środka odurzającego, prowadzi pojazd mechaniczny w ruchu lądowym, wodnym lub powietrznym;karze pozbawienia wolności od 3 miesięcy do lat 5.
+125; 4. Jeżeli sprawca czynu określonego w § 1 był wcześniej prawomocnie skazany za prowadzenie pojazdu mechanicznego w stanie nietrzeźwości lub pod wpływem środka odurzającego albo za przestępstwo określone w art. 173 sprowadzenie katastrofy komunikacyjnej, art. 174 sprowadzenie bezpośredniego niebezpieczeństwa katastrofy w ruchu, art. 177 spowodowanie wypadku w ruchu lub art. 355 spowodowanie wypadku komunikacyjnego przez żołnierza § 2 popełnione w stanie nietrzeźwości lub pod wpływem środka odurzającego lub dopuścił się czynu określonego w § 1 w okresie obowiązywania zakazu prowadzenia pojazdów mechanicznych orzeczonego w związku ze skazaniem za przestępstwo,;karze pozbawienia wolności od 3 miesięcy do lat 5.
+126;Kto, pomimo wydania przez osobę uprawnioną do kontroli ruchu drogowego, poruszającą się pojazdem lub znajdującą się na statku wodnym albo powietrznym, przy użyciu sygnałów dźwiękowych i świetlnych, polecenia zatrzymania pojazdu mechanicznego nie zatrzymuje niezwłocznie pojazdu i kontynuuje jazdę,;grzywnie, karze ograniczenia wolności albo pozbawienia wolności do lat 2.
+127;Kto wbrew szczególnemu obowiązkowi dopuszcza do ruchu pojazd mechaniczny albo inny pojazd w stanie bezpośrednio zagrażającym bezpieczeństwu w ruchu lądowym, wodnym lub powietrznym lub dopuszcza do prowadzenia pojazdu mechanicznego albo innego pojazdu na drodze publicznej, w strefie zamieszkania lub w strefie ruchu przez osobę znajdującą się w stanie nietrzeźwości, będącą pod wpływem środka odurzającego lub osobę nieposiadającą wymaganych uprawnień,;karze pozbawienia wolności od 3 miesięcy do lat 5.
+128;Kto, znajdując się w stanie nietrzeźwości lub pod wpływem środka odurzającego, pełni czynności związane bezpośrednio z zapewnieniem bezpieczeństwa ruchu pojazdów mechanicznych,;grzywnie, karze ograniczenia wolności albo pozbawienia wolności do lat 2.
+129;Kto na drodze publicznej, w strefie zamieszkania lub w strefie ruchu, prowadzi pojazd mechaniczny, nie stosując się do decyzji właściwego organu o cofnięciu uprawnienia do kierowania pojazdami;karze pozbawienia wolności od 6 miesięcy do lat 8.
+130;§ 1. Kto powoduje zniszczenie w świecie roślinnym lub zwierzęcym w znacznych rozmiarach,;grzywnie, karze ograniczenia wolności albo pozbawienia wolności od 3 miesięcy do lat 5.
+131; 2. Kto, wbrew przepisom obowiązującym na terenie objętym ochroną, niszczy lub uszkadza rośliny, zwierzęta, grzyby lub ich siedliska, lub siedliska przyrodnicze, powodując istotną szkodę,;grzywnie, karze ograniczenia wolności albo pozbawienia wolności do lat 2.
+132; 4. Jeżeli sprawca czynu określonego w § 1 działa nieumyślnie,;grzywnie albo karze ograniczenia wolności.
+133; 5. Jeżeli sprawca czynu określonego w § 2 lub 3 działa nieumyślnie,;karze pozbawienia wolności od 6 miesięcy do lat 8.
+134;§ 1. Kto zanieczyszcza wodę, powietrze lub powierzchnię ziemi substancją albo promieniowaniem jonizującym w takiej ilości lub w takiej postaci, że może to zagrozić życiu lub zdrowiu człowieka lub spowodować istotne obniżenie jakości wody, powietrza lub powierzchni ziemi lub zniszczenie w świecie roślinnym lub zwierzęcym w znacznych rozmiarach,;grzywnie, karze ograniczenia wolności albo pozbawienia wolności do lat 3.
+135; 2. Jeżeli sprawca czynu określonego w § 1 działa nieumyślnie,;karze pozbawienia wolności od roku do lat 10.
+136; 3. Jeżeli czyn określony w § 1 został popełniony w związku z eksploatacją instalacji działającej w ramach zakładu, w zakresie korzystania ze środowiska, na które wymagane jest pozwolenie, sprawca;karze pozbawienia wolności od 3 miesięcy do lat 5.
+137; 4. Jeżeli sprawca czynu określonego w § 3 działa nieumyślnie,;karze pozbawienia wolności od roku do lat 10.
+138;§ 1. Kto wbrew przepisom składuje, usuwa, przetwarza, zbiera, unieszkodliwia, transportuje odpady lub substancje albo dokonuje odzysku odpadów lub substancji w takich warunkach lub w taki sposób, że może to zagrozić życiu lub zdrowiu człowieka lub spowodować obniżenie jakości wody, powietrza lub powierzchni ziemi lub zniszczenie w świecie roślinnym lub zwierzęcym,;karze pozbawienia wolności od lat 2 do 12.
+139; 5. Kto bez wymaganego zgłoszenia lub zezwolenia albo wbrew jego warunkom przywozi z zagranicy lub wywozi za granicę odpady niebezpieczne,;grzywnie, karze ograniczenia wolności albo pozbawienia wolności do lat 5.
+140; 6. Jeżeli sprawca czynu określonego w § 1–5a działa nieumyślnie,;karze pozbawienia wolności od 3 miesięcy do lat 5.
+141;§ 1. Kto wyrabia, przetwarza, transportuje, przywozi z zagranicy, wywozi za granicę, gromadzi, składuje, przechowuje, posiada, wykorzystuje, posługuje się, usuwa, porzuca lub pozostawia bez właściwego zabezpieczenia materiał jądrowy albo inne źródło promieniowania jonizującego, w takich warunkach lub w taki sposób, że może to zagrozić życiu lub zdrowiu człowieka lub spowodować istotne obniżenie jakości wody, powietrza lub powierzchni ziemi lub zniszczenie w świecie roślinnym lub zwierzęcym w znacznych rozmiarach,;grzywnie, karze ograniczenia wolności albo pozbawienia wolności do lat 2.
+142; 3. Jeżeli sprawca czynu określonego w § 1 lub 2 działa nieumyślnie,;karze pozbawienia wolności od lat 2 do 12.
+143;§ 1. Jeżeli następstwem czynu określonego w art. 182 zanieczyszczanie środowiska w znacznych rozmiarach § 1 lub 3, art. 183 naruszanie przepisów w postępowaniu z odpadami § 1 lub 3 lub w art. 184 nieodpowiednie postępowanie z materiałami promieniowania jonizującego § 1 lub 2 jest zniszczenie w świecie roślinnym lub zwierzęcym w znacznych rozmiarach lub istotne obniżenie jakości wody, powietrza lub powierzchni ziemi, sprawca;karze pozbawienia wolności od lat 2 do 12.
+144; 2. Jeżeli następstwem czynu określonego w art. 182 zanieczyszczanie środowiska w znacznych rozmiarach § 1 lub 3, art. 183 naruszanie przepisów w postępowaniu z odpadami § 1 lub 3 lub w art. 184 nieodpowiednie postępowanie z materiałami promieniowania jonizującego § 1 lub 2 jest ciężki uszczerbek na zdrowiu człowieka, sprawca;karze pozbawienia wolności od lat 3 do 20.
+145; 3. Jeżeli następstwem czynu określonego w art. 182 zanieczyszczanie środowiska w znacznych rozmiarach § 1 lub 3, art. 183 naruszanie przepisów w postępowaniu z odpadami § 1 lub 3 lub w art. 184 nieodpowiednie postępowanie z materiałami promieniowania jonizującego § 1 lub 2 jest śmierć człowieka lub ciężki uszczerbek na zdrowiu wielu osób, sprawca;grzywnie, karze ograniczenia wolności albo pozbawienia wolności od 3 miesięcy do lat 5.
+146;§ 1. Kto wbrew obowiązkowi nie utrzymuje w należytym stanie lub nie używa urządzeń zabezpieczających wodę, powietrze lub powierzchnię ziemi przed zanieczyszczeniem lub urządzeń zabezpieczających przed skażeniem promieniotwórczym lub promieniowaniem jonizującym,;grzywnie albo karze ograniczenia wolności.
+147; 3. Jeżeli sprawca czynu określonego w § 1 lub 2 działa nieumyślnie,;grzywnie, karze ograniczenia wolności albo pozbawienia wolności do lat 2.
+148;§ 1. Kto niszczy, poważnie uszkadza lub istotnie zmniejsza wartość przyrodniczą prawnie chronionego terenu lub obiektu, powodując istotną szkodę,;grzywnie albo karze ograniczenia wolności.
+149; 2. Jeżeli sprawca działa nieumyślnie,;grzywnie, karze ograniczenia wolności albo pozbawienia wolności do lat 2.
+150;Kto, na terenie objętym ochroną ze względów przyrodniczych lub krajobrazowych albo w otulinie takiego terenu, wbrew przepisom, wznosi nowy lub powiększa istniejący obiekt budowlany albo prowadzi działalność gospodarczą zagrażającą środowisku,;karze pozbawienia wolności od 3 miesięcy do lat 5.
+151;§ 1. Kto pozbawia człowieka wolności,;karze pozbawienia wolności od roku do lat 10.
+152; 2. Jeżeli pozbawienie wolności trwało dłużej niż 7 dni, sprawca;karze pozbawienia wolności od lat 2 do 15.
+153; 2a. Jeżeli pozbawienie wolności, o którym mowa w § 2, dotyczy osoby nieporadnej ze względu na jej wiek, stan psychiczny lub fizyczny, sprawca;karze pozbawienia wolności od lat 5 do 25.
+154; 3. Jeżeli pozbawienie wolności, o którym mowa w § 1–2a, łączyło się ze szczególnym udręczeniem, sprawca;karze pozbawienia wolności od lat 3 do 20.
+155;§ 1. Kto dopuszcza się handlu ludźmi;karze pozbawienia wolności od 3 miesięcy do lat 5.
+156; 2. Kto czyni przygotowania do popełnienia przestępstwa określonego w § 1;karze pozbawienia wolności do lat 3.
+157;§ 1. Kto grozi innej osobie popełnieniem przestępstwa na jej szkodę lub na szkodę osoby dla niej najbliższej, jeżeli groźba wzbudza w osobie, do której została skierowana lub której dotyczy, uzasadnioną obawę, że będzie spełniona,;karze pozbawienia wolności od 6 miesięcy do lat 8.
+158;§ 1. Kto przez uporczywe nękanie innej osoby lub osoby dla niej najbliższej wzbudza u niej uzasadnione okolicznościami poczucie zagrożenia, poniżenia lub udręczenia lub istotnie narusza jej prywatność,; 3. Jeżeli następstwem czynu określonego w § 1 lub 2 jest targnięcie się pokrzywdzonego na własne życie, sprawca podlega karze pozbawienia wolności od lat 2 do 15.
+159;§ 1. Kto, stosując przemoc wobec osoby lub groźbę bezprawną, zmusza ją lub inną osobę do określonego działania, zaniechania lub znoszenia,;karze pozbawienia wolności do lat 3.
+160; 2. Jeżeli sprawca działa w sposób określony w § 1 w celu wymuszenia zwrotu wierzytelności,;karze pozbawienia wolności od 3 miesięcy do lat 5.
+161;§ 1. Kto utrwala wizerunek nagiej osoby lub osoby w trakcie czynności seksualnej, używając w tym celu wobec niej przemocy, groźby bezprawnej lub podstępu, albo wizerunek nagiej osoby lub osoby w trakcie czynności seksualnej bez jej zgody rozpowszechnia,;karze pozbawienia wolności od 3 miesięcy do lat 5.
+162;§ 1. Kto przemocą, groźbą bezprawną lub przez nadużycie stosunku zależności lub wykorzystanie krytycznego położenia doprowadza inną osobę do zawarcia małżeństwa lub związku, który odpowiada małżeństwu w kręgu wyznaniowym lub kulturowym sprawcy,;karze pozbawienia wolności od 3 miesięcy do 5 lat.
+163;§ 1. Kto wykonuje zabieg leczniczy bez zgody pacjenta,;grzywnie, karze ograniczenia wolności albo pozbawienia wolności do lat 2.
+164;§ 1. Kto wdziera się do cudzego domu, mieszkania, lokalu, pomieszczenia albo ogrodzonego terenu albo wbrew żądaniu osoby uprawnionej miejsca takiego nie opuszcza,;grzywnie, karze ograniczenia wolności albo pozbawienia wolności do roku.
+165;Kto ogranicza człowieka w przysługujących mu prawach ze względu na jego przynależność wyznaniową albo bezwyznaniowość,;grzywnie, karze ograniczenia wolności albo pozbawienia wolności do lat 2.
+166;§ 1. Kto złośliwie przeszkadza publicznemu wykonywaniu aktu religijnego kościoła lub innego związku wyznaniowego o uregulowanej sytuacji prawnej,;grzywnie, karze ograniczenia wolności albo pozbawienia wolności do lat 2.
+167;Kto obraża uczucia religijne innych osób, znieważając publicznie przedmiot czci religijnej lub miejsce przeznaczone do publicznego wykonywania obrzędów religijnych,;grzywnie, karze ograniczenia wolności albo pozbawienia wolności do lat 2.
+168;§ 1. Kto przemocą, groźbą bezprawną lub podstępem doprowadza inną osobę do obcowania płciowego,;karze pozbawienia wolności od lat 2 do 15.
+169; 2. Jeżeli sprawca, w sposób określony w § 1, doprowadza inną osobę do poddania się innej czynności seksualnej albo wykonania takiej czynności,;karze pozbawienia wolności od 6 miesięcy do lat 8.
+170; 4. Jeżeli sprawca dopuszcza się zgwałcenia wobec małoletniego poniżej lat 15 lub sprawca czynu określonego w § 1–3 działa ze szczególnym okrucieństwem lub następstwem tego czynu jest ciężki uszczerbek na zdrowiu,;karze pozbawienia wolności od lat 3 do 20.
+171; 5. Jeżeli następstwem czynu określonego w § 1–4 jest śmierć człowieka, sprawca;karze pozbawienia wolności na czas nie krótszy od lat 5 albo karze dożywotniego pozbawienia wolności.
+172;Kto, wykorzystując bezradność innej osoby lub wynikający z upośledzenia umysłowego lub choroby psychicznej brak zdolności tej osoby do rozpoznania znaczenia czynu lub pokierowania swoim postępowaniem, doprowadza ją do obcowania płciowego lub do poddania się innej czynności seksualnej albo do wykonania takiej czynności,;karze pozbawienia wolności na czas nie krótszy od lat 8 albo karze dożywotniego pozbawienia wolności.
+173;§ 1. Kto, przez nadużycie stosunku zależności lub wykorzystanie krytycznego położenia, doprowadza inną osobę do obcowania płciowego lub do poddania się innej czynności seksualnej albo do wykonania takiej czynności,;karze pozbawienia wolności od 6 miesięcy do lat 8.
+174;§ 1. Kto obcuje płciowo z małoletnim poniżej lat 15 lub dopuszcza się wobec takiej osoby innej czynności seksualnej lub doprowadza ją do poddania się takim czynnościom albo do ich wykonania,;karze pozbawienia wolności do lat 3.
+175; 3. Kto małoletniemu poniżej lat 15 prezentuje treści pornograficzne lub udostępnia mu przedmioty mające taki charakter albo rozpowszechnia treści pornograficzne w sposób umożliwiający takiemu małoletniemu zapoznanie się z nimi;karze pozbawienia wolności od lat 2 do 15.
+176;§ 1. Kto w celu popełnienia przestępstwa określonego w art. 197 zgwałcenie lub wymuszenie czynności seksualnej § 4 lub art. 200 obcowanie płciowe z osobą małoletnią lub doprowadzenie jej do poddania się czynnościom seksualnym, jak również produkowania lub utrwalania treści pornograficznych, za pośrednictwem systemu teleinformatycznego lub sieci telekomunikacyjnej nawiązuje kontakt z małoletnim poniżej lat 15, zmierzając, za pomocą wprowadzenia go w błąd, wyzyskania błędu lub niezdolności do należytego pojmowania sytuacji albo przy użyciu groźby bezprawnej, do spotkania z nim,;karze pozbawienia wolności do lat 3.
+177; 2. Kto za pośrednictwem systemu teleinformatycznego lub sieci telekomunikacyjnej małoletniemu poniżej lat 15 składa propozycję obcowania płciowego, poddania się lub wykonania innej czynności seksualnej lub udziału w produkowaniu lub utrwalaniu treści pornograficznych, i zmierza do jej realizacji,;karze pozbawienia wolności do lat 3.
+178;Kto publicznie propaguje lub pochwala zachowania o charakterze pedofilskim,;grzywnie, karze ograniczenia wolności albo pozbawienia wolności do lat 2.
+179;Kto dopuszcza się obcowania płciowego w stosunku do wstępnego, zstępnego, przysposobionego, przysposabiającego, brata lub siostry,;karze pozbawienia wolności do lat 3.
+180;§ 1. Kto publicznie prezentuje treści pornograficzne w taki sposób, że może to narzucić ich odbiór osobie, która tego sobie nie życzy,;karze pozbawienia wolności od 3 miesięcy do lat 5.
+181; 3. Kto w celu rozpowszechniania produkuje, utrwala lub sprowadza, przechowuje lub posiada albo rozpowszechnia lub prezentuje treści pornograficzne z udziałem małoletniego albo treści pornograficzne związane z prezentowaniem przemocy lub posługiwaniem się zwierzęciem;karze pozbawienia wolności do lat 3.
+182; 4. Kto utrwala treści pornograficzne z udziałem małoletniego;karze pozbawienia wolności od lat 2 do 15.
+183; 4a. Kto przechowuje, posiada lub uzyskuje dostęp do treści pornograficznych z udziałem małoletniego;karze pozbawienia wolności od roku do lat 10.
+184; 4b. Kto produkuje, rozpowszechnia, prezentuje, przechowuje lub posiada treści pornograficzne przedstawiające wytworzony albo przetworzony wizerunek małoletniego uczestniczącego w czynności seksualnej;karze pozbawienia wolności od 3 miesięcy do lat 5.
+185;§ 1. Kto, wykorzystując stosunek zależności lub krytyczne położenie, doprowadza inną osobę do uprawiania prostytucji,;karze pozbawienia wolności do lat 3.
+186; 2. Kto, przemocą, groźbą bezprawną lub podstępem doprowadza inną osobę do uprawiania prostytucji,;karze pozbawienia wolności od roku do lat 10.
+187;§ 1. Kto, w celu osiągnięcia korzyści majątkowej, nakłania inną osobę do uprawiania prostytucji lub jej to ułatwia;karze pozbawienia wolności od lat 2 do 15.
+188; 3. Jeżeli osoba określona w § 1 lub 2 jest małoletnim, sprawca;karze pozbawienia wolności od 3 miesięcy do lat 5.
+189;Kto zawiera małżeństwo, pomimo że pozostaje w związku małżeńskim,;karze pozbawienia wolności od roku do lat 10.
+190;§ 1. Kto znęca się fizycznie lub psychicznie nad osobą najbliższą lub nad inną osobą pozostającą w stałym lub przemijającym stosunku zależności od sprawcy,;grzywnie, karze ograniczenia wolności albo pozbawienia wolności do lat 2.
+191; 1a. Kto znęca się fizycznie lub psychicznie nad osobą nieporadną ze względu na jej wiek, stan psychiczny lub fizyczny,;karze pozbawienia wolności od 3 miesięcy do lat 5.
+192; 2. Jeżeli czyn określony w § 1 lub 1a połączony jest ze stosowaniem szczególnego okrucieństwa, sprawca;karze pozbawienia wolności od 6 miesięcy do lat 8.
+193; 3. Jeżeli następstwem czynu określonego w § 1–2 jest targnięcie się pokrzywdzonego na własne życie, sprawca;karze pozbawienia wolności od roku do lat 10.
+194;Kto rozpija małoletniego, dostarczając mu napoju alkoholowego, ułatwiając jego spożycie lub nakłaniając go do spożycia takiego napoju,;karze pozbawienia wolności od lat 2 do 15.
+195;§ 1. Kto uchyla się od wykonania obowiązku alimentacyjnego określonego co do wysokości orzeczeniem sądowym, ugodą zawartą przed sądem albo innym organem albo inną umową, jeżeli łączna wysokość powstałych wskutek tego zaległości stanowi równowartość co najmniej 3 świadczeń okresowych albo jeżeli opóźnienie zaległego świadczenia innego niż okresowe wynosi co najmniej 3 miesiące,;grzywnie, karze ograniczenia wolności albo pozbawienia wolności do lat 2.
+196; 1a. Jeżeli sprawca czynu określonego w § 1 naraża osobę uprawnioną na niemożność zaspokojenia podstawowych potrzeb życiowych,;grzywnie, karze ograniczenia wolności albo pozbawienia wolności do roku.
+197;§ 1. Kto wbrew obowiązkowi troszczenia się o małoletniego poniżej lat 15 albo o osobę nieporadną ze względu na jej stan psychiczny lub fizyczny osobę tę porzuca,;grzywnie, karze ograniczenia wolności albo pozbawienia wolności do lat 2.
+198; 2. Jeżeli następstwem czynu jest śmierć osoby określonej w § 1, sprawca;karze pozbawienia wolności od 3 miesięcy do lat 5.
+199;Kto, wbrew woli osoby powołanej do opieki lub nadzoru, uprowadza lub zatrzymuje małoletniego poniżej lat 15 albo osobę nieporadną ze względu na jej stan psychiczny lub fizyczny,;karze pozbawienia wolności od lat 2 do 15.
+200;§ 1. Kto, w celu osiągnięcia korzyści majątkowej, zajmuje się organizowaniem adopcji dzieci wbrew przepisom ustawy,;karze pozbawienia wolności od 3 miesięcy do lat 5.
+201;§ 1. Kto pomawia inną osobę, grupę osób, instytucję, osobę prawną lub jednostkę organizacyjną niemającą osobowości prawnej o takie postępowanie lub właściwości, które mogą poniżyć ją w opinii publicznej lub narazić na utratę zaufania potrzebnego dla danego stanowiska, zawodu lub rodzaju działalności,;karze pozbawienia wolności od 3 miesięcy do lat 5.
+202; 2. Jeżeli sprawca dopuszcza się czynu określonego w § 1 za pomocą środków masowego komunikowania,;grzywnie albo karze ograniczenia wolności.
+203;§ 1. Kto znieważa inną osobę w jej obecności albo choćby pod jej nieobecność, lecz publicznie lub w zamiarze, aby zniewaga do osoby tej dotarła,;grzywnie, karze ograniczenia wolności albo pozbawienia wolności do roku.
+204; 2. Kto znieważa inną osobę za pomocą środków masowego komunikowania,;grzywnie albo karze ograniczenia wolności.
+205;§ 1. Kto uderza człowieka lub w inny sposób narusza jego nietykalność cielesną,;grzywnie, karze ograniczenia wolności albo pozbawienia wolności do roku.
+206;Kto uderza człowieka lub w inny sposób narusza jego nietykalność cielesną w związku z podjętą przez niego interwencją na rzecz ochrony bezpieczeństwa ludzi lub ochrony bezpieczeństwa lub porządku publicznego,;grzywnie, karze ograniczenia wolności albo pozbawienia wolności do roku.
+207;§ 1. (utracił moc);grzywnie, karze ograniczenia wolności albo pozbawienia wolności do lat 2.
+208; 1a. Kto, wykonując czynności w sprawach z zakresu prawa pracy i ubezpieczeń społecznych, złośliwie lub uporczywie narusza prawa pracownika wynikające ze stosunku pracy lub ubezpieczenia społecznego,;grzywnie, karze ograniczenia wolności albo pozbawienia wolności do lat 2.
+209; 2. Osoba określona w § 1a, odmawiająca ponownego przyjęcia do pracy, o której przywróceniu orzekł właściwy organ,;grzywnie, karze ograniczenia wolności albo pozbawienia wolności do roku.
+210; 3. Osoba określona w § 1a, która będąc zobowiązana orzeczeniem sądu do wypłaty wynagrodzenia za pracę lub innego świadczenia ze stosunku pracy, obowiązku tego nie wykonuje,;grzywnie, karze ograniczenia wolności albo pozbawienia wolności do lat 3.
+211;"Kto, złośliwie lub uporczywie:
+1) wbrew zakazowi handlu oraz wykonywania czynności związanych z handlem w niedziele i święta, powierza wykonywanie pracy w handlu lub wykonywanie czynności związanych z handlem pracownikowi lub zatrudnionemu,
+2) wbrew zakazowi handlu oraz wykonywania czynności związanych z handlem po godzinie 1400 w dniu 24 grudnia lub w sobotę bezpośrednio poprzedzającą pierwszy dzień Wielkiej Nocy, powierza wykonywanie pracy w handlu lub wykonywanie czynności związanych z handlem pracownikowi lub zatrudnionemu,";grzywnie albo karze ograniczenia wolności.
+212;Kto narusza przepisy prawa o ubezpieczeniach społecznych, nie zgłaszając, nawet za zgodą zainteresowanego, wymaganych danych albo zgłaszając nieprawdziwe dane mające wpływ na prawo do świadczeń albo ich wysokość,;grzywnie, karze ograniczenia wolności albo pozbawienia wolności do lat 2.
+213;§ 1. Kto, będąc odpowiedzialny za bezpieczeństwo i higienę pracy, nie dopełnia wynikającego stąd obowiązku i przez to naraża pracownika na bezpośrednie niebezpieczeństwo utraty życia albo ciężkiego uszczerbku na zdrowiu,;karze pozbawienia wolności do lat 3.
+214; 2. Jeżeli sprawca działa nieumyślnie,;grzywnie, karze ograniczenia wolności albo pozbawienia wolności do roku.
+215;Kto wbrew obowiązkowi nie zawiadamia w terminie właściwego organu o wypadku przy pracy lub chorobie zawodowej albo nie sporządza lub nie przedstawia wymaganej dokumentacji,;grzywnie do 180 stawek dziennych albo karze ograniczenia wolności.
+216;§ 1. Kto narusza nietykalność cielesną funkcjonariusza publicznego lub osoby do pomocy mu przybranej podczas lub w związku z pełnieniem obowiązków służbowych,;grzywnie, karze ograniczenia wolności albo pozbawienia wolności do lat 3.
+217;§ 1. Kto, działając wspólnie i w porozumieniu z inną osobą lub używając broni palnej, noża lub innego podobnie niebezpiecznego przedmiotu albo środka obezwładniającego, dopuszcza się czynnej napaści na funkcjonariusza publicznego lub osobę do pomocy mu przybraną podczas lub w związku z pełnieniem obowiązków służbowych,;karze pozbawienia wolności od roku do lat 10.
+218; 2. Jeżeli w wyniku czynnej napaści nastąpił skutek w postaci ciężkiego uszczerbku na zdrowiu funkcjonariusza publicznego lub osoby do pomocy mu przybranej, sprawca;karze pozbawienia wolności od lat 2 do 15.
+219;§ 1. Kto publicznie nawołuje do udostępnienia informacji dotyczących życia prywatnego funkcjonariusza organu powołanego do ochrony bezpieczeństwa publicznego albo funkcjonariusza Służby Więziennej, których udostępnienie może spowodować zagrożenie bezpieczeństwa tego funkcjonariusza lub osoby dla niego najbliższej,;karze pozbawienia wolności do lat 3.
+220;§ 1. Kto bez zgody funkcjonariusza organu powołanego do ochrony bezpieczeństwa publicznego albo funkcjonariusza Służby Więziennej, udostępnia innej osobie informacje dotyczące jego życia prywatnego, których udostępnienie może spowodować zagrożenie bezpieczeństwa tego funkcjonariusza lub osoby dla niego najbliższej,;karze pozbawienia wolności od 3 miesięcy do lat 5.
+221; 3. Jeżeli udostępnienie informacji przez sprawcę czynu określonego w § 1 lub 2 następuje przez ich publiczne rozpowszechnienie, sprawca;karze pozbawienia wolności od 6 miesięcy do lat 8.
+222;§ 1. Kto przemocą lub groźbą bezprawną wywiera wpływ na czynności urzędowe organu administracji rządowej, innego organu państwowego lub samorządu terytorialnego,;karze pozbawienia wolności do lat 3.
+223; 3. Jeżeli następstwem czynu określonego w § 2 jest skutek określony w art. 156 spowodowanie ciężkiego uszczerbku na zdrowiu § 1 lub w art. 157 spowodowanie średniego i lekkiego uszczerbku na zdrowiu § 1, sprawca;karze pozbawienia wolności od 3 miesięcy do lat 5.
+224;§ 1. Kto wiedząc, że zagrożenie nie istnieje, zawiadamia o zdarzeniu, które zagraża życiu lub zdrowiu wielu osób lub mieniu w znacznych rozmiarach lub stwarza sytuację, mającą wywołać przekonanie o istnieniu takiego zagrożenia, czym wywołuje czynność instytucji użyteczności publicznej lub organu ochrony bezpieczeństwa, porządku publicznego lub zdrowia mającą na celu uchylenie zagrożenia,;karze pozbawienia wolności od 6 miesięcy do lat 8.
+225; 2. Jeżeli sprawca czynu określonego w § 1 zawiadamia o więcej niż jednym zdarzeniu,;karze pozbawienia wolności od lat 2 do 15.
+226;§ 1. Kto osobie uprawnionej do przeprowadzania kontroli w zakresie ochrony środowiska lub osobie przybranej jej do pomocy udaremnia lub utrudnia wykonanie czynności służbowej,;karze pozbawienia wolności do lat 3.
+227;§ 1. Kto znieważa funkcjonariusza publicznego lub osobę do pomocy mu przybraną, podczas i w związku z pełnieniem obowiązków służbowych,;grzywnie, karze ograniczenia wolności albo pozbawienia wolności do roku.
+228; 3. Kto publicznie znieważa lub poniża konstytucyjny organ Rzeczypospolitej Polskiej,;grzywnie, karze ograniczenia wolności albo pozbawienia wolności do lat 2.
+229;Kto, podając się za funkcjonariusza publicznego albo wyzyskując błędne przeświadczenie o tym innej osoby, wykonuje czynność związaną z jego funkcją,;grzywnie, karze ograniczenia wolności albo pozbawienia wolności do roku.
+230;§ 1. Kto, w związku z pełnieniem funkcji publicznej, przyjmuje korzyść majątkową lub osobistą albo jej obietnicę,;karze pozbawienia wolności od 6 miesięcy do lat 8.
+231; 2. W wypadku mniejszej wagi, sprawca;grzywnie, karze ograniczenia wolności albo pozbawienia wolności do lat 2.
+232; 3. Kto, w związku z pełnieniem funkcji publicznej, przyjmuje korzyść majątkową lub osobistą albo jej obietnicę za zachowanie stanowiące naruszenie przepisów prawa,;karze pozbawienia wolności od roku do lat 10.
+233; 5. Kto, w związku z pełnieniem funkcji publicznej, przyjmuje korzyść majątkową znacznej wartości albo jej obietnicę,;karze pozbawienia wolności od lat 2 do 15.
+234; 5a. Kto, w związku z pełnieniem funkcji publicznej, przyjmuje korzyść majątkową wielkiej wartości albo jej obietnicę,;karze pozbawienia wolności od lat 3 do 20.
+235;§ 1. Kto udziela albo obiecuje udzielić korzyści majątkowej lub osobistej osobie pełniącej funkcję publiczną w związku z pełnieniem tej funkcji,;karze pozbawienia wolności od 6 miesięcy do lat 8.
+236; 2. W wypadku mniejszej wagi, sprawca;grzywnie, karze ograniczenia wolności albo pozbawienia wolności do lat 2.
+237; 3. Jeżeli sprawca czynu określonego w § 1 działa, aby skłonić osobę pełniącą funkcję publiczną do naruszenia przepisów prawa lub udziela albo obiecuje udzielić takiej osobie korzyści majątkowej lub osobistej za naruszenie przepisów prawa,;karze pozbawienia wolności od roku do lat 10.
+238; 4. Kto osobie pełniącej funkcję publiczną, w związku z pełnieniem tej funkcji, udziela albo obiecuje udzielić korzyści majątkowej znacznej wartości,;karze pozbawienia wolności od lat 2 do 15.
+239; 4a. Kto osobie pełniącej funkcję publiczną, w związku z pełnieniem tej funkcji, udziela albo obiecuje udzielić korzyści majątkowej wielkiej wartości,;karze pozbawienia wolności od lat 3 do 20.
+240;"§ 1. Kto, w zamian za korzyść majątkową lub osobistą albo jej obietnicę, podejmuje się pośrednictwa w załatwieniu sprawy, powołując się na wpływy, wywołując u innej osoby przekonanie o istnieniu wpływów, wykorzystując takie przekonanie lub utwierdzając ją w przekonaniu o istnieniu wpływów w:
+1) instytucji państwowej lub samorządowej,
+2) organizacji krajowej lub międzynarodowej,
+3) krajowej lub zagranicznej jednostce organizacyjnej dysponującej środkami publicznymi,
+4) przedsiębiorstwie państwowym,
+5) spółce handlowej z udziałem Skarbu Państwa, samorządu terytorialnego lub państwowej osoby prawnej,";karze pozbawienia wolności od 6 miesięcy do lat 8.
+241; 2. W wypadku mniejszej wagi, sprawca;grzywnie, karze ograniczenia wolności albo pozbawienia wolności do lat 2.
+242;§ 1. Kto udziela albo obiecuje udzielić korzyści majątkowej lub osobistej w zamian za pośrednictwo w załatwieniu sprawy w podmiocie wskazanym w art. 230 płatna protekcja bierna § 1, polegające na bezprawnym wywarciu wpływu na decyzję, działanie lub zaniechanie osoby pełniącej funkcję publiczną, w związku z pełnieniem tej funkcji,;karze pozbawienia wolności od 6 miesięcy do lat 8.
+243; 2. W wypadku mniejszej wagi, sprawca;grzywnie, karze ograniczenia wolności albo pozbawienia wolności do lat 2.
+244;§ 1. Funkcjonariusz publiczny, który, przekraczając swoje uprawnienia lub nie dopełniając obowiązków, działa na szkodę interesu publicznego lub prywatnego,;karze pozbawienia wolności do lat 3.
+245; 2. Jeżeli sprawca dopuszcza się czynu określonego w § 1 w celu osiągnięcia korzyści majątkowej lub osobistej,;karze pozbawienia wolności od roku do lat 10.
+246; 3. Jeżeli sprawca czynu określonego w § 1 działa nieumyślnie i wyrządza istotną szkodę,;grzywnie, karze ograniczenia wolności albo pozbawienia wolności do lat 2.
+247;§ 1. Kto przemocą lub groźbą bezprawną wywiera wpływ na czynności urzędowe sądu,;karze pozbawienia wolności od 3 miesięcy do lat 5.
+248;§ 1. Kto, składając zeznanie mające służyć za dowód w postępowaniu sądowym lub w innym postępowaniu prowadzonym na podstawie ustawy, zeznaje nieprawdę lub zataja prawdę,;karze pozbawienia wolności od 6 miesięcy do lat 8.
+249; 1a. Jeżeli sprawca czynu określonego w § 1 zeznaje nieprawdę lub zataja prawdę z obawy przed odpowiedzialnością karną grożącą jemu samemu lub jego najbliższym,;karze pozbawienia wolności od 3 miesięcy do lat 5.
+250; 4. Kto, jako biegły, rzeczoznawca lub tłumacz, przedstawia fałszywą opinię, ekspertyzę lub tłumaczenie mające służyć za dowód w postępowaniu określonym w § 1,;karze pozbawienia wolności od roku do lat 10.
+251; 4a. Jeżeli sprawca czynu określonego w § 4 działa nieumyślnie, narażając na istotną szkodę interes publiczny,;karze pozbawienia wolności do lat 3.
+252;Kto, przed organem powołanym do ścigania lub orzekania w sprawach o przestępstwo, w tym i przestępstwo skarbowe, wykroczenie, wykroczenie skarbowe lub przewinienie dyscyplinarne, fałszywie oskarża inną osobę o popełnienie tych czynów zabronionych lub przewinienia dyscyplinarnego,;karze pozbawienia wolności od 3 miesięcy do lat 5.
+253;Kto, przez tworzenie fałszywych dowodów lub inne podstępne zabiegi, kieruje przeciwko określonej osobie ściganie o przestępstwo, w tym i przestępstwo skarbowe, wykroczenie, wykroczenie skarbowe lub przewinienie dyscyplinarne albo w toku postępowania zabiegi takie przedsiębierze,;karze pozbawienia wolności od 3 miesięcy do lat 5.
+254;§ 1. Kto zataja dowody niewinności osoby podejrzanej o popełnienie przestępstwa, w tym i przestępstwa skarbowego, wykroczenia, wykroczenia skarbowego lub przewinienia dyscyplinarnego,;grzywnie, karze ograniczenia wolności albo pozbawienia wolności do lat 2.
+255;Kto zawiadamia o przestępstwie, lub o przestępstwie skarbowym organ powołany do ścigania wiedząc, że przestępstwa nie popełniono,;grzywnie, karze ograniczenia wolności albo pozbawienia wolności do lat 2.
+256;§ 1. Kto utrudnia lub udaremnia postępowanie karne, pomagając sprawcy przestępstwa, w tym i przestępstwa skarbowego uniknąć odpowiedzialności karnej, w szczególności kto sprawcę ukrywa, tworzy fałszywe dowody, zaciera ślady przestępstwa, w tym i przestępstwa skarbowego, albo odbywa za skazanego karę,;karze pozbawienia wolności od 3 miesięcy do lat 5.
+257;§ 1. Kto, mając wiarygodną wiadomość o karalnym przygotowaniu albo usiłowaniu lub dokonaniu czynu zabronionego określonego w art. 118 ludobójstwo, art. 118a udział w masowym zamachu, art 120–124, art. 127 zamach stanu, art. 128 zamach na organ konstytucyjny RP, art. 130 szpiegostwo, art. 134 zamach na życie Prezydenta RP, art. 140 zamach na jednostkę sił zbrojnych RP, obiekt albo urządzenie o znaczeniu obronnym, art. 148 zabójstwo, art. 148a przyjęcie zlecenia zabójstwa człowieka, art. 156 spowodowanie ciężkiego uszczerbku na zdrowiu, art. 163 sprowadzenie zdarzenia niebezpiecznego, art. 166 przejęcie kontroli nad statkiem wodnym lub powietrznym albo publicznym środkiem transportu lądowego, art. 189 pozbawienie człowieka wolności, art 197 § 3–5, art. 198 seksualne wykorzystanie bezradności lub niepoczytalności innej osoby, art. 200 obcowanie płciowe z osobą małoletnią lub doprowadzenie jej do poddania się czynnościom seksualnym, art. 252 wzięcie lub przetrzymywanie zakładnika lub przestępstwa o charakterze terrorystycznym, nie zawiadamia niezwłocznie organu powołanego do ścigania przestępstw,;karze pozbawienia wolności do lat 3.
+258;§ 1. Kto bez zezwolenia rozpowszechnia publicznie wiadomości z postępowania przygotowawczego, zanim zostały ujawnione w postępowaniu sądowym,;grzywnie, karze ograniczenia wolności albo pozbawienia wolności do lat 2.
+259;§ 1. Kto uwalnia się sam, będąc pozbawionym wolności na podstawie orzeczenia sądu lub prawnego nakazu wydanego przez inny organ państwowy,;grzywnie, karze ograniczenia wolności albo pozbawienia wolności do lat 2.
+260; 2. Kto, korzystając z zezwolenia na czasowe opuszczenie zakładu karnego lub aresztu śledczego bez dozoru albo zakładu psychiatrycznego dysponującego warunkami podstawowego zabezpieczenia, bez usprawiedliwionej przyczyny nie powróci najpóźniej w ciągu 3 dni po upływie wyznaczonego terminu,;grzywnie, karze ograniczenia wolności albo pozbawienia wolności do roku.
+261; 4. Jeżeli sprawca czynu określonego w § 1 działa w porozumieniu z innymi osobami, używa przemocy lub grozi jej użyciem albo uszkadza miejsce zamknięcia,;karze pozbawienia wolności do lat 3.
+262;Kto osobę pozbawioną wolności na podstawie orzeczenia sądu lub prawnego nakazu wydanego przez inny organ państwowy uwalnia lub ułatwia jej ucieczkę,;karze pozbawienia wolności do lat 3.
+263;Kto nie stosuje się do orzeczonego przez sąd zakazu zajmowania stanowiska, wykonywania zawodu, prowadzenia działalności, zajmowania stanowiska lub wykonywania zawodu lub pracy w organach i instytucjach państwowych i samorządu terytorialnego, a także w spółkach prawa handlowego, w których Skarb Państwa lub jednostka samorządu terytorialnego posiadają bezpośrednio lub pośrednio przez inne podmioty co najmniej 10% akcji lub udziałów, wykonywania czynności wymagających zezwolenia, które są związane z wykorzystywaniem zwierząt lub oddziaływaniem na nie, prowadzenia pojazdów, wstępu do ośrodków gier i uczestnictwa w grach hazardowych, wstępu na imprezę masową, przebywania w określonych środowiskach lub miejscach, nakazu okresowego opuszczenia lokalu zajmowanego wspólnie z pokrzywdzonym, zakazu kontaktowania się z określonymi osobami, zakazu zbliżania się do określonych osób lub zakazu opuszczania określonego miejsca pobytu bez zgody sądu, zakazu posiadania wszelkich zwierząt albo określonej kategorii zwierząt albo nie wykonuje zarządzenia sądu o ogłoszeniu orzeczenia w sposób w nim przewidziany,;karze pozbawienia wolności od 3 miesięcy do lat 5.
+264;§ 1. Kto nie stosuje się do orzeczonego w związku z zakazem wstępu na imprezę masową obowiązku przebywania w miejscu stałego pobytu lub obowiązku stawiennictwa w jednostce organizacyjnej Policji lub w miejscu określonym przez właściwego, ze względu na miejsce zamieszkania osoby skazanej albo ukaranej, komendanta powiatowego, rejonowego lub miejskiego Policji, w czasie trwania imprezy masowej,;grzywnie, karze ograniczenia wolności albo pozbawienia wolności do lat 2.
+265;§ 1. Kto nie stosuje się do określonych w ustawie obowiązków związanych z orzeczonym wobec niego środkiem zabezpieczającym,;grzywnie, karze ograniczenia wolności albo pozbawienia wolności do lat 2.
+266;§ 1. Kto uchyla się od wykonania orzeczonego przez sąd na rzecz pokrzywdzonego lub osoby dla niego najbliższej, za przestępstwo ścigane z oskarżenia publicznego, środka kompensacyjnego w postaci obowiązku naprawienia szkody lub zadośćuczynienia za doznaną krzywdę albo nawiązki,;karze pozbawienia wolności od 3 miesięcy do lat 5.
+267;Kto używa przemocy lub groźby bezprawnej w celu wywarcia wpływu na świadka, biegłego, tłumacza, oskarżyciela albo oskarżonego lub w związku z tym narusza jego nietykalność cielesną,;karze pozbawienia wolności od 3 miesięcy do lat 5.
+268;Funkcjonariusz publiczny lub ten, który działając na jego polecenie w celu uzyskania określonych zeznań, wyjaśnień, informacji lub oświadczenia stosuje przemoc, groźbę bezprawną lub w inny sposób znęca się fizycznie lub psychicznie nad inną osobą,;karze pozbawienia wolności od roku do lat 10.
+269;§ 1. Kto znęca się fizycznie lub psychicznie nad osobą prawnie pozbawioną wolności,;karze pozbawienia wolności od 3 miesięcy do lat 5.
+270; 2. Jeżeli sprawca działa ze szczególnym okrucieństwem,;karze pozbawienia wolności od roku do lat 10.
+271; 3. Funkcjonariusz publiczny, który wbrew obowiązkowi dopuszcza do popełnienia czynu określonego w § 1 lub 2,;karze określonej w tych przepisach.
+272;"Kto przemocą, groźbą bezprawną lub podstępem przeszkadza:
+1) odbyciu zgromadzenia poprzedzającego głosowanie,
+2) swobodnemu wykonywaniu prawa do kandydowania lub głosowania,
+3) głosowaniu lub obliczaniu głosów,
+4) sporządzaniu protokołów lub innych dokumentów wyborczych albo referendalnych,";"Kto w związku z wyborami do Sejmu, do Senatu, wyborem Prezydenta Rzeczypospolitej Polskiej, wyborami do Parlamentu Europejskiego, wyborami organów samorządu terytorialnego lub referendum:
+1) sporządza listę kandydujących lub głosujących, z pominięciem uprawnionych lub wpisaniem nieuprawnionych,
+2) używa podstępu celem nieprawidłowego sporządzenia listy kandydujących lub głosujących, protokołów lub innych dokumentów wyborczych albo referendalnych,
+3) niszczy, uszkadza, ukrywa, przerabia lub podrabia protokoły lub inne dokumenty wyborcze albo referendalne,
+4) dopuszcza się nadużycia lub dopuszcza do nadużycia przy przyjmowaniu lub obliczaniu głosów,
+5) odstępuje innej osobie przed zakończeniem głosowania niewykorzystaną kartę do głosowania lub pozyskuje od innej osoby w celu wykorzystania w głosowaniu niewykorzystaną kartę do głosowania,
+6) dopuszcza się nadużycia w sporządzaniu list z podpisami obywateli zgłaszających kandydatów w wyborach lub inicjujących referendum
+- podlega karze pozbawienia wolności do lat 3."
+273;Kto, przemocą, groźbą bezprawną lub przez nadużycie stosunku zależności, wywiera wpływ na sposób głosowania osoby uprawnionej albo zmusza ją do głosowania lub powstrzymuje od głosowania,;karze pozbawienia wolności od 3 miesięcy do lat 5.
+274;§ 1. Kto, będąc uprawniony do głosowania, przyjmuje korzyść majątkową lub osobistą albo takiej korzyści żąda za głosowanie w określony sposób,;karze pozbawienia wolności od 3 miesięcy do lat 5.
+275; 3. W wypadku mniejszej wagi, sprawca czynu określonego w § 1 lub 2;karze pozbawienia wolności od 3 miesięcy do lat 5.
+276;Kto, naruszając przepisy o tajności głosowania, wbrew woli głosującego zapoznaje się z treścią jego głosu,;grzywnie, karze ograniczenia wolności albo pozbawienia wolności do lat 2.
+277;§ 1. Kto bierze lub przetrzymuje zakładnika w celu zmuszenia organu państwowego lub samorządowego, instytucji, organizacji, osoby fizycznej lub prawnej albo grupy osób do określonego zachowania się,;grzywnie, karze ograniczenia wolności albo pozbawienia wolności do lat 2.
+278; 2. Jeżeli czyn określony w § 1 łączył się ze szczególnym udręczeniem zakładnika, sprawca;karze pozbawienia wolności od lat 3 do 20.
+279; 3. Kto czyni przygotowania do przestępstwa określonego w § 1,;karze pozbawienia wolności od lat 5 do 25.
+280;§ 1. Kto bierze czynny udział w zbiegowisku wiedząc, że jego uczestnicy wspólnymi siłami dopuszczają się gwałtownego zamachu na osobę lub mienie,;karze pozbawienia wolności do lat 3.
+281; 2. Jeżeli następstwem gwałtownego zamachu jest śmierć człowieka lub ciężki uszczerbek na zdrowiu, uczestnik zbiegowiska określony w § 1,;karze pozbawienia wolności do lat 3.
+282;Kto zabiera, niszczy, uszkadza lub czyni niezdatnym do użytku element wchodzący w skład sieci wodociągowej, kanalizacyjnej, ciepłowniczej, elektroenergetycznej, gazowej, telekomunikacyjnej albo linii kolejowej, tramwajowej, trolejbusowej lub linii metra, powodując przez to zakłócenie działania całości lub części sieci albo linii,;karze pozbawienia wolności od 3 miesięcy do lat 5.
+283;§ 1. Kto publicznie nawołuje do popełnienia występku lub przestępstwa skarbowego,;karze pozbawienia wolności od 6 miesięcy do lat 8.
+284; 2. Kto publicznie nawołuje do popełnienia zbrodni,;grzywnie, karze ograniczenia wolności albo pozbawienia wolności do lat 2.
+285; 3. Kto publicznie pochwala popełnienie przestępstwa,;karze pozbawienia wolności do lat 3.
+286;§ 1. Kto rozpowszechnia lub publicznie prezentuje treści mogące ułatwić popełnienie przestępstwa o charakterze terrorystycznym w zamiarze, aby przestępstwo takie zostało popełnione,;grzywnie do 180 stawek dziennych, karze ograniczenia wolności albo pozbawienia wolności do roku.
+287;§ 1. Kto publicznie propaguje nazistowski, komunistyczny, faszystowski lub inny totalitarny ustrój państwa lub nawołuje do nienawiści na tle różnic narodowościowych, etnicznych, rasowych, wyznaniowych albo ze względu na bezwyznaniowość,;karze pozbawienia wolności od 3 miesięcy do lat 5.
+288;Kto publicznie znieważa grupę ludności albo poszczególną osobę z powodu jej przynależności narodowej, etnicznej, rasowej, wyznaniowej albo z powodu jej bezwyznaniowości lub z takich powodów narusza nietykalność cielesną innej osoby,;karze pozbawienia wolności do lat 3.
+289;§ 1. Kto bierze udział w zorganizowanej grupie albo związku mających na celu popełnienie przestępstwa lub przestępstwa skarbowego,;karze pozbawienia wolności do lat 3.
+290; 2. Jeżeli grupa albo związek określone w § 1 mają charakter zbrojny albo mają na celu popełnienie przestępstwa o charakterze terrorystycznym, sprawca;karze pozbawienia wolności od 6 miesięcy do lat 8.
+291; 3. Kto grupę albo związek określone w § 1, w tym mające charakter zbrojny, zakłada lub taką grupą albo związkiem kieruje,;karze pozbawienia wolności od roku do lat 10.
+292; 4. Kto grupę albo związek mające na celu popełnienie przestępstwa o charakterze terrorystycznym zakłada lub taką grupą lub związkiem kieruje,;karze pozbawienia wolności od lat 2 do 15.
+293;Kto przekracza granicę Rzeczypospolitej Polskiej w celu popełnienia przestępstwa o charakterze terrorystycznym lub przestępstwa określonego w art. 255a rozpowszechnianie treści ułatwiających popełnienie przestępstwa o charakterze terrorystycznym lub art. 258 udział w zorganizowanej grupie lub związku przestępczym § 2 lub 4,;karze pozbawienia wolności od lat 3 do 20.
+294;Kto przemocą lub groźbą bezprawną udaremnia przeprowadzenie odbywanego zgodnie z prawem zebrania, zgromadzenia lub pochodu albo takie zebranie, zgromadzenie lub pochód rozprasza,;karze pozbawienia wolności od 3 miesięcy do lat 5.
+295;Kto znieważa pomnik lub inne miejsce publiczne urządzone w celu upamiętnienia zdarzenia historycznego lub uczczenia osoby,;grzywnie, karze ograniczenia wolności albo pozbawienia wolności do lat 2.
+296;§ 1. Kto znieważa zwłoki, prochy ludzkie lub miejsce spoczynku zmarłego,;grzywnie albo karze ograniczenia wolności.
+297; 2. Kto ograbia zwłoki, grób lub inne miejsce spoczynku zmarłego,;grzywnie, karze ograniczenia wolności albo pozbawienia wolności do lat 2.
+298;§ 1. Kto bez wymaganego zezwolenia wyrabia broń palną albo amunicję lub nią handluje,;karze pozbawienia wolności od 6 miesięcy do lat 8.
+299; 2. Kto bez wymaganego zezwolenia posiada broń palną lub amunicję,;karze pozbawienia wolności od roku do lat 10.
+300; 3. Kto, mając zezwolenie na posiadanie broni palnej lub amunicji, udostępnia lub przekazuje ją osobie nieuprawnionej,;karze pozbawienia wolności od 6 miesięcy do lat 8.
+301; 4. Kto nieumyślnie powoduje utratę broni palnej lub amunicji, która zgodnie z prawem pozostaje w jego dyspozycji,;grzywnie, karze ograniczenia wolności albo pozbawienia wolności do lat 2.
+302; 2. Kto wbrew przepisom przekracza granicę Rzeczypospolitej Polskiej, używając przemocy, groźby, podstępu lub we współdziałaniu z innymi osobami,;grzywnie, karze ograniczenia wolności albo pozbawienia wolności do roku.
+303; 3. Kto organizuje innym osobom przekraczanie wbrew przepisom granicy Rzeczypospolitej Polskiej,;karze pozbawienia wolności do lat 3.
+304;§ 1. Kto, w celu osiągnięcia korzyści majątkowej lub osobistej, umożliwia lub ułatwia innej osobie pobyt na terytorium Rzeczypospolitej Polskiej wbrew przepisom,;karze pozbawienia wolności od 6 miesięcy do lat 8.
+305;§ 1. Kto ujawnia lub wbrew przepisom ustawy wykorzystuje informacje niejawne o klauzuli „tajne” lub „ściśle tajne”;karze pozbawienia wolności od 3 miesięcy do lat 5.
+306; 2. Jeżeli informację określoną w § 1 ujawniono osobie działającej w imieniu lub na rzecz podmiotu zagranicznego, sprawca;karze pozbawienia wolności od 3 miesięcy do lat 5.
+307; 3. Kto nieumyślnie ujawnia informację określoną w § 1, z którą zapoznał się w związku z pełnieniem funkcji publicznej lub otrzymanym upoważnieniem,;karze pozbawienia wolności od 6 miesięcy do lat 8.
+308;§ 1. Kto, wbrew przepisom ustawy lub przyjętemu na siebie zobowiązaniu, ujawnia lub wykorzystuje informację, z którą zapoznał się w związku z pełnioną funkcją, wykonywaną pracą, działalnością publiczną, społeczną, gospodarczą lub naukową,;grzywnie, karze ograniczenia wolności albo pozbawienia wolności do roku.
+309; 2. Funkcjonariusz publiczny, który ujawnia osobie nieuprawnionej informację niejawną o klauzuli „zastrzeżone” lub „poufne” lub informację, którą uzyskał w związku z wykonywaniem czynności służbowych, a której ujawnienie może narazić na szkodę prawnie chroniony interes;grzywnie, karze ograniczenia wolności albo pozbawienia wolności do lat 2.
+310;§1. Kto bez uprawnienia uzyskuje dostęp do informacji dla niego nieprzeznaczonej, otwierając zamknięte pismo, podłączając się do sieci telekomunikacyjnej lub przełamując albo omijając elektroniczne, magnetyczne, informatyczne lub inne szczególne jej zabezpieczenie,;karze pozbawienia wolności do lat 3.
+311;§ 1. Kto, nie będąc do tego uprawnionym, niszczy, uszkadza, usuwa lub zmienia zapis istotnej informacji albo w inny sposób udaremnia lub znacznie utrudnia osobie uprawnionej zapoznanie się z nią,;grzywnie, karze ograniczenia wolności albo pozbawienia wolności do lat 2.
+312; 2. Jeżeli czyn określony w § 1 dotyczy zapisu na informatycznym nośniku danych, sprawca;grzywnie, karze ograniczenia wolności albo pozbawienia wolności do lat 2.
+313; 3. Kto, dopuszczając się czynu określonego w § 1 lub 2, wyrządza znaczną szkodę majątkową,;karze pozbawienia wolności do lat 3.
+314;§ 1. Kto, nie będąc do tego uprawnionym, niszczy, uszkadza, usuwa, zmienia lub utrudnia dostęp do danych informatycznych albo w istotnym stopniu zakłóca lub uniemożliwia automatyczne przetwarzanie, gromadzenie lub przekazywanie takich danych,;karze pozbawienia wolności od 3 miesięcy do lat 5.
+315; 2. Kto, dopuszczając się czynu określonego w § 1, wyrządza znaczną szkodę majątkową,;karze pozbawienia wolności do lat 3.
+316;§ 1. Kto niszczy, uszkadza, usuwa lub zmienia dane informatyczne o szczególnym znaczeniu dla obronności kraju, bezpieczeństwa w komunikacji, funkcjonowania administracji rządowej, innego organu państwowego lub instytucji państwowej albo samorządu terytorialnego albo zakłóca lub uniemożliwia automatyczne przetwarzanie, gromadzenie lub przekazywanie takich danych,;karze pozbawienia wolności od 3 miesięcy do lat 5.
+317;Kto, nie będąc do tego uprawnionym, przez transmisję, zniszczenie, usunięcie, uszkodzenie, utrudnienie dostępu lub zmianę danych informatycznych, w istotnym stopniu zakłóca pracę systemu informatycznego, systemu teleinformatycznego lub sieci teleinformatycznej,;karze pozbawienia wolności od 6 miesięcy do lat 8.
+318;§ 1. Kto wytwarza, pozyskuje, zbywa lub udostępnia innym osobom urządzenia lub programy komputerowe przystosowane do popełnienia przestępstwa określonego w art. 165 sprowadzenie niebezpieczeństwa powszechnego § 1 pkt 4, art. 267 bezprawne uzyskanie informacji § 3, art. 268a niszczenie, uszkadzanie, usuwanie, zmienianie lub utrudnianie dostępu do danych informatycznych § 1 albo § 2 w związku z § 1, art. 269 niszczenie, uszkadzanie, usuwanie lub zmienianie danych informatycznych o szczególnym znaczeniu § 1 lub 2 , art. 269a zakłócanie pracy systemu informatycznego, teleinformatycznego lub sieci teleinformatycznej, art. 270 fałszowanie dokumentu i używanie go za autentyczny § 1 albo art. 270a fałszowanie faktury i używanie jej za autentyczną § 1, a także hasła komputerowe, kody dostępu lub inne dane umożliwiające nieuprawniony dostęp do informacji przechowywanych w systemie informatycznym, systemie teleinformatycznym lub sieci teleinformatycznej,;karze pozbawienia wolności od 3 miesięcy do lat 5.
+319;§ 1. Kto, w celu użycia za autentyczny, podrabia lub przerabia dokument lub takiego dokumentu jako autentycznego używa,;karze pozbawienia wolności od 3 miesięcy do lat 5.
+320; 3. Kto czyni przygotowania do przestępstwa określonego w § 1,;karze pozbawienia wolności od 3 miesięcy do lat 5.
+321;§ 1. Kto, w celu użycia za autentyczną, podrabia lub przerabia fakturę w zakresie okoliczności faktycznych mogących mieć znaczenie dla określenia wysokości należności publicznoprawnej lub jej zwrotu albo zwrotu innej należności o charakterze podatkowym lub takiej faktury jako autentycznej używa,; 2a. W wypadku mniejszej wagi, sprawca podlega grzywnie, karze ograniczenia wolności albo pozbawienia wolności do lat 2.
+322; 2. Jeżeli sprawca dopuszcza się czynu określonego w § 1 wobec faktury lub faktur, zawierających kwotę należności ogółem, której wartość lub łączna wartość jest większa niż pięciokrotność kwoty określającej mienie wielkiej wartości, albo z popełnienia przestępstwa uczynił sobie stałe źródło dochodu,;grzywnie, karze ograniczenia wolności albo pozbawienia wolności do lat 2.
+323; 3. W wypadku mniejszej wagi, sprawca czynu określonego w § 1 lub 2;karze pozbawienia wolności od 6 miesięcy do lat 8.
+324;§ 1. Funkcjonariusz publiczny lub inna osoba uprawniona do wystawienia dokumentu, która poświadcza w nim nieprawdę co do okoliczności mającej znaczenie prawne,;karze pozbawienia wolności od lat 3 do 20.
+325; 2. W wypadku mniejszej wagi, sprawca;grzywnie, karze ograniczenia wolności albo pozbawienia wolności do lat 2.
+326; 3. Jeżeli sprawca dopuszcza się czynu określonego w § 1 w celu osiągnięcia korzyści majątkowej lub osobistej,;"karze pozbawienia wolności od 3 miesięcy do lat 5.
+( Art. 271 poświadczenie nieprawdy § 1 ustawy - Kodeks karny oraz art. 92a uchylony ust. 1 ustawy o transporcie drogowym - w zakresie, w jakim dopuszczają stosowanie wobec tej samej osoby fizycznej, za ten sam czyn, który stanowi naruszenie obowiązków lub warunków przewozu drogowego opisane w lp. 3.9 załącznika nr 3 do ustawy o transporcie drogowym, odpowiedzialności za przestępstwo oraz kary pieniężnej - z dniem 24.06.2017 r. zostały uznane za niezgodne z zasadą ne bis in idem oraz zasadą proporcjonalnej reakcji państwa na naruszenie prawa wynikającymi z art. 2 odpowiedzialność za przestępstwo skutkowe popełnione przez zaniechanie Konstytucji Rzeczypospolitej Polskiej wyrokiem Trybunału Konstytucyjnego z 20.06.2017 r. sygn. akt. P 124/15 (Dz. U. z 2017 poz.1214)"
+327;§ 1. Kto wystawia fakturę lub faktury, zawierające kwotę należności ogółem, której wartość lub łączna wartość jest znaczna, poświadczając nieprawdę co do okoliczności faktycznych mogących mieć znaczenie dla określenia wysokości należności publicznoprawnej lub jej zwrotu albo zwrotu innej należności o charakterze podatkowym lub takiej faktury lub faktur używa,;grzywnie albo karze ograniczenia wolności.
+328; 2. Jeżeli sprawca dopuszcza się czynu określonego w § 1 wobec faktury lub faktur, zawierających kwotę należności ogółem, której wartość lub łączna wartość jest większa niż pięciokrotność kwoty określającej mienie wielkiej wartości, albo z popełnienia przestępstwa uczynił sobie stałe źródło dochodu,;karze pozbawienia wolności od 6 miesięcy do lat 8.
+329; 3. W wypadku mniejszej wagi, sprawca czynu określonego w § 1 lub 2;karze pozbawienia wolności od 6 miesięcy do lat 8.
+330;Kto wyłudza poświadczenie nieprawdy przez podstępne wprowadzenie w błąd funkcjonariusza publicznego lub innej osoby upoważnionej do wystawienia dokumentu,;karze pozbawienia wolności od lat 3 do 20.
+331;Kto używa dokumentu określonego w art. 271 poświadczenie nieprawdy lub art. 272 podstępne wyłudzenie poświadczenia nieprawdy w dokumencie,;karze pozbawienia wolności do lat 3.
+332;Kto zbywa własny lub cudzy dokument stwierdzający tożsamość,;karze pozbawienia wolności do lat 3.
+333;§ 1. Kto posługuje się dokumentem stwierdzającym tożsamość innej osoby albo jej prawa majątkowe lub dokument taki kradnie lub go przywłaszcza,;grzywnie, karze ograniczenia wolności albo pozbawienia wolności do lat 2.
+334;Kto niszczy, uszkadza, czyni bezużytecznym, ukrywa lub usuwa dokument, którym nie ma prawa wyłącznie rozporządzać,;grzywnie, karze ograniczenia wolności albo pozbawienia wolności do lat 2.
+335;Kto znaki graniczne niszczy, uszkadza, usuwa, przesuwa lub czyni niewidocznymi albo fałszywie wystawia,;grzywnie, karze ograniczenia wolności albo pozbawienia wolności do lat 2.
+336;§ 1. Kto dopuszcza się przestępstwa określonego w art. 270a fałszowanie faktury i używanie jej za autentyczną § 1 albo art. 271a podawanie nieprawdy w fakturze § 1 wobec faktury lub faktur, zawierających kwotę należności ogółem, której wartość lub łączna wartość jest większa niż dziesięciokrotność kwoty określającej mienie wielkiej wartości,;grzywnie, karze ograniczenia wolności albo pozbawienia wolności do lat 2.
+337; 2. W wypadku mniejszej wagi, sprawca czynu określonego w § 1;grzywnie, karze ograniczenia wolności albo pozbawienia wolności do lat 2.
+338;§ 1. Kto zabiera w celu przywłaszczenia cudzą rzecz ruchomą,;karze pozbawienia wolności od lat 5 do 25.
+339; 3. W wypadku mniejszej wagi, sprawca czynu określonego w § 1, 1a lub 2;karze pozbawienia wolności do lat 5.
+340; 3a. Kto dopuszcza się kradzieży szczególnie zuchwałej,;karze pozbawienia wolności od 3 miesięcy do lat 5.
+341;§ 1. Kto kradnie z włamaniem,;grzywnie, karze ograniczenia wolności albo pozbawienia wolności do roku.
+342;§ 1. Kto kradnie, używając przemocy wobec osoby lub grożąc natychmiastowym jej użyciem albo doprowadzając człowieka do stanu nieprzytomności lub bezbronności,;karze pozbawienia wolności od 6 miesięcy do lat 8.
+343; 2. Jeżeli sprawca rozboju posługuje się bronią palną, nożem lub innym podobnie niebezpiecznym przedmiotem lub środkiem obezwładniającym albo działa w inny sposób bezpośrednio zagrażający życiu lub wspólnie z inną osobą, która posługuje się taką bronią, przedmiotem, środkiem lub sposobem,;karze pozbawienia wolności od roku do lat 10.
+344;Kto, w celu utrzymania się w posiadaniu zabranej rzeczy, bezpośrednio po dokonaniu kradzieży, używa przemocy wobec osoby lub grozi natychmiastowym jej użyciem albo doprowadza człowieka do stanu nieprzytomności lub bezbronności,;karze pozbawienia wolności od lat 2 do 15.
+345;§ 1. Kto, w celu osiągnięcia korzyści majątkowej, przemocą, groźbą zamachu na życie lub zdrowie albo gwałtownego zamachu na mienie, doprowadza inną osobę do rozporządzenia mieniem własnym lub cudzym albo do zaprzestania lub ograniczenia działalności gospodarczej,;karze pozbawienia wolności od lat 3 do 20.
+346;W wypadku mniejszej wagi, sprawca czynu określonego w art. 279 kradzież z włamaniem § 1, art. 280 rozbój § 1, art. 281 kradzież rozbójnicza lub art. 282 wymuszenie rozbójnicze,;karze pozbawienia wolności od roku do lat 10.
+347;§ 1. Kto przywłaszcza sobie cudzą rzecz ruchomą lub prawo majątkowe,;karze pozbawienia wolności od roku do lat 10.
+348; 2. Kto przywłaszcza sobie powierzoną mu rzecz ruchomą,;karze pozbawienia wolności od 3 miesięcy do lat 5.
+349; 3. W wypadku mniejszej wagi lub przywłaszczenia rzeczy znalezionej, sprawca;karze pozbawienia wolności do lat 3.
+350;§ 1. Kto, włączając się do urządzenia telekomunikacyjnego, uruchamia na cudzy rachunek impulsy telefoniczne,;karze pozbawienia wolności od 3 miesięcy do lat 5.
+351;§ 1. Kto, w celu osiągnięcia korzyści majątkowej, doprowadza inną osobę do niekorzystnego rozporządzenia własnym lub cudzym mieniem za pomocą wprowadzenia jej w błąd albo wyzyskania błędu lub niezdolności do należytego pojmowania przedsiębranego działania,;grzywnie, karze ograniczenia wolności albo pozbawienia wolności do roku.
+352; 3. W wypadku mniejszej wagi, sprawca;karze pozbawienia wolności do lat 3.
+353;§ 1. Kto, w celu osiągnięcia korzyści majątkowej lub wyrządzenia innej osobie szkody, bez upoważnienia, wpływa na automatyczne przetwarzanie, gromadzenie lub przekazywanie danych informatycznych lub zmienia, usuwa albo wprowadza nowy zapis danych informatycznych,;karze pozbawienia wolności od 6 miesięcy do lat 8.
+354; 2. W wypadku mniejszej wagi, sprawca;grzywnie, karze ograniczenia wolności albo pozbawienia wolności do lat 2.
+355;§ 1. Kto cudzą rzecz niszczy, uszkadza lub czyni niezdatną do użytku,;karze pozbawienia wolności od 3 miesięcy do lat 5.
+356; 2. W wypadku mniejszej wagi, sprawca;grzywnie, karze ograniczenia wolności albo pozbawienia wolności do roku.
+357;§ 1. Kto zabiera w celu krótkotrwałego użycia cudzy pojazd mechaniczny,;karze pozbawienia wolności od 3 miesięcy do lat 5.
+358; 2. Jeżeli sprawca czynu określonego w § 1 pokonuje zabezpieczenie pojazdu przed jego użyciem przez osobę nieupoważnioną, pojazd stanowi mienie znacznej wartości albo sprawca następnie porzuca pojazd w stanie uszkodzonym lub w takich okolicznościach, że zachodzi niebezpieczeństwo utraty lub uszkodzenia pojazdu albo jego części lub zawartości,;grzywnie, karze ograniczenia wolności albo pozbawienia wolności do roku.
+359; 3. Jeżeli czyn określony w § 1 popełniono używając przemocy lub grożąc natychmiastowym jej użyciem albo doprowadzając człowieka do stanu nieprzytomności lub bezbronności, sprawca;karze pozbawienia wolności od 3 miesięcy do lat 5.
+360;§ 1. Kto w celu przywłaszczenia dopuszcza się wyrębu drzewa w lesie,;karze pozbawienia wolności od 6 miesięcy do lat 8.
+361;§ 1. Kto rzecz uzyskaną za pomocą czynu zabronionego nabywa lub pomaga do jej zbycia albo tę rzecz przyjmuje lub pomaga do jej ukrycia,;karze pozbawienia wolności od roku do lat 10.
+362; 2. W wypadku mniejszej wagi, sprawca;karze pozbawienia wolności od 3 miesięcy do lat 5.
+363;§ 1. Kto rzecz, o której na podstawie towarzyszących okoliczności powinien i może przypuszczać, że została uzyskana za pomocą czynu zabronionego, nabywa lub pomaga do jej zbycia albo tę rzecz przyjmuje lub pomaga do jej ukrycia,;grzywnie, karze ograniczenia wolności albo pozbawienia wolności do roku.
+364; 2. W wypadku znacznej wartości rzeczy, o której mowa w § 1, sprawca;grzywnie, karze ograniczenia wolności albo pozbawienia wolności do lat 2.
+365;§ 1. Kto dopuszcza się przestępstwa określonego w art. 278 kradzież § 1, 1a, 2, 3a lub 5, art. 284 przywłaszczenie § 1 lub 2, art. 285 uruchomienie na cudzy rachunek impulsów telefonicznych § 1, art. 286 oszustwo § 1 lub 2, art. 287 oszustwo komputerowe § 1, art. 288 zniszczenie cudzej rzeczy § 1 lub 3, art. 290 kradzież drzewa z lasu § 1 lub w art. 291 paserstwo umyślne § 1, w stosunku do mienia znacznej wartości,;karze pozbawienia wolności od 3 miesięcy do lat 5.
+366; 3. Kto dopuszcza się przestępstwa określonego w art. 278 kradzież § 1, 1a, 2, 3a lub 5, art. 279 kradzież z włamaniem § 1, art. 280 rozbój § 1, art. 281 kradzież rozbójnicza, art. 282 wymuszenie rozbójnicze, art. 284 przywłaszczenie § 1 lub 2, art. 285 uruchomienie na cudzy rachunek impulsów telefonicznych § 1, art. 286 oszustwo § 1 lub 2, art. 287 oszustwo komputerowe § 1, art. 288 zniszczenie cudzej rzeczy § 1 lub 3, art. 290 kradzież drzewa z lasu § 1 lub w art. 291 paserstwo umyślne § 1, w stosunku do mienia o wartości większej niż pięciokrotność kwoty określającej mienie wielkiej wartości,;karze pozbawienia wolności od roku do lat 10.
+367; 4. Kto dopuszcza się przestępstwa określonego w art. 278 kradzież § 1, 1a, 2, 3a lub 5, art. 279 kradzież z włamaniem § 1, art. 280 rozbój, art. 281 kradzież rozbójnicza, art. 282 wymuszenie rozbójnicze, art. 284 przywłaszczenie § 1 lub 2, art. 285 uruchomienie na cudzy rachunek impulsów telefonicznych § 1, art. 286 oszustwo § 1 lub 2, art. 287 oszustwo komputerowe § 1, art. 288 zniszczenie cudzej rzeczy § 1 lub 3, art. 290 kradzież drzewa z lasu § 1 lub w art. 291 paserstwo umyślne § 1, w stosunku do mienia o wartości większej niż dziesięciokrotność kwoty określającej mienie wielkiej wartości,;karze pozbawienia wolności od lat 3 do 20.
+368;§ 1. Kto, będąc obowiązany na podstawie przepisu ustawy, decyzji właściwego organu lub umowy do zajmowania się sprawami majątkowymi lub działalnością gospodarczą osoby fizycznej, prawnej albo jednostki organizacyjnej nie mającej osobowości prawnej, przez nadużycie udzielonych mu uprawnień lub niedopełnienie ciążącego na nim obowiązku, wyrządza jej znaczną szkodę majątkową,;karze pozbawienia wolności od lat 5 do 25.
+369; 1a. Jeżeli sprawca, o którym mowa w § 1, przez nadużycie udzielonych mu uprawnień lub niedopełnienie ciążącego na nim obowiązku, sprowadza bezpośrednie niebezpieczeństwo wyrządzenia znacznej szkody majątkowej,;karze pozbawienia wolności od 3 miesięcy do lat 5.
+370; 2. Jeżeli sprawca przestępstwa określonego w § 1 lub 1a działa w celu osiągnięcia korzyści majątkowej,;karze pozbawienia wolności do lat 3.
+371; 3. Jeżeli sprawca przestępstwa określonego w § 1 lub 2 wyrządza szkodę majątkową w wielkich rozmiarach,;karze pozbawienia wolności od 6 miesięcy do lat 8.
+372; 4. Jeżeli sprawca przestępstwa określonego w § 1 lub 3 działa nieumyślnie,;karze pozbawienia wolności od roku do lat 10.
+373;§ 1. Kto, pełniąc funkcję kierowniczą w jednostce organizacyjnej wykonującej działalność gospodarczą lub pozostając z nią w stosunku pracy, umowy zlecenia lub umowy o dzieło, żąda lub przyjmuje korzyść majątkową lub osobistą albo jej obietnicę, w zamian za nadużycie udzielonych mu uprawnień lub niedopełnienie ciążącego na nim obowiązku mogące wyrządzić tej jednostce szkodę majątkową albo stanowiące czyn nieuczciwej konkurencji lub niedopuszczalną czynność preferencyjną na rzecz nabywcy lub odbiorcy towaru, usługi lub świadczenia,;karze pozbawienia wolności do lat 3.
+374; 3. W wypadku mniejszej wagi, sprawca czynu określonego w § 1 lub 2;karze pozbawienia wolności od 3 miesięcy do lat 5.
+375; 4. Jeżeli sprawca czynu określonego w § 1 wyrządza znaczną szkodę majątkową,;grzywnie, karze ograniczenia wolności albo pozbawienia wolności do lat 2.
+376;;karze pozbawienia wolności od 6 miesięcy do lat 8.
+377;§ 1. Kto, w celu uzyskania dla siebie lub kogo innego, od banku lub jednostki organizacyjnej prowadzącej podobną działalność gospodarczą na podstawie ustawy albo od organu lub instytucji dysponujących środkami publicznymi – kredytu, pożyczki pieniężnej, poręczenia, gwarancji, akredytywy, dotacji, subwencji, potwierdzenia przez bank zobowiązania wynikającego z poręczenia lub z gwarancji lub podobnego świadczenia pieniężnego na określony cel gospodarczy, instrumentu płatniczego lub zamówienia publicznego, przedkłada podrobiony, przerobiony, poświadczający nieprawdę albo nierzetelny dokument albo nierzetelne, pisemne oświadczenie dotyczące okoliczności o istotnym znaczeniu dla uzyskania wymienionego wsparcia finansowego, instrumentu płatniczego lub zamówienia,;karze pozbawienia wolności od 3 miesięcy do lat 5.
+378;§ 1. Kto, w celu uzyskania odszkodowania z tytułu umowy ubezpieczenia, powoduje zdarzenie będące podstawą do wypłaty takiego odszkodowania,;karze pozbawienia wolności od 3 miesięcy do lat 5.
+379;§ 1. Kto środki płatnicze, instrumenty finansowe, papiery wartościowe, wartości dewizowe, prawa majątkowe lub inne mienie ruchome lub nieruchomości, pochodzące z korzyści związanych z popełnieniem czynu zabronionego, przyjmuje, posiada, używa, przekazuje lub wywozi za granicę, ukrywa, dokonuje ich transferu lub konwersji, pomaga do przenoszenia ich własności lub posiadania albo podejmuje inne czynności, które mogą udaremnić lub znacznie utrudnić stwierdzenie ich przestępnego pochodzenia lub miejsca umieszczenia, ich wykrycie, zajęcie albo orzeczenie przepadku;karze pozbawienia wolności od 6 miesięcy do lat 8.
+380; 5. Jeżeli sprawca dopuszcza się czynu określonego w § 1 lub 2, działając w porozumieniu z innymi osobami,;karze pozbawienia wolności od roku do lat 10.
+381; 6a. Kto czyni przygotowania do przestępstwa określonego w § 1 lub 2,;karze pozbawienia wolności do lat 3.
+382;§ 1. Kto, w razie grożącej mu niewypłacalności lub upadłości, udaremnia lub uszczupla zaspokojenie swojego wierzyciela przez to, że usuwa, ukrywa, zbywa, darowuje, niszczy, rzeczywiście lub pozornie obciąża albo uszkadza składniki swojego majątku,;karze pozbawienia wolności do lat 3.
+383; 2. Kto, w celu udaremnienia wykonania orzeczenia sądu lub innego organu państwowego, udaremnia lub uszczupla zaspokojenie swojego wierzyciela przez to, że usuwa, ukrywa, zbywa, darowuje, niszczy, rzeczywiście lub pozornie obciąża albo uszkadza składniki swojego majątku zajęte lub zagrożone zajęciem, bądź usuwa znaki zajęcia,;karze pozbawienia wolności od 3 miesięcy do lat 5.
+384; 3. Jeżeli czyn określony w § 1 wyrządził szkodę wielu wierzycielom, sprawca;karze pozbawienia wolności od 6 miesięcy do lat 8.
+385;§ 1. Kto będąc dłużnikiem kilku wierzycieli udaremnia lub ogranicza zaspokojenie ich należności przez to, że tworzy w oparciu o przepisy prawa nową jednostkę gospodarczą i przenosi na nią składniki swojego majątku,;karze pozbawienia wolności od 3 miesięcy do lat 5.
+386; 3. Kto będąc dłużnikiem kilku wierzycieli w sposób lekkomyślny doprowadza do swojej upadłości lub niewypłacalności, w szczególności przez trwonienie części składowych majątku, zaciąganie zobowiązań lub zawieranie transakcji oczywiście sprzecznych z zasadami gospodarowania,;grzywnie, karze ograniczenia wolności albo pozbawienia wolności do lat 2.
+387;§ 1. Kto, w razie grożącej mu niewypłacalności lub upadłości, nie mogąc zaspokoić wszystkich wierzycieli, spłaca lub zabezpiecza tylko niektórych, czym działa na szkodę pozostałych,;grzywnie, karze ograniczenia wolności albo pozbawienia wolności do lat 2.
+388; 2. Kto wierzycielowi udziela lub obiecuje udzielić korzyści majątkowej za działanie na szkodę innych wierzycieli w związku z postępowaniem upadłościowym lub zmierzającym do zapobiegnięcia upadłości,;karze pozbawienia wolności do lat 3.
+389;§ 1. Kto wyrządza szkodę majątkową osobie fizycznej, prawnej albo jednostce organizacyjnej nie mającej osobowości prawnej, przez nieprowadzenie dokumentacji działalności gospodarczej albo prowadzenie jej w sposób nierzetelny lub niezgodny z prawdą, w szczególności niszcząc, usuwając, ukrywając, przerabiając lub podrabiając dokumenty dotyczące tej działalności,;karze pozbawienia wolności do lat 3.
+390; 2. Jeżeli sprawca przestępstwa określonego w § 1 wyrządza znaczną szkodę majątkową,;karze pozbawienia wolności od 3 miesięcy do lat 5.
+391; 3. W wypadku mniejszej wagi, sprawca przestępstwa określonego w § 1;grzywnie, karze ograniczenia wolności albo pozbawienia wolności do roku.
+392;§ 1. Kto, wyzyskując przymusowe położenie innej osoby fizycznej, prawnej albo jednostki organizacyjnej nie mającej osobowości prawnej, zawiera z nią umowę, nakładając na nią obowiązek świadczenia niewspółmiernego ze świadczeniem wzajemnym,;karze pozbawienia wolności do lat 3.
+393; 2. Kto, w zamian za udzielone osobie fizycznej świadczenie pieniężne wynikające z umowy pożyczki, kredytu lub innej umowy, której przedmiotem jest udzielenie takiego świadczenia z obowiązkiem jego zwrotu, niezwiązanej bezpośrednio z działalnością gospodarczą lub zawodową tej osoby, żąda od niej zapłaty kosztów innych niż odsetki w kwocie co najmniej dwukrotnie przekraczającej maksymalną wysokość tych kosztów określoną w ustawie,;karze pozbawienia wolności od 3 miesięcy do lat 5.
+394;§ 1. Kto utrudnia lub udaremnia przetarg albo postępowanie o udzielenie zamówienia publicznego, działając na szkodę właściciela mienia, osoby lub instytucji, na rzecz której przetarg jest dokonywany bądź która prowadzi postępowanie, albo na szkodę interesu publicznego,;karze pozbawienia wolności do lat 3.
+395; 2. Kto, w celu wywarcia bezprawnego wpływu na wynik trwającego lub przygotowywanego przetargu lub postępowania o udzielenie zamówienia publicznego, wchodzi w porozumienie z inną osobą, przekazuje lub rozpowszechnia informacje lub przemilcza istotne okoliczności, działając na szkodę właściciela mienia, osoby lub instytucji, na rzecz której przetarg jest lub ma być dokonywany bądź która prowadzi lub ma prowadzić postępowanie, albo na szkodę interesu publicznego,;karze pozbawienia wolności od 3 miesięcy do lat 5.
+396; 3. Jeżeli sprawca dopuszcza się czynu określonego w § 1 lub 2 w celu osiągnięcia korzyści majątkowej lub osobistej,;karze pozbawienia wolności od 6 miesięcy do lat 8.
+397;Kto usuwa, podrabia lub przerabia znaki identyfikacyjne, datę produkcji lub datę przydatności towaru lub urządzenia,;karze pozbawienia wolności do lat 3.
+398;§ 1. Kto zmienia wskazanie drogomierza pojazdu mechanicznego lub ingeruje w prawidłowość jego pomiaru,;karze pozbawienia wolności od 3 miesięcy do lat 5.
+399; 3. W wypadku mniejszej wagi, sprawca czynu określonego w § 1 lub 2,;grzywnie, karze ograniczenia wolności albo pozbawienia wolności do lat 2.
+400;§ 1. Kto dopuszcza się przestępstwa określonego w art. 296 wyrządzenie szkody w obrocie gospodarczym § 1 lub 2, art. 296a łapownictwo na stanowisku kierowniczym § 1 lub 4, art. 299 pranie brudnych pieniędzy § 1, 2, 5 lub 6 lub w art. 303 nieprowadzenie lub niezgodne z prawdą prowadzenie dokumentacji działalności gospodarczej § 1, w stosunku do mienia o wartości większej niż pięciokrotność kwoty określającej mienie wielkiej wartości lub powodując szkodę w rozmiarach odpowiadających takiej wartości,;karze pozbawienia wolności od lat 3 do 20.
+401; 2. Kto dopuszcza się przestępstwa określonego w art. 296 wyrządzenie szkody w obrocie gospodarczym § 1 lub 2, art. 296a łapownictwo na stanowisku kierowniczym § 1 lub 4, art. 299 pranie brudnych pieniędzy § 1, 2, 5 lub 6 lub w art. 303 nieprowadzenie lub niezgodne z prawdą prowadzenie dokumentacji działalności gospodarczej § 1, w stosunku do mienia o wartości większej niż dziesięciokrotność kwoty określającej mienie wielkiej wartości lub powodując szkodę w rozmiarach odpowiadających takiej wartości,;karze pozbawienia wolności od lat 5 do 25.
+402;§ 1. Kto dokonuje zaboru tablicy rejestracyjnej pojazdu mechanicznego, umożliwiającej dopuszczenie tego pojazdu do ruchu na obszarze Rzeczypospolitej Polskiej, albo w celu użycia za autentyczną tablicę rejestracyjną pojazdu mechanicznego podrabia lub przerabia,;karze pozbawienia wolności od 3 miesięcy do lat 5.
+403;§ 1. Kto podrabia albo przerabia polski albo obcy pieniądz, polski albo obcy znak pieniężny, który został ustalony jako prawny środek płatniczy, jednak nie został jeszcze wprowadzony do obiegu, inny środek płatniczy albo dokument uprawniający do otrzymania sumy pieniężnej albo zawierający obowiązek wypłaty kapitału, odsetek, udziału w zyskach albo stwierdzenie uczestnictwa w spółce lub z pieniędzy, innego środka płatniczego albo z takiego dokumentu usuwa oznakę umorzenia,;karze pozbawienia wolności od lat 5 do 25.
+404; 2. Kto pieniądz, inny środek płatniczy lub znak pieniężny albo dokument określone w § 1 puszcza w obieg albo go w takim celu przyjmuje, przechowuje, przewozi, przenosi, przesyła albo pomaga do jego zbycia lub ukrycia,;karze pozbawienia wolności od roku do lat 10.
+405; 4. Kto czyni przygotowania do popełnienia przestępstwa określonego w § 1 lub 2,;karze pozbawienia wolności od 3 miesięcy do lat 5.
+406;Kto, w dokumentacji związanej z obrotem papierami wartościowymi, rozpowszechnia nieprawdziwe informacje lub przemilcza informacje o stanie majątkowym oferenta, mające istotne znaczenie dla nabycia, zbycia papierów wartościowych, podwyższenia albo obniżenia wkładu,;karze pozbawienia wolności do lat 3.
+407;Kto puszcza w obieg podrobiony albo przerobiony pieniądz, inny środek płatniczy albo dokument określony w art. 310 fałszowanie pieniędzy, środków płatniczych lub papierów wartościowych § 1, który sam otrzymał jako prawdziwy,;grzywnie, karze ograniczenia wolności albo pozbawienia wolności do roku.
+408;§ 1. Kto, w celu użycia lub puszczenia w obieg, podrabia albo przerabia urzędowy znak wartościowy albo ze znaku takiego usuwa oznakę umorzenia,;karze pozbawienia wolności do lat 3.
+409;Kto, w celu użycia w obrocie gospodarczym, podrabia albo przerabia znak urzędowy, mający stwierdzić upoważnienie lub wynik badania albo w obrocie publicznym używa przedmiotów opatrzonych takimi podrobionymi albo przerobionymi znakami,;grzywnie, karze ograniczenia wolności albo pozbawienia wolności do lat 2.
+410;§ 1. Kto, w celu użycia w obrocie gospodarczym, podrabia lub przerabia zalegalizowane narzędzie pomiarowe lub probiercze,;grzywnie, karze ograniczenia wolności albo pozbawienia wolności do lat 2.

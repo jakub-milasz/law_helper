@@ -9,8 +9,9 @@ from stempel import StempelStemmer
 app = Flask(__name__)
 app.secret_key = "hello"
 
-dataset = pd.read_csv('criminal.csv')
+dataset = pd.read_csv('criminal.csv', sep=';')
 transformed = pd.read_csv('transformed.csv', sep=';')
+dataset['crime'] = dataset['crime'].fillna('')
 
 def transform_text(text):
   text = text.lower()
@@ -29,8 +30,7 @@ def fit_crime(my_crime, data):
   if similarity.max() < 0.05:
     return False
   best_match_index = similarity.argsort()[0][-1]
-  print(transformed.iloc[best_match_index]['crime'])
-  return dataset.iloc[best_match_index]['article_number'], dataset.iloc[best_match_index]['crime'], dataset.iloc[best_match_index]['penalty']
+  return dataset.iloc[best_match_index]['crime'], dataset.iloc[best_match_index]['penalty']
 
 
 
@@ -39,6 +39,7 @@ def index():
   if request.method == 'POST':
     description = request.form['description']
     session['description'] = description
+    print(dataset['crime'])
     return redirect(url_for('rules'))
   return render_template('index.html')
 
@@ -46,8 +47,7 @@ def index():
 def rules():
   if "description" in session:
     description = session['description']
-    found_article = fit_crime(description, transformed['crime'])
-    print(found_article)
+    found_article = fit_crime(description, dataset['crime'])
     return render_template('rules.html', rules=found_article, description=description)
 
 if __name__ == '__main__':
