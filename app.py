@@ -10,28 +10,14 @@ app = Flask(__name__)
 app.secret_key = "hello"
 
 dataset = pd.read_csv('criminal.csv', sep=';')
-transformed = pd.read_csv('transformed.csv', sep=';')
-dataset['crime'] = dataset['crime'].fillna('')
-
-def transform_text(text):
-  text = text.lower()
-  text = text.split()
-  ss = StempelStemmer.default()
-  text = [ss.stem(word) for word in text]
-  text = ' '.join(text)
-  return text
 
 def fit_crime(my_crime, data):
-  my_crime = transform_text(my_crime)
   tfidf_vectorizer = TfidfVectorizer()
   tfidf_matrix = tfidf_vectorizer.fit_transform(data)
   crime_vector = tfidf_vectorizer.transform([my_crime])
-  similarity = cosine_similarity(crime_vector, tfidf_matrix)
-  if similarity.max() < 0.05:
-    return False
-  best_match_index = similarity.argsort()[0][-1]
+  similarity = cosine_similarity(crime_vector, tfidf_matrix).flatten()
+  best_match_index = similarity.argmax()
   return dataset.iloc[best_match_index]['crime'], dataset.iloc[best_match_index]['penalty']
-
 
 
 @app.route('/', methods=['POST', 'GET'])
