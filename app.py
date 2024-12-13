@@ -9,7 +9,7 @@ from stempel import StempelStemmer
 app = Flask(__name__)
 app.secret_key = "hello"
 
-dataset = pd.read_csv('criminal.csv', sep=';')
+dataset = pd.read_csv('database.csv', sep=';')
 
 def fit_crime(my_crime, data):
   tfidf_vectorizer = TfidfVectorizer()
