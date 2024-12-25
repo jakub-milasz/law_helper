@@ -5,7 +5,7 @@ import google.generativeai as genai
 
 
 prompt_template = """
-Pytanie: Co w Polsce grzoi za następujący czyn: {description}. Podaj odpowiedni artykuł i przytocz jego treść. Sformatuj za pomocą znaczników HTML, to znaczy: Numer artykułu lub artykułów w nagłówku h3, treść artykułów w paragrafach p, w tym zdanie z odpowiedzią wytłuszczone.
+Pytanie: Co w Polsce grozi za następujący czyn: {description}. Podaj odpowiedni artykuł i zacytuj go. Sformatuj za pomocą znaczników HTML, to znaczy: Numer artykułu lub artykułów w nagłówku h3, treść artykułów w paragrafach p, w tym zdanie z odpowiedzią wytłuszczone.
 <h3>Artykuł numer_artykułu</h3>
 <p>...</p>
 """
