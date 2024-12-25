@@ -9,9 +9,7 @@
 <div class="rule">
   <h2>Artykuł pasujący do twojego przestępstwa</h2>
   <h3>Art. </h3>
-  <p>{{ rules[0] }}</p>
-  <h2>Kara</h2>
-  <p>Za "{{ description }}" podlegasz {{ rules[1] }}</p>
+  <p>{{ rules }}</p>
 </div>
 {% endif %}
 <a class="return" href="{{ url_for('index') }}">Back to homepage</a>

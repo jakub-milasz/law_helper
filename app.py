@@ -1,23 +1,25 @@
 from flask import Flask, render_template, request, redirect, url_for, request,session, flash
+import os
+from dotenv import load_dotenv, find_dotenv
+import google.generativeai as genai
 
-import pandas as pd
-from sklearn.feature_extraction.text import TfidfVectorizer
-from sklearn.metrics.pairwise import cosine_similarity
-from stempel import StempelStemmer
+
+prompt_template = """
+Pytanie: Co w Polsce grzoi za następujący czyn: {description}. Podaj odpowiedni artykuł i przytocz jego treść.'
+"""
+
+def generate_response(description):
+  filled_prompt = prompt_template.format(description=description)
+  response = model.generate_content(filled_prompt)  
+  return response
+
+_ = load_dotenv(find_dotenv())
+genai.configure(api_key=os.environ.get("GOOGLE_AI_API_KEY"))
+model = genai.GenerativeModel("gemini-1.5-flash")
 
 
 app = Flask(__name__)
 app.secret_key = "hello"
-
-dataset = pd.read_csv('database.csv', sep=';')
-
-def fit_crime(my_crime, data):
-  tfidf_vectorizer = TfidfVectorizer()
-  tfidf_matrix = tfidf_vectorizer.fit_transform(data)
-  crime_vector = tfidf_vectorizer.transform([my_crime])
-  similarity = cosine_similarity(crime_vector, tfidf_matrix).flatten()
-  best_match_index = similarity.argmax()
-  return dataset.iloc[best_match_index]['crime'], dataset.iloc[best_match_index]['penalty']
 
 
 @app.route('/', methods=['POST', 'GET'])
@@ -25,7 +27,7 @@ def index():
   if request.method == 'POST':
     description = request.form['description']
     session['description'] = description
-    print(dataset['crime'])
+    # print(dataset['crime'])
     return redirect(url_for('rules'))
   return render_template('index.html')
 
@@ -33,8 +35,8 @@ def index():
 def rules():
   if "description" in session:
     description = session['description']
-    found_article = fit_crime(description, dataset['crime'])
-    return render_template('rules.html', rules=found_article, description=description)
+    found_article = generate_response(description)
+    return render_template('rules.html', rules=found_article.text)
 
 if __name__ == '__main__':
   app.run(debug=True)
