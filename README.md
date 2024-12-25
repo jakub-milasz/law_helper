@@ -25,4 +25,6 @@ In this project I used HTML/CSS, Python with Flask.
 
 3. Output: The application returns the most relevant penal code article based on the input description and the penalty.
 
-![Zrzut ekranu 2024-12-25 174429](https://github.com/user-attachments/assets/acc65570-f0a8-42d1-af53-dd51604bcc16)
+![Zrzut ekranu 2024-12-25 212614](https://github.com/user-attachments/assets/eb72cce8-50a7-44b5-bf20-ba511d45044f)
+
+
