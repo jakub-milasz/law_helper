@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+{% block title %}Formularz{% endblock %}
+{% block content %}
+  <header>
+    <h1>Prosimy o doprecyzowanie opisu</h1>
+    <p>{{cause}}</p>
+  </header>
+  <main>
+    <div class="formular">
+      <form method="post" action="/">
+        <label for="input_workout">Tutaj możesz doprecyzować wykroczenie:</label><br>
+        <textarea name="description", placeholder="Wpisz wykroczenie..."></textarea><br><br>
+        <input type="submit" value="Zapisz">
+      </form>
+    </div>
+  </main>
+{% endblock %}
