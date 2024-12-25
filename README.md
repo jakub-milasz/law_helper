@@ -17,13 +17,12 @@ In this project I used HTML/CSS, Python with Flask.
 ## How It Works
 1. Input Description: Users enter a description of the offense in a text field.
 
+![Zrzut ekranu 2024-12-25 174339](https://github.com/user-attachments/assets/3ee9b559-c5cb-40a1-8e67-1bd4c49a596c)
+
 
 2. Data Processing: The Gemini 1.5 Flash Model analyses the input and generate a response with proper articles.
 
 
 3. Output: The application returns the most relevant penal code article based on the input description and the penalty.
 
-
-
-
-   
+![Zrzut ekranu 2024-12-25 174429](https://github.com/user-attachments/assets/acc65570-f0a8-42d1-af53-dd51604bcc16)
