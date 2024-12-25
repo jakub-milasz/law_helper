@@ -1,7 +1,7 @@
 # Law helper
 Law Helper is a web application designed to assist users in identifying the most relevant criminal offenses
 from the penal code based on the description provided by the user. The application employs a Gemini 1.5 Flash Model which matches the most suitable
-legal articles to the description. The next step in the development of this app will be adding subsidiary forms with additional questions for users to provide more specific descriptions.
+legal articles to the description. The still challenge in this app is to improve Model to be as accurate as it is possible. The next step in the development of this app will be adding subsidiary forms with additional questions for users to provide more specific descriptions.
 In that way, the fitting a proper crime by model could be more accurate.
 
 ## Stack
@@ -23,7 +23,7 @@ In this project I used HTML/CSS, Python with Flask.
 2. Data Processing: The Gemini 1.5 Flash Model analyses the input and generate a response with proper articles.
 
 
-3. Output: The application returns the most relevant penal code article based on the input description and the penalty.
+3. Output: The application returns the most relevant penal code article based on the input description.
 
 ![Zrzut ekranu 2024-12-25 212614](https://github.com/user-attachments/assets/eb72cce8-50a7-44b5-bf20-ba511d45044f)
 
