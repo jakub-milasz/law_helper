@@ -8,8 +8,7 @@
 {% else %}
 <div class="rule">
   <h2>Artykuł pasujący do twojego przestępstwa</h2>
-  <h3>Art. </h3>
-  <p>{{ rules }}</p>
+  <div>{{ rules|safe }}</div>
 </div>
 {% endif %}
 <a class="return" href="{{ url_for('index') }}">Back to homepage</a>
