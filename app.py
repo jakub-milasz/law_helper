@@ -6,16 +6,19 @@ from urllib.parse import urlparse
 
 
 
-# with open("db.csv", "r", encoding="utf-8") as file:
-#   data = file.read()
+with open("db.csv", "r", encoding="utf-8") as file:
+  data = file.read()
 
 
 
 main_prompt_template = """
 Pytanie: Co w Polsce grozi za następujący czyn: {description}. Podaj odpowiedni artykuł i zacytuj jego treść.
-Sformatuj odpowiedź za pomocą znaczników HTML, to znaczy: Numer artykułu lub artykułów w nagłówku h3, treść artykułów w paragrafach p, w tym zdanie z odpowiedzią wytłuszczone.
-Jeżeli uznasz opis za nieprecyzyjny, napisz na samym początku "Doprecyzuj" oraz dopisz, w jaki sposób należy doprecyzować opis.
+Kontekst:
+{data}
+Sformatuj odpowiedź za pomocą znaczników HTML, to znaczy: Numer artykułu lub artykułów w nagłówku h3, treść artykułów w paragrafach p, w tym zdanie z odpowiedzią oraz numery artykułów wytłuszczone.
+Jeżeli uznasz opis za nieprecyzyjny, napisz "Doprecyzuj" oraz dopisz, w jaki sposób należy doprecyzować opis.
 Podaj pytanie pomocnicze w [].
+Schemat: "Doprecyzuj: [pytania pomocnicze]"
 <h3>Artykuł numer_artykułu</h3>
 <p>...</p>
 """
@@ -25,8 +28,8 @@ Doprecyzowany opis: {description}
 """
 
 
-def generate_response(description, prompt):
-  filled_prompt = prompt.format(description=description)
+def generate_response(description, data, prompt):
+  filled_prompt = prompt.format(description=description, data=data)
   response = chat_session.send_message(filled_prompt)
   return response
 
@@ -65,8 +68,9 @@ def rules():
       prompt = additional_prompt_template
     else:
       prompt = main_prompt_template
-    found_article = generate_response(description, prompt)
-    if "Doprecyzuj" in found_article.text:
+    found_article = generate_response(description, data, prompt)
+    print(found_article.text)
+    if "[" in found_article.text:
       i1 = found_article.text.index('[')
       i2 = found_article.text.index(']')
       cause = found_article.text[i1+1:i2]
