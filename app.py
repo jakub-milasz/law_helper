@@ -2,6 +2,8 @@ from flask import Flask, render_template, request, redirect, url_for, request,se
 import os
 from dotenv import load_dotenv, find_dotenv
 import google.generativeai as genai
+from urllib.parse import urlparse
+
 
 
 # with open("db.csv", "r", encoding="utf-8") as file:
@@ -9,22 +11,33 @@ import google.generativeai as genai
 
 
 
-prompt_template = """
-Pytanie: Co w Polsce grzoi za następujący czyn: {description}. Podaj odpowiedni artykuł i przytocz jego treść.
-Sformatuj odpowiedź za pomocą znaczników HTML, to znaczy: Numer artykułu lub artykułów w nagłówku h3, treść artykułów w paragrafach p, w tym zdanie z odpowiedzią wytłuszczone. Jeżeli uznasz opis za nieprecyzyjny, napisz "Doprecyzuj" oraz dopisz, w jaki sposób należy doprecyzować opis. Podaj pytanie pomocnicze w [].
+main_prompt_template = """
+Pytanie: Co w Polsce grozi za następujący czyn: {description}. Podaj odpowiedni artykuł i zacytuj jego treść.
+Sformatuj odpowiedź za pomocą znaczników HTML, to znaczy: Numer artykułu lub artykułów w nagłówku h3, treść artykułów w paragrafach p, w tym zdanie z odpowiedzią wytłuszczone.
+Jeżeli uznasz opis za nieprecyzyjny, napisz na samym początku "Doprecyzuj" oraz dopisz, w jaki sposób należy doprecyzować opis.
+Podaj pytanie pomocnicze w [].
 <h3>Artykuł numer_artykułu</h3>
 <p>...</p>
 """
 
-def generate_response(description):
-  filled_prompt = prompt_template.format(description=description)
-  response = model.generate_content(filled_prompt)  
+additional_prompt_template = """
+Doprecyzowany opis: {description}
+"""
+
+
+def generate_response(description, prompt):
+  filled_prompt = prompt.format(description=description)
+  response = chat_session.send_message(filled_prompt)
   return response
 
 
 _ = load_dotenv(find_dotenv())
 genai.configure(api_key=os.environ.get("GOOGLE_AI_API_KEY"))
 model = genai.GenerativeModel("gemini-1.5-flash")
+chat_session = model.start_chat(
+    history=[
+    ]
+)
 
 
 app = Flask(__name__)
@@ -42,13 +55,22 @@ def index():
 @app.route('/rules')
 def rules():
   if "description" in session:
-    description = session['description']
-    found_article = generate_response(description)
-    i1 = found_article.text.index('[')
-    i2 = found_article.text.index(']')
-    cause = found_article.text[i1+1:i2]
-    session['cause'] = cause
+    description = session['description'] # get description from session
+    referer = request.headers.get('Referer') # get previous page
+    if referer:
+      previous_page = urlparse(referer).path # get url path
+    else:
+      previous_page = None
+    if previous_page == '/additional': # check if previous page was additional
+      prompt = additional_prompt_template
+    else:
+      prompt = main_prompt_template
+    found_article = generate_response(description, prompt)
     if "Doprecyzuj" in found_article.text:
+      i1 = found_article.text.index('[')
+      i2 = found_article.text.index(']')
+      cause = found_article.text[i1+1:i2]
+      session['cause'] = cause # save cause in session
       return redirect(url_for('additional'))
     return render_template('rules.html', rules=found_article.text)
   
