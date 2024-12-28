@@ -72,7 +72,7 @@ def rules():
       prompt = main_prompt_template
     found_article = generate_response(description, data, prompt)
     print(found_article.text)
-    if "[" in found_article.text:
+    if ("Doprecyzuj" or "[") in found_article.text:
       i1 = found_article.text.index('[')
       i2 = found_article.text.index(']')
       cause = found_article.text[i1+1:i2]
