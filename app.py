@@ -37,10 +37,10 @@ def generate_response(description, data, prompt):
 _ = load_dotenv(find_dotenv())
 genai.configure(api_key=os.environ.get("GOOGLE_AI_API_KEY"))
 model = genai.GenerativeModel("gemini-1.5-flash")
-chat_session = model.start_chat(
-    history=[
-    ]
-)
+# chat_session = model.start_chat(
+#     history=[
+#     ]
+# )
 
 
 app = Flask(__name__)
@@ -49,10 +49,12 @@ app.secret_key = "hello"
 
 @app.route('/', methods=['POST', 'GET'])
 def index():
+  global chat_session
   if request.method == 'POST':
     description = request.form['description']
     session['description'] = description
     return redirect(url_for('rules'))
+  chat_session = model.start_chat(history=[])
   return render_template('index.html')
 
 @app.route('/rules')
