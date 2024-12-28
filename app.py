@@ -1,4 +1,4 @@
-from flask import Flask, render_template, request, redirect, url_for, request,session, flash
+from flask import Flask, render_template, redirect, url_for, request,session
 import os
 from dotenv import load_dotenv, find_dotenv
 import google.generativeai as genai
