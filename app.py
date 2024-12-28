@@ -1,4 +1,4 @@
-from flask import Flask, render_template, request, redirect, url_for, session
+from flask import Flask, render_template, redirect, url_for, request,session
 import os
 from dotenv import load_dotenv, find_dotenv
 import google.generativeai as genai
@@ -71,7 +71,8 @@ def rules():
     else:
       prompt = main_prompt_template
     found_article = generate_response(description, data, prompt)
-    if ("Doprecyzuj" or "[") in found_article.text:
+    print(found_article.text)
+    if "[" in found_article.text:
       i1 = found_article.text.index('[')
       i2 = found_article.text.index(']')
       cause = found_article.text[i1+1:i2]
