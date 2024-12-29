@@ -5,6 +5,14 @@ import google.generativeai as genai
 from urllib.parse import urlparse
 
 
+html_elements = {
+  "title": "Prawniczy pomocnik - prawo spadkowe",
+  "description": "Opisz problem związany z prawem spadkowym",
+  "placeholder": "Opis problemu...",
+  "header": "Rozwiązanie"
+}
+
+
 
 with open("spadki.csv", "r", encoding="utf-8") as file:
   data = file.read()
@@ -53,7 +61,7 @@ def index():
     session['description'] = description
     return redirect(url_for('rules'))
   chat_session = model.start_chat(history=[])
-  return render_template('index.html')
+  return render_template('index.html', elem=html_elements)
 
 @app.route('/rules')
 def rules():
@@ -75,7 +83,7 @@ def rules():
       cause = found_article.text[i1+1:i2]
       session['cause'] = cause # save cause in session
       return redirect(url_for('additional'))
-    return render_template('rules.html', rules=found_article.text)
+    return render_template('rules.html', rules=found_article.text, elem=html_elements)
   
 @app.route('/additional', methods=['POST', 'GET'])
 def additional():

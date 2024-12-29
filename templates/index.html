@@ -1,5 +1,5 @@
 {% extends "base.html" %}
-{% block title %}Prawniczy pomocnik{% endblock %}
+{% block title %}{{elem['title']}}{% endblock %}
 {% block content %}
   <header>
     <h1>Prawniczy<br>pomocnik</h1>
@@ -10,8 +10,8 @@
     </div>
     <div class="formular">
       <form method="post" action="/">
-        <label for="input_workout">Tutaj możesz wpisać wykroczenie:</label><br>
-        <textarea name="description", placeholder="Wpisz wykroczenie..."></textarea><br><br>
+        <label for="input_workout">{{elem['description']}}</label><br>
+        <textarea name="description", placeholder="{{elem['placeholder']}}"></textarea><br><br>
         <input type="submit" value="Zapisz">
       </form>
     </div>
