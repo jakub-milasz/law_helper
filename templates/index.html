@@ -6,10 +6,10 @@
   </header>
   <main>
     <div class="description">
-      <p>Witaj w aplikacji Prawniczy pomocnik. Pomaga ona w lepszym zrozumieniu przepisów prawnych i ma na celu podniesienie świadomości obywateli w tym temacie</p>
+      <p>{{elem['paragraph']}}</p>
     </div>
     <div class="formular">
-      <form method="post" action="/">
+      <form method="post" action="{{elem['action']}}">
         <label for="input_workout">{{elem['description']}}</label><br>
         <textarea name="description", placeholder="{{elem['placeholder']}}"></textarea><br><br>
         <input type="submit" value="Zapisz">

@@ -1,15 +1,22 @@
-from flask import Flask, render_template, redirect, url_for, request,session
+from flask import Blueprint, render_template, redirect, url_for, request,session
 import os
 from dotenv import load_dotenv, find_dotenv
 import google.generativeai as genai
 from urllib.parse import urlparse
+from spadki import spadki
+
+app = Blueprint('app', __name__, static_folder='static', template_folder='templates')
+spadki.secret_key = "dodo"
+
 
 
 html_elements = {
   "title": "Prawniczy pomocnik - prawo karne",
+  "paragraph": "W tej sekcji możesz sprawdzić, jakie konsekwencje prawne grożą za popełnienie wykroczenia. Wpisz opis wykroczenia, a my znajdziemy odpowiedni artykuł kodeksu karnego.",
   "description": "Tutaj możesz wpisać wykroczenie",
   "placeholder": "Wpisz wykroczenie...",
-  "header": "Artykuł pasujący do twojego przestępstwa"
+  "header": "Artykuł pasujący do twojego przestępstwa",
+  "action": "/karne/",
 }
 
 
@@ -50,17 +57,13 @@ model = genai.GenerativeModel("gemini-1.5-flash")
 # )
 
 
-app = Flask(__name__)
-app.secret_key = "hello"
-
-
 @app.route('/', methods=['POST', 'GET'])
 def index():
   global chat_session
   if request.method == 'POST':
     description = request.form['description']
     session['description'] = description
-    return redirect(url_for('rules'))
+    return redirect(url_for('app.rules'))
   chat_session = model.start_chat(history=[])
   return render_template('index.html', elem=html_elements)
 
@@ -73,18 +76,17 @@ def rules():
       previous_page = urlparse(referer).path # get url path
     else:
       previous_page = None
-    if previous_page == '/additional': # check if previous page was additional
+    if previous_page == '/karne/additional': # check if previous page was additional
       prompt = additional_prompt_template
     else:
       prompt = main_prompt_template
     found_article = generate_response(description, data, prompt)
-    print(found_article.text)
     if ("Doprecyzuj" or "[") in found_article.text:
       i1 = found_article.text.index('[')
       i2 = found_article.text.index(']')
       cause = found_article.text[i1+1:i2]
       session['cause'] = cause # save cause in session
-      return redirect(url_for('additional'))
+      return redirect(url_for('app.additional'))
     return render_template('rules.html', rules=found_article.text, elem=html_elements)
   
 @app.route('/additional', methods=['POST', 'GET'])
@@ -92,8 +94,8 @@ def additional():
   if request.method == 'POST':
     description = request.form['description']
     session['description'] = description
-    return redirect(url_for('rules'))
-  return render_template('additional.html', cause = session['cause'])
+    return redirect(url_for('app.rules'))
+  return render_template('additional.html', cause = session['cause'], action = html_elements['action'])
 
 if __name__ == '__main__':
   app.run(debug=True)

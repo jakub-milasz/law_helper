@@ -59,6 +59,22 @@ input[type=submit]{
   color: white;
 }
 
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+nav a{
+  width: 150px;
+  text-decoration: none;
+  color: #530e0e;
+  font-size: 1.5em;
+  margin: 0 1em;
+  padding: 0.5em;
+  background: radial-gradient(circle, rgb(255, 255, 255) 0%, rgb(176, 174, 174) 100%);
+}
+
 @media screen and (max-width: 650px){
 
   .description{
