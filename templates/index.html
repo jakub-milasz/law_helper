@@ -1,17 +1,17 @@
 {% extends "base.html" %}
-{% block title %}Prawniczy pomocnik{% endblock %}
+{% block title %}{{elem['title']}}{% endblock %}
 {% block content %}
   <header>
     <h1>Prawniczy<br>pomocnik</h1>
   </header>
   <main>
     <div class="description">
-      <p>Witaj w aplikacji Prawniczy pomocnik. Pomaga ona w lepszym zrozumieniu przepisów prawnych i ma na celu podniesienie świadomości obywateli w tym temacie</p>
+      <p>{{elem['paragraph']}}</p>
     </div>
     <div class="formular">
-      <form method="post" action="/">
-        <label for="input_workout">Tutaj możesz wpisać wykroczenie:</label><br>
-        <textarea name="description", placeholder="Wpisz wykroczenie..."></textarea><br><br>
+      <form method="post" action="{{elem['action']}}">
+        <label for="input_workout">{{elem['description']}}</label><br>
+        <textarea name="description", placeholder="{{elem['placeholder']}}"></textarea><br><br>
         <input type="submit" value="Zapisz">
       </form>
     </div>

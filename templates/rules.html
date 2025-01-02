@@ -1,15 +1,9 @@
 {% extends "base.html" %}
 {% block title %}Rules{% endblock %}
 {% block content %}
-{% if rules == False %}
 <div class="rule">
-  <h2>Brak artykułów pasujących do "{{ description }}"</h2>
-</div>
-{% else %}
-<div class="rule">
-  <h2>Artykuł pasujący do twojego przestępstwa</h2>
+  <h2>{{elem['header']}}</h2>
   <div>{{ rules|safe }}</div>
 </div>
-{% endif %}
-<a class="return" href="{{ url_for('index') }}">Back to homepage</a>
+<a class="return" href="{{ url_for('home') }}">Back to homepage</a>
 {% endblock %}
