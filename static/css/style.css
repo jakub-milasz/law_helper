@@ -12,6 +12,9 @@ body{
   margin: 0;
   padding: 0;
   width: 100%;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
   background-color: #530e0e;
   color: white;
 }
@@ -19,6 +22,8 @@ body{
 main{
   text-align: center;
   margin-top: 1em;
+  flex: 1;
+  min-height: 10vh;
 }
 
 .description{
@@ -75,6 +80,11 @@ nav a{
   background: radial-gradient(circle, rgb(255, 255, 255) 0%, rgb(176, 174, 174) 100%);
 }
 
+footer{
+  text-align: center;
+}
+
+
 @media screen and (max-width: 650px){
 
   .description{
@@ -83,6 +93,10 @@ nav a{
 
   textarea{
     width: 90%;
+  }
+
+  nav a{
+    font-size: 1.2em;
   }
   
 }

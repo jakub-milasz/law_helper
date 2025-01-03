@@ -1,6 +1,6 @@
 from flask import Flask, render_template
-from spadki import spadki
-from app import app
+from views.spadki import spadki
+from views.app import app
 
 
 main = Flask(__name__)
