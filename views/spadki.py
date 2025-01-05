@@ -27,10 +27,11 @@ main_prompt_template = """
 Pytanie: Mam następujący problem związany z prawem spadkowym: {description}. Oblicz, w jakiej części dziedziczą spadkobiercy po wskazanej osobie.
 Kontekst:
 {data}
-Jeżeli uznasz opis za nieprecyzyjny, napisz "Doprecyzuj" oraz dopisz, w jaki sposób należy doprecyzować opis. Numery artykułów wytłuszczone.
+Jeżeli uznasz opis za nieprecyzyjny, napisz "Doprecyzuj" oraz dopisz, w jaki sposób należy doprecyzować opis.
 Podaj pytanie pomocnicze w [].
 Schemat: "Doprecyzuj: [pytania pomocnicze]"
 <p>...</p>
+Kluczowe treści wytłuszcz za pomocą znacznika <b>.
 """
 
 additional_prompt_template = """
@@ -74,7 +75,6 @@ def rules():
     else:
       prompt = main_prompt_template
     found_article = generate_response(description, data, prompt)
-    print(found_article.text)
     if ("Doprecyzuj" or "[") in found_article.text:
       i1 = found_article.text.index('[')
       i2 = found_article.text.index(']')
