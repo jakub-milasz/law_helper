@@ -17,7 +17,7 @@ The app was created with Flask, HTML/CSS, Selenium. To process the user's input 
 was used to create a database by scraping articles from ArsLege page.
 
 ## How it works
-When user wants to load the page, the main page with form is shown. Here the proper is chosen by user.
+When user loads the page, the main page with menu is shown. Here the user can choose the section they are interested in.
 
 ![Zrzut ekranu 2025-01-05 211339](https://github.com/user-attachments/assets/ff663f43-005d-4079-8b7b-d7695d85d441)
 
