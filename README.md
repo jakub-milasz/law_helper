@@ -41,7 +41,7 @@ If user specifies the description, he is redirected to page with article which f
 
 
 ## Model Description
-Gemini 1.5 Flash is a Large Language Model form Google API. The model has a context which is a database with articles from the criminal, offence and civil (inheritance chapter) code. Moreover, it has a history of conversation with user, so that it works properly with additional forms. It gets two kinds of prompt templates: the main prompt which is connected with form from main page and the additional prompt which is sent to model when user fills a subsidiary form.
+Gemini 1.5 Flash is a Large Language Model from Google API. The model has a context which is a database with articles from the criminal, offence and civil (inheritance chapter) code. Moreover, it has a history of conversation with user, so that it works properly with additional forms. It gets two kinds of prompt templates: the main prompt which is connected with form from main page and the additional prompt which is sent to model when user fills a subsidiary form.
 
 ## Developing app
 The main and still goal is to upgrade model to be as accurate as possible. It is also crucial to include updates in law in our database.
