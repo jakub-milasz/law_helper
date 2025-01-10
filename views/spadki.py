@@ -27,11 +27,11 @@ main_prompt_template = """
 Pytanie: Mam następujący problem związany z prawem spadkowym: {description}. Oblicz, w jakiej części dziedziczą spadkobiercy po wskazanej osobie.
 Kontekst:
 {data}
+Sformatuj odpowiedź za pomocą znaczników HTML.
 Jeżeli uznasz opis za nieprecyzyjny, napisz "Doprecyzuj" oraz dopisz, w jaki sposób należy doprecyzować opis.
 Podaj pytanie pomocnicze w [].
 Schemat: "Doprecyzuj: [pytania pomocnicze]"
 <p>...</p>
-Kluczowe treści wytłuszcz za pomocą znacznika <b>.
 """
 
 additional_prompt_template = """
