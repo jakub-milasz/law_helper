@@ -4,6 +4,8 @@ from dotenv import load_dotenv, find_dotenv
 import google.generativeai as genai
 from urllib.parse import urlparse
 from views.spadki import spadki
+from functools import lru_cache
+import time
 
 app = Blueprint('app', __name__, static_folder='static', template_folder='templates')
 app.secret_key = "dodo"
@@ -19,9 +21,10 @@ html_elements = {
   "action": "/karne/",
 }
 
-
-with open("datasets/db.csv", "r", encoding="utf-8") as file:
-  data = file.read()
+@lru_cache(maxsize=1)
+def load_data():
+  with open("datasets/db.csv", "r", encoding="utf-8") as file:
+    return file.read()
 
 
 
@@ -55,16 +58,22 @@ model = genai.GenerativeModel("gemini-1.5-flash")
 
 @app.route('/', methods=['POST', 'GET'])
 def index():
+  start_time = time.perf_counter()
   global chat_session
   if request.method == 'POST':
     description = request.form['description']
     session['description'] = description
     return redirect(url_for('app.rules'))
   chat_session = model.start_chat(history=[])
+  end_time = time.perf_counter()
+  execution_time = end_time - start_time
+  print(f"Wynik index: czas wykonania: {execution_time:.6f} sek.")
   return render_template('index.html', elem=html_elements)
 
+# tutaj do optymalizacji
 @app.route('/rules')
 def rules():
+  start_time = time.perf_counter()
   if "description" in session:
     description = session['description'] # get description from session
     referer = request.headers.get('Referer') # get previous page
@@ -76,21 +85,28 @@ def rules():
       prompt = additional_prompt_template
     else:
       prompt = main_prompt_template
-    found_article = generate_response(description, data, prompt)
+    found_article = generate_response(description, load_data(), prompt)
     if ("Doprecyzuj" or "[") in found_article.text:
       i1 = found_article.text.index('[')
       i2 = found_article.text.index(']')
       cause = found_article.text[i1+1:i2]
       session['cause'] = cause # save cause in session
       return redirect(url_for('app.additional'))
+    end_time = time.perf_counter()
+    execution_time = end_time - start_time
+    print(f"Wynik rules: czas wykonania: {execution_time:.6f} sek.")
     return render_template('rules.html', rules=found_article.text, elem=html_elements)
   
 @app.route('/additional', methods=['POST', 'GET'])
 def additional():
+  start_time = time.perf_counter()
   if request.method == 'POST':
     description = request.form['description']
     session['description'] = description
     return redirect(url_for('app.rules'))
+  end_time = time.perf_counter()
+  execution_time = end_time - start_time
+  print(f"Wynik additional: czas wykonania: {execution_time:.6f} sek.")
   return render_template('additional.html', cause = session['cause'], action = html_elements['action'])
 
 if __name__ == '__main__':
