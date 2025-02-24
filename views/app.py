@@ -21,10 +21,9 @@ html_elements = {
   "action": "/karne/",
 }
 
-@lru_cache(maxsize=1)
-def load_data():
-  with open("datasets/db.csv", "r", encoding="utf-8") as file:
-    return file.read()
+
+with open("datasets/db.csv", "r", encoding="utf-8") as file:
+  data = file.read()
 
 
 
@@ -74,28 +73,29 @@ def index():
 @app.route('/rules')
 def rules():
   start_time = time.perf_counter()
-  if "description" in session:
-    description = session['description'] # get description from session
-    referer = request.headers.get('Referer') # get previous page
-    if referer:
-      previous_page = urlparse(referer).path # get url path
-    else:
-      previous_page = None
-    if previous_page == '/karne/additional': # check if previous page was additional
-      prompt = additional_prompt_template
-    else:
-      prompt = main_prompt_template
-    found_article = generate_response(description, load_data(), prompt)
-    if ("Doprecyzuj" or "[") in found_article.text:
-      i1 = found_article.text.index('[')
-      i2 = found_article.text.index(']')
-      cause = found_article.text[i1+1:i2]
-      session['cause'] = cause # save cause in session
-      return redirect(url_for('app.additional'))
-    end_time = time.perf_counter()
-    execution_time = end_time - start_time
-    print(f"Wynik rules: czas wykonania: {execution_time:.6f} sek.")
-    return render_template('rules.html', rules=found_article.text, elem=html_elements)
+
+  description = session.get('description')
+  if not description:
+      return redirect(url_for('home'))  # Przykładowa obsługa braku opisu
+
+  referer = request.headers.get('Referer', '')
+  previous_page = urlparse(referer).path if referer else None
+  prompt = additional_prompt_template if previous_page == '/karne/additional' else main_prompt_template
+
+  found_article = generate_response(description, data, prompt)
+  article_text = found_article.text
+
+  if "Doprecyzuj" in article_text or "[" in article_text:
+      try:
+          cause = article_text.split("[", 1)[1].split("]", 1)[0]  # Szybsze wydobycie zawartości nawiasów
+          session['cause'] = cause
+          return redirect(url_for('app.additional'))
+      except IndexError:
+          pass  # Jeśli coś pójdzie nie tak, po prostu kontynuujemy
+
+  execution_time = time.perf_counter() - start_time
+  print(f"Wynik rules: czas wykonania: {execution_time:.6f} sek.")
+  return render_template('rules.html', rules=article_text, elem=html_elements)
   
 @app.route('/additional', methods=['POST', 'GET'])
 def additional():
