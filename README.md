@@ -4,6 +4,7 @@ Law Helper is a web app created with Flask, Selenium and HTML/CSS.
 ## Table of contents
 * [General info](#general-info)
 * [Technologies](#technologies)
+* [Set up](#set-up)
 * [How it works](#how-it-works)
 * [Model Description](#model-description)
 * [Developing app](#developing-app)
@@ -15,6 +16,9 @@ in order to specify the description.
 ## Technologies
 The app was created with Flask, HTML/CSS, Selenium. To process the user's input I used Gemini 1.5 Flash Model form Google API. Selenium
 was used to create a database by scraping articles from ArsLege page.
+
+## Set up
+To run project on your computer, you have to open terminal in your code editor and enter ```pip install -r requirements.txt```. Then, you have to enter ```python main.py``` and click on link with local server. 
 
 ## How it works
 When user loads the page, the main page with menu is shown. Here the user can choose the section they are interested in.
