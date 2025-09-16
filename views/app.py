@@ -4,6 +4,7 @@ from dotenv import load_dotenv, find_dotenv
 import google.generativeai as genai
 from urllib.parse import urlparse
 from views.spadki import spadki
+import json
 
 app = Blueprint('app', __name__, static_folder='static', template_folder='templates')
 app.secret_key = "dodo"
@@ -29,12 +30,7 @@ main_prompt_template = """
 Pytanie: Co w Polsce grozi za następujący czyn: {description}. Podaj odpowiedni artykuł i zacytuj jego treść.
 Kontekst:
 {data}
-Sformatuj odpowiedź za pomocą znaczników HTML, to znaczy: Numer artykułu lub artykułów w nagłówku h3, treść artykułów w paragrafach p, w tym zdanie z odpowiedzią oraz numery artykułów wytłuszczone.
-Jeżeli uznasz opis za nieprecyzyjny, napisz "Doprecyzuj" oraz dopisz, w jaki sposób należy doprecyzować opis.
-Podaj pytanie pomocnicze w [].
-Schemat: "Doprecyzuj: [pytania pomocnicze]"
-<h3>Artykuł numer_artykułu</h3>
-<p>...</p>
+Zwróć plik JSON gotowy do wczytania za pomocą funkcji json.loads bez słowa 'json' na początku według schematu "article": "numer artykułu i nazwa kodeksu", "content": "treść artykułu", "penalty": "kara".
 """
 
 additional_prompt_template = """
@@ -77,14 +73,19 @@ def rules():
     else:
       prompt = main_prompt_template
     found_article = generate_response(description, data, prompt)
+    print(found_article.text[7:-4])
     if ("Doprecyzuj" or "[") in found_article.text:
       i1 = found_article.text.index('[')
       i2 = found_article.text.index(']')
       cause = found_article.text[i1+1:i2]
       session['cause'] = cause # save cause in session
       return redirect(url_for('app.additional'))
-    return render_template('rules.html', rules=found_article.text, elem=html_elements)
-  
+    found_article_json = json.loads(found_article.text[7:-4])
+    article = found_article_json.get("article", "N/A")
+    content = found_article_json.get("content", "N/A")
+    penalty = found_article_json.get("penalty", "N/A")
+    return render_template('rules.html', article=article, content=content, penalty=penalty, elem=html_elements)
+
 @app.route('/additional', methods=['POST', 'GET'])
 def additional():
   if request.method == 'POST':

@@ -3,7 +3,9 @@
 {% block content %}
 <div class="rule">
   <h2>{{elem['header']}}</h2>
-  <div>{{ rules|safe }}</div>
+  <h2>{{ article }}</h2>
+  <div class="content">{{ content }}</div>
+  <div><strong>Possible penalty:</strong> {{ penalty }}</div>
 </div>
 <a class="return" href="{{ url_for('home') }}">Back to homepage</a>
 {% endblock %}
