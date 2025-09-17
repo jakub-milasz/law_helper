@@ -49,7 +49,7 @@ input[type=submit]{
   color: #530e0e;
   background: radial-gradient(circle, rgb(255, 255, 255) 0%, rgb(176, 174, 174) 100%);
   box-shadow: 4px 4px 1px #464646;
-  width: 60%;
+  width: 50%;
   margin: 3em auto 0;
   border-radius: 1em;
 }

@@ -30,7 +30,13 @@ main_prompt_template = """
 Pytanie: Co w Polsce grozi za następujący czyn: {description}. Podaj odpowiedni artykuł i zacytuj jego treść.
 Kontekst:
 {data}
-Zwróć plik JSON gotowy do wczytania za pomocą funkcji json.loads bez słowa 'json' na początku według schematu "article": "numer artykułu i nazwa kodeksu", "content": "treść artykułu", "penalty": "kara".
+Zwróć plik JSON gotowy do wczytania za pomocą funkcji json.loads bez słowa 'json' na początku według schematu:
+{{
+"article": "numer artykułu i nazwa kodeksu",
+"content": "treść artykułu",
+"penalty": "kara".
+}}
+Nie dodawaj tekstu spoza formatu JSON.
 """
 
 additional_prompt_template = """
@@ -41,12 +47,19 @@ Doprecyzowany opis: {description}
 def generate_response(description, data, prompt):
   filled_prompt = prompt.format(description=description, data=data)
   response = chat_session.send_message(filled_prompt)
-  return response
+  return response.text.replace("```","").replace("json","").strip()
 
+
+
+def edit_content(content):
+  for i in range(len(content)):
+    if content[i+1] == '§':
+      content = content.replace(content[i+1], '<br>§', 1)
+  return content
 
 _ = load_dotenv(find_dotenv())
 genai.configure(api_key=os.environ.get("GOOGLE_AI_API_KEY"))
-model = genai.GenerativeModel("gemini-1.5-flash")
+model = genai.GenerativeModel("gemini-2.5-flash")
 
 
 @app.route('/', methods=['POST', 'GET'])
@@ -73,17 +86,18 @@ def rules():
     else:
       prompt = main_prompt_template
     found_article = generate_response(description, data, prompt)
-    print(found_article.text[7:-4])
-    if ("Doprecyzuj" or "[") in found_article.text:
+    print(found_article)
+    if ("Doprecyzuj" or "[") in found_article:
       i1 = found_article.text.index('[')
       i2 = found_article.text.index(']')
       cause = found_article.text[i1+1:i2]
       session['cause'] = cause # save cause in session
       return redirect(url_for('app.additional'))
-    found_article_json = json.loads(found_article.text[7:-4])
+    found_article_json = json.loads(found_article)
     article = found_article_json.get("article", "N/A")
     content = found_article_json.get("content", "N/A")
     penalty = found_article_json.get("penalty", "N/A")
+    content = content.replace('\n', '<br>')
     return render_template('rules.html', article=article, content=content, penalty=penalty, elem=html_elements)
 
 @app.route('/additional', methods=['POST', 'GET'])
