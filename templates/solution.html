@@ -1,11 +1,11 @@
 {% extends "base.html" %}
-{% block title %}Rules{% endblock %}
+{% block title %}Solution{% endblock %}
 {% block content %}
 <div class="rule">
   <h1>{{elem['header']}}</h1>
   <h2>{{ article }}</h2>
-  <div class="content">{{ content | safe }}</div>
-  <div><strong>Kara:</strong> {{ penalty }}</div>
+  <div class="content">{{ solution }}</div>
+  <div><strong>Podsumowanie:</strong> {{ summary }}</div>
 </div>
 <a class="return" href="{{ url_for('home') }}">Back to homepage</a>
 {% endblock %}

@@ -30,11 +30,32 @@ main_prompt_template = """
 Pytanie: Co w Polsce grozi za następujący czyn: {description}. Podaj odpowiedni artykuł i zacytuj jego treść.
 Kontekst:
 {data}
-Zwróć plik JSON gotowy do wczytania za pomocą funkcji json.loads bez słowa 'json' na początku według schematu:
+Zwróć plik JSON gotowy do wczytania za pomocą funkcji json.loads według schematu:
 {{
-"article": "numer artykułu i nazwa kodeksu",
-"content": "treść artykułu",
-"penalty": "kara".
+  "type": "object",
+  "properties": {{
+      "status": {{
+          "type": "string",
+          "enum": ["doprecyzowanie", "przypisanie"]
+      }},
+      "add_question": {{
+          "type": "string",
+          "description": "Ponumerowane pytania jeśli status=doprecyzowanie"
+      }},
+      "article": {{
+          "type": "string",
+          "description": "Numer artykułu jeśli status=przypisanie"
+      }},
+      "content": {{
+          "type": "string",
+          "description": "Treść artykułu jeśli status=przypisanie"
+      }},
+      "penalty": {{
+          "type": "string",
+          "description": "Sankcje jeśli status=przypisanie"
+      }},
+    }},
+    "required": ["status"]
 }}
 Nie dodawaj tekstu spoza formatu JSON.
 """
@@ -86,14 +107,13 @@ def rules():
     else:
       prompt = main_prompt_template
     found_article = generate_response(description, data, prompt)
-    print(found_article)
-    if ("Doprecyzuj" or "[") in found_article:
-      i1 = found_article.text.index('[')
-      i2 = found_article.text.index(']')
-      cause = found_article.text[i1+1:i2]
+    found_article_json = json.loads(found_article)
+    status = found_article_json.get("status", "N/A")
+    # print(found_article)
+    if status == "doprecyzowanie":
+      cause = found_article_json.get("add_question", "N/A")
       session['cause'] = cause # save cause in session
       return redirect(url_for('app.additional'))
-    found_article_json = json.loads(found_article)
     article = found_article_json.get("article", "N/A")
     content = found_article_json.get("content", "N/A")
     penalty = found_article_json.get("penalty", "N/A")
