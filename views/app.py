@@ -1,10 +1,12 @@
-from flask import Blueprint, render_template, redirect, url_for, request,session
+from turtle import pd
+from flask import Blueprint, jsonify, render_template, redirect, url_for, request,session
 import os
 from dotenv import load_dotenv, find_dotenv
 import google.generativeai as genai
 from urllib.parse import urlparse
 from views.spadki import spadki
 import json
+import pandas as pd
 
 app = Blueprint('app', __name__, static_folder='static', template_folder='templates')
 app.secret_key = "dodo"
@@ -21,9 +23,10 @@ html_elements = {
 }
 
 
-with open("datasets/db.csv", "r", encoding="utf-8") as file:
-  data = file.read()
+with open("datasets/new_db.csv", "r", encoding="utf-8") as file:
+  dat = file.read()
 
+data = pd.read_csv("datasets/new_db.csv", sep=';', encoding="utf-8")
 
 
 main_prompt_template = """
@@ -66,7 +69,10 @@ Doprecyzowany opis: {description}
 
 
 def generate_response(description, data, prompt):
+  selected_option = session.get('selected_option', 'No option selected')
+  data = data[data['Kategoria'] == selected_option]
   filled_prompt = prompt.format(description=description, data=data)
+  # print(filled_prompt)
   response = chat_session.send_message(filled_prompt)
   return response.text.replace("```","").replace("json","").strip()
 
@@ -82,6 +88,13 @@ _ = load_dotenv(find_dotenv())
 genai.configure(api_key=os.environ.get("GOOGLE_AI_API_KEY"))
 model = genai.GenerativeModel("gemini-2.5-flash")
 
+@app.route('karne/send-option', methods=['POST'])
+def receive_option():
+  data = request.get_json()
+  selected_option = data.get('option')
+  session['selected_option'] = selected_option
+  return jsonify({"status": "success"}), 200
+
 
 @app.route('/', methods=['POST', 'GET'])
 def index():
@@ -91,7 +104,8 @@ def index():
     session['description'] = description
     return redirect(url_for('app.rules'))
   chat_session = model.start_chat(history=[])
-  return render_template('index.html', elem=html_elements)
+  categories = data['Kategoria'].unique().tolist()
+  return render_template('index.html', elem=html_elements, categories=categories)
 
 @app.route('/rules')
 def rules():
@@ -106,10 +120,10 @@ def rules():
       prompt = additional_prompt_template
     else:
       prompt = main_prompt_template
+    selected_option = session.get('selected_option', 'No option selected')
     found_article = generate_response(description, data, prompt)
     found_article_json = json.loads(found_article)
     status = found_article_json.get("status", "N/A")
-    # print(found_article)
     if status == "doprecyzowanie":
       cause = found_article_json.get("add_question", "N/A")
       session['cause'] = cause # save cause in session

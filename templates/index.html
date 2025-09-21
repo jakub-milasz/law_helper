@@ -8,12 +8,43 @@
     <div class="description">
       <p>{{elem['paragraph']}}</p>
     </div>
+    <div class="custom-select">
+      <h2>Wybierz kategorię wykroczenia:</h2>
+      <select>
+        <option value="0">Kategoria</option>
+        {% for category in categories %}
+          <option value="{{category}}">{{category}}</option>
+        {% endfor %}
+      </select>
+    </div>
     <div class="formular">
       <form method="post" action="{{elem['action']}}">
         <label for="input_workout">{{elem['description']}}</label><br>
-        <textarea name="description", placeholder="{{elem['placeholder']}}"></textarea><br><br>
+        <textarea name="description" placeholder="{{elem['placeholder']}}"></textarea><br><br>
         <input type="submit" value="Zapisz">
       </form>
     </div>
+    <script>
+      const selectElement = document.querySelector('.custom-select select');
+      selectElement.addEventListener('change', (event) => {
+        const selectedOption = event.target.value;
+
+        fetch('karne/send-option', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json'
+          },
+          body: JSON.stringify({ option: selectedOption })
+        })
+        .then(response => response.json())
+        .then(data => {
+          console.log('Server response:', data);
+        })
+        .catch(error => console.error('Error:', error));
+      });
+    </script>
   </main>
 {% endblock %}
+
+<!-- wykryć opcję którą wybrał użytkownik -->
+<!-- przekazać wybraną opcję jako zmienną do pliku app.py -->
