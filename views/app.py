@@ -137,7 +137,4 @@ def additional():
     session['description'] = description
     return redirect(url_for('app.rules'))
   return render_template('additional.html', cause = session['cause'], action = html_elements['action'])
-
-if __name__ == '__main__':
-  app.run(debug=True)
   
