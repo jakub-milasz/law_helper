@@ -1,4 +1,3 @@
-from turtle import pd
 from flask import Blueprint, jsonify, render_template, redirect, url_for, request,session
 import os
 from dotenv import load_dotenv, find_dotenv
