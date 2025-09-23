@@ -26,6 +26,12 @@ main{
   min-height: 10vh;
 }
 
+.not-active {
+  pointer-events: none;
+  cursor: default;
+  opacity: 0.6;
+}
+
 .custom-select{
   width: 50%;
   margin: 0 auto 1em;

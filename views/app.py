@@ -7,6 +7,7 @@ from urllib.parse import urlparse
 from views.spadki import spadki
 import json
 import pandas as pd
+import time
 
 app = Blueprint('app', __name__, static_folder='static', template_folder='templates')
 app.secret_key = "dodo"
@@ -21,10 +22,6 @@ html_elements = {
   "header": "Artykuł pasujący do twojego przestępstwa",
   "action": "/karne/",
 }
-
-
-with open("datasets/new_db.csv", "r", encoding="utf-8") as file:
-  dat = file.read()
 
 data = pd.read_csv("datasets/new_db.csv", sep=';', encoding="utf-8")
 
@@ -43,11 +40,11 @@ Zwróć plik JSON gotowy do wczytania za pomocą funkcji json.loads według sche
       }},
       "add_question": {{
           "type": "string",
-          "description": "Ponumerowane pytania jeśli status=doprecyzowanie"
+          "description": "Ponumerowane pytania oddzielone znacznikiem <br> jeśli status=doprecyzowanie"
       }},
       "article": {{
           "type": "string",
-          "description": "Numer artykułu jeśli status=przypisanie"
+          "description": "Nagłówek artykułu jeśli status=przypisanie"
       }},
       "content": {{
           "type": "string",
@@ -120,7 +117,6 @@ def rules():
       prompt = additional_prompt_template
     else:
       prompt = main_prompt_template
-    selected_option = session.get('selected_option', 'No option selected')
     found_article = generate_response(description, data, prompt)
     found_article_json = json.loads(found_article)
     status = found_article_json.get("status", "N/A")
