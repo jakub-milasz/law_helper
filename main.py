@@ -13,6 +13,6 @@ main.register_blueprint(app, url_prefix='/karne')
 def home():
   return render_template('home.html')
 
-if __name__ == '__main__':
-  main.run(debug=True)
+# if __name__ == '__main__':
+#   main.run(debug=True)
   
