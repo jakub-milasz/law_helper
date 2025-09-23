@@ -8,8 +8,8 @@ import json
 import pandas as pd
 import time
 
-app = Blueprint('app', __name__, static_folder='static', template_folder='templates')
-app.secret_key = "dodo"
+karne = Blueprint('karne', __name__, static_folder='static', template_folder='templates')
+karne.secret_key = "dodo"
 
 
 
@@ -84,7 +84,7 @@ _ = load_dotenv(find_dotenv())
 genai.configure(api_key=os.environ.get("GOOGLE_AI_API_KEY"))
 model = genai.GenerativeModel("gemini-2.5-flash")
 
-@app.route('karne/send-option', methods=['POST'])
+@karne.route('karne/send-option', methods=['POST'])
 def receive_option():
   data = request.get_json()
   selected_option = data.get('option')
@@ -92,18 +92,18 @@ def receive_option():
   return jsonify({"status": "success"}), 200
 
 
-@app.route('/', methods=['POST', 'GET'])
+@karne.route('/', methods=['POST', 'GET'])
 def index():
   global chat_session
   if request.method == 'POST':
     description = request.form['description']
     session['description'] = description
-    return redirect(url_for('app.rules'))
+    return redirect(url_for('karne.rules'))
   chat_session = model.start_chat(history=[])
   categories = data['Kategoria'].unique().tolist()
   return render_template('index.html', elem=html_elements, categories=categories)
 
-@app.route('/rules')
+@karne.route('/rules')
 def rules():
   if "description" in session:
     description = session['description'] # get description from session
@@ -122,18 +122,18 @@ def rules():
     if status == "doprecyzowanie":
       cause = found_article_json.get("add_question", "N/A")
       session['cause'] = cause # save cause in session
-      return redirect(url_for('app.additional'))
+      return redirect(url_for('karne.additional'))
     article = found_article_json.get("article", "N/A")
     content = found_article_json.get("content", "N/A")
     penalty = found_article_json.get("penalty", "N/A")
     content = content.replace('\n', '<br>')
     return render_template('rules.html', article=article, content=content, penalty=penalty, elem=html_elements)
 
-@app.route('/additional', methods=['POST', 'GET'])
+@karne.route('/additional', methods=['POST', 'GET'])
 def additional():
   if request.method == 'POST':
     description = request.form['description']
     session['description'] = description
-    return redirect(url_for('app.rules'))
+    return redirect(url_for('karne.rules'))
   return render_template('additional.html', cause = session['cause'], action = html_elements['action'])
   
