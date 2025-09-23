@@ -3,6 +3,7 @@ import os
 from dotenv import load_dotenv, find_dotenv
 import google.generativeai as genai
 from urllib.parse import urlparse
+import json
 
 spadki = Blueprint('spadki', __name__, static_folder='static', template_folder='templates')
 spadki.secret_key = "hi"
@@ -27,11 +28,34 @@ main_prompt_template = """
 Pytanie: Mam następujący problem związany z prawem spadkowym: {description}. Oblicz, w jakiej części dziedziczą spadkobiercy po wskazanej osobie.
 Kontekst:
 {data}
-Sformatuj odpowiedź za pomocą znaczników HTML.
-Jeżeli uznasz opis za nieprecyzyjny, napisz "Doprecyzuj" oraz dopisz, w jaki sposób należy doprecyzować opis.
-Podaj pytanie pomocnicze w [].
-Schemat: "Doprecyzuj: [pytania pomocnicze]"
-<p>...</p>
+Zwróć plik JSON gotowy do wczytania za pomocą funkcji json.loads według schematu:
+{{
+  "type": "object",
+  "properties": {{
+      "status": {{
+          "type": "string",
+          "enum": ["doprecyzowanie", "przypisanie"]
+      }},
+      "add_question": {{
+          "type": "string",
+          "description": "Ponumerowane pytania jeśli status=doprecyzowanie"
+      }},
+      "article": {{
+          "type": "string",
+          "description": "Numer artykułu jeśli status=przypisanie"
+      }},
+      "solution": {{
+          "type": "string",
+          "description": "Rozwiązanie jeśli status=przypisanie"
+      }},
+      "summary": {{
+          "type": "string",
+          "description": "Krótkie podsumowanie w liczbach jeśli status=przypisanie"
+      }},
+    }},
+    "required": ["status"]
+}}
+Nie dodawaj tekstu spoza formatu JSON.
 """
 
 additional_prompt_template = """
@@ -42,12 +66,11 @@ Doprecyzowany opis: {description}
 def generate_response(description, data, prompt):
   filled_prompt = prompt.format(description=description, data=data)
   response = chat_session.send_message(filled_prompt)
-  return response
-
+  return response.text.replace("```","").replace("json","").strip()
 
 _ = load_dotenv(find_dotenv())
 genai.configure(api_key=os.environ.get("GOOGLE_AI_API_KEY"))
-model = genai.GenerativeModel("gemini-1.5-flash")
+model = genai.GenerativeModel("gemini-2.5-flash")
 
 
 
@@ -57,12 +80,12 @@ def index():
   if request.method == 'POST':
     description = request.form['description']
     session['description'] = description
-    return redirect(url_for('spadki.rules'))
+    return redirect(url_for('spadki.solution'))
   chat_session = model.start_chat(history=[])
   return render_template('index.html', elem=html_elements)
 
-@spadki.route('/rules')
-def rules():
+@spadki.route('/solution')
+def solution():
   if "description" in session:
     description = session['description'] # get description from session
     referer = request.headers.get('Referer') # get previous page
@@ -75,19 +98,23 @@ def rules():
     else:
       prompt = main_prompt_template
     found_article = generate_response(description, data, prompt)
-    if ("Doprecyzuj" or "[") in found_article.text:
-      i1 = found_article.text.index('[')
-      i2 = found_article.text.index(']')
-      cause = found_article.text[i1+1:i2]
+    found_article_json = json.loads(found_article)
+    status = found_article_json.get("status", "N/A")
+    # print(found_article)
+    if status == "doprecyzowanie":
+      cause = found_article_json.get("add_question", "N/A")
       session['cause'] = cause # save cause in session
       return redirect(url_for('spadki.additional'))
-    return render_template('rules.html', rules=found_article.text, elem=html_elements)
-  
+    article = found_article_json.get("article", "N/A")
+    solution = found_article_json.get("solution", "N/A")
+    summary = found_article_json.get("summary", "N/A")
+    return render_template('solution.html', article=article, solution=solution, summary=summary, elem=html_elements)
+
 @spadki.route('/additional', methods=['POST', 'GET'])
 def additional():
   if request.method == 'POST':
     description = request.form['description']
     session['description'] = description
-    return redirect(url_for('spadki.rules'))
+    return redirect(url_for('spadki.solution'))
   return render_template('additional.html', cause = session['cause'], action = html_elements['action'])
   
