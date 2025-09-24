@@ -1,7 +1,10 @@
+import os
 from flask import Flask, render_template
 from views.spadki import spadki
 from views.karne import karne
 
+
+current_dir = os.path.dirname(os.path.abspath(__file__))
 
 app = Flask(__name__)
 app.secret_key = "hello"
@@ -14,5 +17,4 @@ def home():
   return render_template('home.html')
 
 # if __name__ == '__main__':
-#   app.run(debug=True)
-  
+#   app.run(debug=True)  
