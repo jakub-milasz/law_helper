@@ -14,11 +14,11 @@ Law helper is a web app which helps users to resolve doubts connected with law. 
 in order to specify the description.
 
 ## Technologies
-The app was created with Flask, HTML/CSS, Selenium. To process the user's input I used Gemini 1.5 Flash Model form Google API. Selenium
+The app was created with Flask, HTML/CSS, Selenium. To process the user's input I used Gemini 2.5 Flash Model form Google API. Selenium
 was used to create a database by scraping articles from ArsLege page.
 
 ## Set up
-To run project on your computer, you have to open terminal in your code editor and enter ```pip install -r requirements.txt```. Then, you have to enter ```python main.py``` and click on link with local server. 
+To run project on your computer, you have to open terminal in your code editor and enter ```pip install -r requirements.txt```. Then, you have to enter ```python app.py``` and click on link with local server. 
 
 ## How it works
 When user loads the page, the main page with menu is shown. Here the user can choose the section they are interested in.
@@ -34,7 +34,7 @@ In the inheritance section user gets the instruction to describe a problem.
 ![Zrzut ekranu 2025-01-05 211455](https://github.com/user-attachments/assets/fbd17b79-3f00-4bdd-b854-c0d4004fc1cc)
 
 ### Example in the criminal section
-After that, Gemini 1.5 Flash Model processes this input and compare with the articles from database. If model considers the description
+After that, Gemini 2.5 Flash Model processes this input and compare with the articles from database. If model considers the description
 not accurate, the user is redirected to another page with subsidiary form with additional questions.
 
 ![Zrzut ekranu 2024-12-28 125959](https://github.com/user-attachments/assets/418a7b3c-738f-4472-a546-601fe8a6b6da)
@@ -45,7 +45,7 @@ If user specifies the description, he is redirected to page with article which f
 
 
 ## Model Description
-Gemini 1.5 Flash is a Large Language Model from Google API. The model has a context which is a database with articles from the criminal, offence and civil (inheritance chapter) code. Moreover, it has a history of conversation with user, so that it works properly with additional forms. It gets two kinds of prompt templates: the main prompt which is connected with form from main page and the additional prompt which is sent to model when user fills a subsidiary form.
+Gemini 2.5 Flash is a Large Language Model from Google API. The model has a context which is a database with articles from the criminal, offence and civil (inheritance chapter) code. Moreover, it has a history of conversation with user, so that it works properly with additional forms. It gets two kinds of prompt templates: the main prompt which is connected with form from main page and the additional prompt which is sent to model when user fills a subsidiary form.
 
 ## Developing app
 The main and still goal is to upgrade model to be as accurate as possible. It is also crucial to include updates in law in our database.
