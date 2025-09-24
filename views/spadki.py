@@ -38,7 +38,7 @@ Zwróć plik JSON gotowy do wczytania za pomocą funkcji json.loads według sche
       }},
       "add_question": {{
           "type": "string",
-          "description": "Ponumerowane pytania jeśli status=doprecyzowanie"
+          "description": "Ponumerowane pytania oddzielone znacznikiem <br> jeśli status=doprecyzowanie"
       }},
       "article": {{
           "type": "string",
