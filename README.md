@@ -18,7 +18,8 @@ The app was created with Flask, HTML/CSS, Selenium. To process the user's input 
 was used to create a database by scraping articles from ArsLege page.
 
 ## Set up
-To run project on your computer, you have to clone the repository, then open project in code editor and enter in terminal ```pip install -r requirements.txt```. Then, you have to enter ```python app.py``` and click on link with local server. 
+To run project on your computer, you have to clone the repository, then open project in code editor and enter in terminal ```pip install -r requirements.txt```. Then, you have to enter ```python app.py``` and click on link with local server. You have to also create .env file with your API key and assign it to GOOGLE_AI_API_KEY constant. It is obligatory to connect with Gemini API in order to use a model.
+
 
 ## How it works
 When user loads the page, the main page with menu is shown. Here the user can choose the section they are interested in.
